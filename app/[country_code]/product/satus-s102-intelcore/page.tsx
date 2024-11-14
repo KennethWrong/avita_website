@@ -1,6 +1,18 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+} from "@/components/ui/menubar";
 import { NavBar } from "@/components/navbar";
 import {
   DropdownMenu,
@@ -17,6 +29,48 @@ export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
+      <DropdownMenu>
+        <DropdownMenuTrigger>Products</DropdownMenuTrigger>
+        <DropdownMenuContent>
+          <DropdownMenuSub>
+            <DropdownMenuSubTrigger>Laptops</DropdownMenuSubTrigger>
+            <DropdownMenuSubContent>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/hk/product/admiror">AVITA ADMIROR</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/hk/product/liber-v">AVITA LIBER</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/hk/product/pura-a+">AVITA PURA</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/hk/product/essential-lite">AVITA ESSENTIAL</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>AVITA SATUS</DropdownMenuSubTrigger>
+                <DropdownMenuSubContent>
+                  <DropdownMenuItem>
+                    <Link href="/hk/product/satus-t101">AVITA SATUS T101</Link>
+                    <Link href="/hk/product/satus-s">AVITA SATUS T101</Link>
+                    <Link href="/hk/product/satus-s">AVITA SATUS T101</Link>
+                    <Link href="/hk/product/satus">AVITA SATUS T101</Link>
+                  </DropdownMenuItem>
+                </DropdownMenuSubContent>
+              </DropdownMenuSub>
+              <DropdownMenuSeparator />
+            </DropdownMenuSubContent>
+          </DropdownMenuSub>
+        </DropdownMenuContent>
+      </DropdownMenu>
+      <h1>What's new</h1>
+      <h1>Service</h1>
+
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
           <Image
