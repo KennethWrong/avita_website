@@ -39,8 +39,8 @@ export default function Home() {
       </section>
 
       {/* product-satus-t101-text-image-block-1} */}
-      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center lg:items-start">
-        <div className="lg:w-full lg:h-full text-center lg:text-left">
+      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col lg:flex-row items-center lg:items-start">
+        <div className="lg:w-full lg:h-full text-center lg:text-left px-12">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
             Anytime Anywhere.
             <br />
@@ -73,10 +73,10 @@ export default function Home() {
       </section>
 
       {/* product-satus-t101-text-image-block-2} */}
-      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row gap-8">
+      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-8">
         {/* Left Column with Two Divs */}
         <div className="lg:w-1/2 flex flex-col gap-6">
-          <div className="p-6">
+          <div className="py-6">
             <img
               src="/images/satus_t101/pic-T101-02.jpg" // Replace this with the path to your image
               alt="Person using AVITA tablet"
@@ -84,18 +84,43 @@ export default function Home() {
             />
           </div>
           <div className="p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Left Bottom Content
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              This is the content for the bottom div in the left column. You can
-              place any text or other elements here.
-            </p>
+            <section className="flex flex-wrap gap-8 px-6 py-16 text-purple-700">
+              {/* Operating System */}
+              <div className="w-full lg:w-1/2">
+                <p className="text-sm font-medium">Operating System</p>
+                <h2 className="text-3xl font-semibold">Android 11</h2>
+              </div>
+
+              {/* CPU */}
+              <div className="w-full lg:w-1/2">
+                <p className="text-sm font-medium">Up to</p>
+                <h2 className="text-3xl font-semibold">Unisoc T618</h2>
+                <p className="text-sm font-medium">Octa CPU</p>
+              </div>
+
+              {/* RAM */}
+              <div className="w-1/2 lg:w-1/4">
+                <p className="text-sm font-medium">Up to</p>
+                <h2 className="text-5xl font-semibold">
+                  6<span className="text-lg">GB</span>
+                </h2>
+                <p className="text-sm font-medium">RAM</p>
+              </div>
+
+              {/* Storage */}
+              <div className="w-1/2 lg:w-1/4">
+                <p className="text-sm font-medium">Up to</p>
+                <h2 className="text-5xl font-semibold">
+                  128<span className="text-lg">GB</span>
+                </h2>
+                <p className="text-sm font-medium">eMMC</p>
+              </div>
+            </section>
           </div>
         </div>
 
         {/* Right Column with Single Div */}
-        <div className="lg:w-1/2 p-6 text-center flex flex-col content-between">
+        <div className="lg:w-1/2 lg:px-6 p-6 text-center flex flex-col content-between">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
             Dual Nano SIM Dual standby. Expand boundless possibilities.
           </h3>
@@ -157,92 +182,170 @@ export default function Home() {
         </div>
       </section>
 
-      {/* product-satus-t101-computer */}
-      <section className="" style={{ backgroundColor: "#000" }}>
-        <div className="banner-block">
-          <div className="container">
-            <div>
-              <div className="h1">#YouCanBe Expressing Yourself</div>
-              <div className="space60 hidden-sm-down"></div>
-              <div className="banner-para ls-0 col-sm-offset-2 col-sm-8">
-                Be who you are and show your individuality. The choice is yours.
-                #YouCanbe{" "}
-              </div>
-              <div className="space30"></div>
-              <div className="Fadein" style={{ opacity: 0.597166 }}>
-                <img src="/images/admiror/pic_AMIROR01.png" />
-              </div>
-              <div className="banner-para ls-0 col-sm-offset-2 col-sm-8">
-                The all-new AVITA ADMIROR takes you on a journey of
-                self-discovery. Shattering the norms and constraints of
-                conventional laptops, the ADMIROR’s intricate designs and
-                eye-catching colours are yours to embrace, because you deserve
-                to be extraordinary!
-              </div>
-              <div className="space60 hidden-sm-down"></div>
-              <div className="banner-data text-center col-lg-12">
-                <img
-                  className="hidden-sm-down"
-                  src="/images/admiror/pic_feature01_15.png"
-                />
-                <img
-                  className="hidden-md-up"
-                  src="/images/admiror/pic_feature01_15_mob.png"
-                />
-              </div>
-              <div className="space60 hidden-sm-down"></div>
-              <div className="space60 hidden-sm-down"></div>
-              <div className="h1">AVITA ADMIROR brings you</div>
+      {/* product-satus-t101-text-image-block-2} */}
+      <section className="px-6 py-16 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-8">
+        {/* Left Column - Text */}
+        <div className=" flex flex-col justify-center text-center lg:w-1/2 lg:px-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-10 lg:max-w-xl">
+            Easy to use. Equipped with the latest Android 11 OS and Google Play
+            app.
+          </h2>
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            While the synchronization function on Google Play allows you to link
+            up multiple devices with a single Google account log-in to achieve
+            an ‘all-in-one’ performance, allowing you to access divergent
+            contents across different device at ease. For instance, reading an
+            e-book taken from Google Play to let you freely enlarge or minimize
+            the layout and text, or use the AVITA UBIQUE Stylus# to jot
+            important notes accordingly. Moreover, Google Play offers an
+            extensive range of games and movies for entertainment, your daily
+            life and fun will no longer be bounded by physical space nor time
+            constraint.
+          </p>
+          <br />
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            The robust system of Android 11 and Google Play allows you to use
+            the AVITA SATUS T101 without security concern. Whenever there are
+            security updates available, notifications via Google Play will be
+            sent to remind you to restore any possible security flaws and keep
+            your system running with the latest protection at times.
+          </p>
+          <br />
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            There are more to discover for Android 11 operating system, please
+            visit the official Android website for the latest information.
+          </p>
 
-              <section className="banner-anchor">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <a href="#artistic_design">
-                        <img
-                          className="first"
-                          src="/images/admiror/btn_artistic_1.png"
-                        />
-                        <img
-                          className="hover"
-                          src="/images/admiror/btn_artistic_2.png"
-                        />
-                      </a>
-                    </div>
-
-                    <div className="col-md-4">
-                      <a href="#usage_experience">
-                        <img
-                          className="first"
-                          src="/images/admiror/btn_pride_1.png"
-                        />
-                        <img
-                          className="hover"
-                          src="/images/admiror/btn_pride_2.png"
-                        />
-                      </a>
-                    </div>
-
-                    <div className="col-md-4">
-                      <a href="#outstanding">
-                        <img
-                          className="first"
-                          src="/images/admiror/btn_outstanding_1.png"
-                        />
-                        <img
-                          className="hover"
-                          src="/images/admiror/btn_outstanding_2.png"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              <div className="space60"></div>
-            </div>
-          </div>
+          <p className="text-start mt-8 text-gray-600 text-sm lg:max-w-xl">
+            #The above mentioned AVITA UBIQUE Stylus may be sold separately.
+          </p>
         </div>
+
+        {/* Right Column - Images */}
+        <div className="lg:w-1/2 flex flex-col">
+          <img
+            src="/images/satus_t101/pic-T101-03.jpg"
+            alt="Description of first image"
+            className="w-full h-auto object-cover"
+          />
+          <img
+            src="/images/satus_t101/t101-feature03.png"
+            alt="Description of second image"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+      </section>
+
+      {/* product-satus-t101-text-image-block-3} */}
+      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col content-between lg:flex-row items-center">
+        <div className="lg:w-full lg:h-full lg:text-center px-12 text-center items-center">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center max-w-lg">
+            Flexible Bluetooth configuration. Sync up with whatever accessory of
+            your preference.
+          </h2>
+          <p className="text-gray-600 max-w-lg mx-auto lg:mx-0 leading-relaxed mb-6">
+            AVITA SATUS T101 is compatible with multiple Bluetooth devices^. For
+            instance, by connecting the AVITA UBIQUE True Wireless Earphone#
+            allows you to focus on a call without any interruption from nearby
+            environment, or immerse yourself with enjoyable music or movies in a
+            clean and balanced sound area. You can also connect to AVITA UBIQUE
+            Stylus#, and capture all your random thoughts or creative ideas
+            instantly in just a few simple strokes.
+          </p>
+          <p className="text-gray-600 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            You can also pair any third-party accessories* of your choice to the
+            AVITA SATUS T101 via Bluetooth. No matter you are at home, office or
+            in the car, the tablet can function flexibly in different ways,
+            elevating your daily use or work to the next level.
+          </p>
+          <br />
+          <p className="text-start max-w-lg text-sm text-gray-600 mx-auto lg:mx-0 leading-relaxed">
+            #The above mentioned AVITA UBIQUE Stylus or True Wireless Earphone
+            may be sold separately. <br />
+            ^Some features and applications may not be available in specific
+            countries/regions. Need to use only with compatible smart devices
+            (sold separately)。 Subject to local network, data and messaging
+            services. <br />
+            *When pairing/connecting with third-party accessories, AVITA does
+            not guarantee that all Bluetooth devices are compatible with AVITA
+            SATUS T101.
+          </p>
+        </div>
+        <div className="flex-grow lg:w-full lg:h-full mt-8 lg:mt-0 lg:ml-8 flex justify-center lg:justify-end">
+          <img
+            src="/images/satus_t101/pic-T101-04.jpg" // Replace this with the path to your image
+            alt="Person using AVITA tablet"
+            className="h-full shadow-md"
+          />
+        </div>
+      </section>
+
+      {/* product-satus-t101-disclaimer} */}
+      <section className="px-6 py-10 md:px-12 lg:px-24">
+        <ul className="list-disc list-inside space-y-0.5 text-gray-700 leading-relaxed text-xs">
+          <li>
+            AVITA SATUS series is warranted by Nexstgo Company Limited for a
+            period of twelve (12) months from the date of purchase under the
+            terms and conditions of this warranty. For details, please{" "}
+            <a href="#" className="text-blue-600 underline">
+              click here
+            </a>
+            .
+          </li>
+          <li>
+            Product design, models or specifications may vary from country to
+            country. The availability of colors may vary by retailers. Weights
+            vary depending on configuration and manufacturing variability.
+          </li>
+          <li>
+            Please check with your local distributors or retailers for any
+            updates on the current product.
+          </li>
+          <li>
+            Colors of actual products may differ from product shots due to
+            photography lighting or display setting of your viewing device.
+          </li>
+          <li>
+            4G services are only supported in 4G network enabled locations in
+            4G-ready countries. Requires optimal connection. Actual speed may
+            vary depending on country, carrier and user environment.
+          </li>
+          <li>
+            You may incur additional charges for making calls over Wi-Fi, so
+            check with your mobile service provider for details.
+          </li>
+          <li>
+            GPS connection is subject to local network and data services and
+            network providers may charge additional service fees. Additionally,
+            connection times can be affected by external factors, such as
+            surrounding environment, weather, etc.
+          </li>
+          <li>
+            Performance of the battery is subject to the network, signal
+            strength, function, selection and profile. Battery time is based on
+            our own laboratory measurements, and may vary depending on factors
+            such as device settings, usage patterns and operating conditions.
+          </li>
+          <li>
+            Actual available memory for end user usage may vary due to
+            pre-configuration of tablet. The pre-configuration includes
+            preloaded operating system and applications.
+          </li>
+          <li>
+            When pairing/connecting with third-party accessories, AVITA does not
+            guarantee that all Bluetooth devices are compatible with our models.
+          </li>
+          <li>Android, Google Play is a trademark of Google LLC.</li>
+          <li>
+            We try our best to provide accurate and complete product information
+            online yet we reserve the rights to keep, change or correct any
+            information without further notice.
+          </li>
+          <li>
+            In the event of any disputes, Nexstgo Company Limited reserves the
+            right of the final decision.
+          </li>
+        </ul>
       </section>
     </main>
   );
