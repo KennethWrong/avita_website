@@ -182,7 +182,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* product-satus-t101-text-image-block-2} */}
+      {/* product-satus-t101-text-image-block-3} */}
       <section className="px-6 py-16 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-8">
         {/* Left Column - Text */}
         <div className=" flex flex-col justify-center text-center lg:w-1/2 lg:px-6">
@@ -236,7 +236,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* product-satus-t101-text-image-block-3} */}
+      {/* product-satus-t101-text-image-block-4} */}
       <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col content-between lg:flex-row items-center">
         <div className="lg:w-full lg:h-full lg:text-center px-12 text-center items-center">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center max-w-lg">
