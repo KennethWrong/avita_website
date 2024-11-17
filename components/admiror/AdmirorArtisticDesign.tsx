@@ -10,15 +10,17 @@ export default function AdmirorArtisticDesign() {
       >
         <div className="flex flex-col">
           <div className="text-center w-full">
-            <h1 className="text-4xl font-bold">An artistic design</h1>
-            <h3 className="text-xl font-medium mb-4">
+            <h1 className="text-4xl font-bold uppercase mb-5">
+              An artistic design
+            </h1>
+            <h3 className="text-3xl font-medium mb-4">
               to flaunt your identity
             </h3>
           </div>
 
           <div className="flex flex-row  items-center justify-center">
             <img
-              className="bc-computer-image admiror01"
+              className="transform translate-x-8 -translate-y-24"
               src="/images/admiror/ADMIROR03.png"
               alt="ADMIROR Design"
             />
