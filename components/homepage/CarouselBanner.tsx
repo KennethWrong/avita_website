@@ -8,32 +8,53 @@ import {
 
 export default function CarouselBanner() {
   const images = [
-    // "/images/home/avita_global_cloud_SIM_Pocket_WiFi_mo.jpg",
-    "/images/home/avita_global_cloud_SIM_Pocket_WiFi_pc.jpg",
+    {
+      s: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_mo.jpg",
+      m: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_pc.jpg",
+    },
 
-    // "/images/home/banner_1_en_mo.jpg",
-    "/images/home/banner_1_en_pc.jpg",
+    {
+      s: "/images/home/banner_1_en_mo.jpg",
+      m: "/images/home/banner_1_en_pc.jpg",
+    },
 
-    // "/images/home/blockchainpc_solution_mo_en.png",
-    "/images/home/blockchainpc_solution_pc_en.png",
+    {
+      s: "/images/home/blockchainpc_solution_mo_en.png",
+      m: "/images/home/blockchainpc_solution_pc_en.png",
+    },
 
-    // "/images/home/AVITA_pura-a-plus-mo_en.jpg",
-    "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+    {
+      s: "/images/home/AVITA_pura-a-plus-mo_en.jpg",
+      m: "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+    },
 
-    // "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
-    "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+    {
+      s: "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
+      m: "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+    },
 
-    // "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
-    "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
+    {
+      s: "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
+      m: "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
+    },
   ];
 
   return (
     <main className="flex flex-row justify-center w-screen">
-      <Carousel className="w-[90%]">
+      <Carousel className="w-[90%]" opts={{ loop: true }}>
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index}>
-              <img src={image} alt="" />
+              <img
+                src={image.m}
+                alt="Banner images"
+                className="hidden md:block"
+              />
+              <img
+                src={image.s}
+                alt="Banner images"
+                className="block md:hidden"
+              />
             </CarouselItem>
           ))}
         </CarouselContent>
