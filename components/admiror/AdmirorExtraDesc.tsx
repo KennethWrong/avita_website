@@ -3,9 +3,9 @@ export default function AdmirorExtraDesc() {
   return (
     <section className="bg-white flex flex-col justify-center items-center p-36 min-h-96">
       <img className="mb-5" src="/images/admiror/ADMIROR02_red.png" />
-      <div className="flex flex-row max-w-6xl">
+      <div className="flex flex-row max-w-6xl mt-20">
         <div className="mr-24">
-          <h2 className={styles.admiror_h2}>
+          <h2 className={`${styles.admiror_h2} mb-10`}>
             Ultra-compact body for unsurpassed portability
           </h2>
 
@@ -18,7 +18,7 @@ export default function AdmirorExtraDesc() {
         </div>
 
         <div>
-          <h2 className={styles.admiror_h2}>
+          <h2 className={`${styles.admiror_h2} mb-10`}>
             Push your limits with a wider view
           </h2>
 

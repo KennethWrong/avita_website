@@ -23,7 +23,7 @@ export default function AdmirorArtisticDesign() {
               alt="ADMIROR Design"
             />
             <div className="max-w-xl ml-24">
-              <h2 className={styles.admiror_h2}>
+              <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
                 Exquisite design that combines Gothic architectural aesthetics
               </h2>
               <p className="leading-loose text-white text-left">
@@ -41,7 +41,9 @@ export default function AdmirorArtisticDesign() {
                 fashionistas and those who crave for an individual style.
               </p>
 
-              <h2 className={styles.admiror_h2}>Stand out with colors</h2>
+              <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
+                Stand out with colors
+              </h2>
               <p className="leading-loose text-white text-left">
                 ADMIROR makes sure your individuality gets all the attention.
                 The new series offers unique color options to express your
