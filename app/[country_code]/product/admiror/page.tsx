@@ -87,6 +87,71 @@ export default function Home() {
           </section>
         </div>
       </section>
+
+      {/* artistic_design */}
+      <section className="text-white" id="artistic_design">
+        {/* Background Image */}
+        <div
+          className="bg-[url('/images/admiror/bg_gothic.jpg')] bg-no-repeat 
+        bg-center bg-origin-border bg-cover p-24"
+        >
+          <div className="flex flex-col">
+            <div className="text-center w-full">
+              <h1 className="text-4xl font-bold">An artistic design</h1>
+              <h3 className="text-xl font-medium mb-4">
+                to flaunt your identity
+              </h3>
+            </div>
+
+            <div className="flex flex-row  items-center justify-center">
+              <img
+                className="bc-computer-image admiror01"
+                src="/images/admiror/ADMIROR03.png"
+                alt="ADMIROR Design"
+              />
+              <div className="max-w-xl ml-24">
+                <h2
+                  className="text-[#7accc8] text-2xl leading-8 tracking-[0.1em]
+                    font-light uppercase text-left pb-5"
+                >
+                  Exquisite design that combines Gothic architectural aesthetics
+                </h2>
+                <p className="leading-loose text-white text-left">
+                  Inspired by the magnificence of the Gothic architecture, the
+                  brand new AVITA ADMIROR series combines contemporary
+                  architectural aesthetics into its state-of-the-art technology.
+                  The ADMIROR features an ultra-slim body in a modern design,
+                  paying attention to the smallest detail. The hinge concealed
+                  between the screen and the keyboard references the renowned
+                  flying buttress of the Gothic design. The essence of the grand
+                  and tall Gothic architecture is reflected in the laptop's
+                  slender body that contrasts with the rounded hedge, mimicking
+                  the iconic pointed arches. With a unique appearance inspired
+                  by epoch-making architectural art, ADMIROR is an iconic design
+                  for fashionistas and those who crave for an individual style.
+                </p>
+
+                <h2
+                  className="text-[#7accc8] text-2xl leading-8 tracking-[0.1em]
+                    font-light uppercase text-left pb-5 mt-16"
+                >
+                  Stand out with colors
+                </h2>
+                <p className="leading-loose text-white text-left">
+                  ADMIROR makes sure your individuality gets all the attention.
+                  The new series offers unique color options to express your
+                  personal style. Be it the rebellious Blazing Brown or Flaming
+                  Copper, the eye-catching Delight Pink or Passionate Red, the
+                  ADMIROR simply complements any outfit you choose to wear.
+                  (Choice of colours of 14”: Flaming Copper, Delight Pink and
+                  Blazing Brown; Choice of colours of 15.6”: Flaming Copper,
+                  Delight Pink and Passionate Red)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
