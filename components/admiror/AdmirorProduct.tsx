@@ -18,15 +18,14 @@ export default function AdmirorProduct() {
         </p>
 
         <div className="m-20">
-          {/* TODO: make this responsive */}
           <img
-            className="hidden-sm-down"
+            className="hidden md:block"
             src="/images/admiror/pic_feature01_15.png"
           />
-          {/* <img */}
-          {/*   className="hidden-md-up" */}
-          {/*   src="/images/admiror/pic_feature01_15_mob.png" */}
-          {/* /> */}
+          <img
+            className="block md:hidden"
+            src="/images/admiror/pic_feature01_15_mob.png"
+          />
         </div>
 
         {/* banner anchors */}
