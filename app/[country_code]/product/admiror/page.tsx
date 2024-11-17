@@ -6,6 +6,7 @@ import AdmirorExtraDesc from "@/components/admiror/AdmirorExtraDesc";
 import AdmirorOutstanding from "@/components/admiror/AdmirorOutstanding";
 import AdmirorPrideDelighted from "@/components/admiror/AdmirorPrideDelighted";
 import AdmirorProduct from "@/components/admiror/AdmirorProduct";
+import AdmirorProductStatement from "@/components/admiror/AdmirorProductStatement";
 import AdmirorWinHello from "@/components/admiror/AdmirorWinHello";
 
 export default function AdmirorPage() {
@@ -20,6 +21,7 @@ export default function AdmirorPage() {
       <AdmirorWinHello />
       <AdmirorBatteryInfo />
       <AdmirorColorOpts />
+      <AdmirorProductStatement />
     </main>
   );
 }
