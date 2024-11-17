@@ -1,5 +1,6 @@
 import AdmirorArtisticDesign from "@/components/admiror/AdmirorArtisticDesign";
 import AdmirorBanner from "@/components/admiror/AdmirorBanner";
+import AdmirorBatteryInfo from "@/components/admiror/AdmirorBatteryInfo";
 import AdmirorExtraDesc from "@/components/admiror/AdmirorExtraDesc";
 import AdmirorOutstanding from "@/components/admiror/AdmirorOutstanding";
 import AdmirorPrideDelighted from "@/components/admiror/AdmirorPrideDelighted";
@@ -16,6 +17,7 @@ export default function AdmirorPage() {
       <AdmirorPrideDelighted />
       <AdmirorOutstanding />
       <AdmirorWinHello />
+      <AdmirorBatteryInfo />
     </main>
   );
 }

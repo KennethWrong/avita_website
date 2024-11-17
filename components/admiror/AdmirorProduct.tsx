@@ -7,7 +7,7 @@ export default function AdmirorProduct() {
           Be who you are and show your individuality. The choice is yours.
           #YouCanbe
         </p>
-        <div className="Fadein" style={{ opacity: 0.597166 }}>
+        <div>
           <img src="/images/admiror/pic_AMIROR01.png" />
         </div>
         <p className="text-lg  max-w-3xl leading-8 m-5">
@@ -18,6 +18,7 @@ export default function AdmirorProduct() {
         </p>
 
         <div className="m-20">
+          {/* TODO: make this responsive */}
           <img
             className="hidden-sm-down"
             src="/images/admiror/pic_feature01_15.png"
