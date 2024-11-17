@@ -46,41 +46,41 @@ export default function Home() {
           <section>
             <div className="flex flex-row max-w-6xl">
               <div className="mx-5 max-w-[33%]">
-                <a href="#artistic_design">
+                <a href="#artistic_design" className="group">
                   <img
-                    className="first"
+                    className="group-hover:hidden"
                     src="/images/admiror/btn_artistic_1.png"
                   />
-                  {/* <img */}
-                  {/*   className="hover" */}
-                  {/*   src="/images/admiror/btn_artistic_2.png" */}
-                  {/* /> */}
+                  <img
+                    className="hidden group-hover:block"
+                    src="/images/admiror/btn_artistic_2.png"
+                  />
                 </a>
               </div>
 
               <div className="mx-5 max-w-[33%]">
-                <a href="#usage_experience">
+                <a href="#usage_experience" className="group">
                   <img
-                    className="first"
+                    className="group-hover:hidden"
                     src="/images/admiror/btn_pride_1.png"
                   />
-                  {/* <img */}
-                  {/*   className="hover" */}
-                  {/*   src="/images/admiror/btn_pride_2.png" */}
-                  {/* /> */}
+                  <img
+                    className="hidden group-hover:block"
+                    src="/images/admiror/btn_pride_2.png"
+                  />
                 </a>
               </div>
 
               <div className="mx-5 max-w-[33%]">
-                <a href="#outstanding">
+                <a href="#outstanding" className="group">
                   <img
-                    className="first"
+                    className="group-hover:hidden"
                     src="/images/admiror/btn_outstanding_1.png"
                   />
-                  {/* <img */}
-                  {/*   className="hover" */}
-                  {/*   src="/images/admiror/btn_outstanding_2.png" */}
-                  {/* /> */}
+                  <img
+                    className="hidden group-hover:block"
+                    src="/images/admiror/btn_outstanding_2.png"
+                  />
                 </a>
               </div>
             </div>
