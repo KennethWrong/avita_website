@@ -1,3 +1,8 @@
+"use client";
+
+// Autoplay can only be used on the client
+import Autoplay from "embla-carousel-autoplay";
+
 import {
   Carousel,
   CarouselContent,
@@ -41,7 +46,11 @@ export default function CarouselBanner() {
 
   return (
     <main className="flex flex-row justify-center w-screen">
-      <Carousel className="w-[90%]" opts={{ loop: true }}>
+      <Carousel
+        className="w-[90%]"
+        opts={{ loop: true }}
+        plugins={[Autoplay({ delay: 5000 })]}
+      >
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index}>
