@@ -1,8 +1,10 @@
 import AdmirorArtisticDesign from "@/components/admiror/AdmirorArtisticDesign";
 import AdmirorBanner from "@/components/admiror/AdmirorBanner";
 import AdmirorExtraDesc from "@/components/admiror/AdmirorExtraDesc";
+import AdmirorOutstanding from "@/components/admiror/AdmirorOutstanding";
 import AdmirorPrideDelighted from "@/components/admiror/AdmirorPrideDelighted";
 import AdmirorProduct from "@/components/admiror/AdmirorProduct";
+import AdmirorWinHello from "@/components/admiror/AdmirorWinHello";
 
 export default function AdmirorPage() {
   return (
@@ -12,6 +14,8 @@ export default function AdmirorPage() {
       <AdmirorArtisticDesign />
       <AdmirorExtraDesc />
       <AdmirorPrideDelighted />
+      <AdmirorOutstanding />
+      <AdmirorWinHello />
     </main>
   );
 }
