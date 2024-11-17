@@ -1,7 +1,7 @@
 export default function AdmirorBanner() {
   return (
     <section>
-      <div className="w-screen h-auto top-0 left-0 relative">
+      <div className="w-full h-auto top-0 left-0 relative">
         <img
           className="w-full"
           src="/images/admiror/banner_admiror_15_e.jpg"
