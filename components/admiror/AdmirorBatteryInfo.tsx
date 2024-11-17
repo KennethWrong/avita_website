@@ -4,9 +4,9 @@ export default function AdmirorBatteryInfo() {
   return (
     <section className="bg-[#777] text-white flex justify-center items-center h-[720px]">
       {/* TODO: Make image work :') */}
-      <div className="absolute left-[66%] z-10 w-full transform -translate-x-1/2">
-        <img src="/images/admiror/ADMIROR05.png" alt="Laptop" className="" />
-      </div>
+      {/* <div className="absolute left-[66%] z-10 w-full transform -translate-x-1/2"> */}
+      {/*   <img src="/images/admiror/ADMIROR05.png" alt="Laptop" className="" /> */}
+      {/* </div> */}
       {/* rows */}
       <div className="flex flex-row max-w-6xl relative ">
         <div className="basis-1/2 p-10  mr-20">
