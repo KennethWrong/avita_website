@@ -44,6 +44,8 @@ export default function CarouselBanner() {
     },
   ];
 
+  // TODO: If necessary add anchor links
+
   return (
     <main className="flex flex-row justify-center w-screen">
       <Carousel
