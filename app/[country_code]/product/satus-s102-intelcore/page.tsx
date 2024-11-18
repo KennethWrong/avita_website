@@ -277,66 +277,37 @@ export default function Home() {
       <section className="px-6 py-10 md:px-12 lg:px-24">
         <ul className="list-disc list-inside space-y-0.5 text-gray-700 leading-relaxed text-xs">
           <li>
-            AVITA SATUS series is warranted by Nexstgo Company Limited for a
-            period of twelve (12) months from the date of purchase under the
-            terms and conditions of this warranty. For details, please{" "}
+            Models or specifications may vary from country to country. Check
+            with your local distributors or retailers for any updates on the
+            current product.
             <a href="#" className="text-blue-600 underline">
               click here
             </a>
             .
           </li>
           <li>
-            Product design, models or specifications may vary from country to
-            country. The availability of colors may vary by retailers. Weights
-            vary depending on configuration and manufacturing variability.
+            Product appearance design, color, matching, may vary according to
+            different models and configurations, Colors of actual products may
+            differ from product shots due to photography lighting or display
+            setting of your viewing device.
           </li>
-          <li>
-            Please check with your local distributors or retailers for any
-            updates on the current product.
-          </li>
-          <li>
-            Colors of actual products may differ from product shots due to
-            photography lighting or display setting of your viewing device.
-          </li>
-          <li>
-            4G services are only supported in 4G network enabled locations in
-            4G-ready countries. Requires optimal connection. Actual speed may
-            vary depending on country, carrier and user environment.
-          </li>
-          <li>
-            You may incur additional charges for making calls over Wi-Fi, so
-            check with your mobile service provider for details.
-          </li>
-          <li>
-            GPS connection is subject to local network and data services and
-            network providers may charge additional service fees. Additionally,
-            connection times can be affected by external factors, such as
-            surrounding environment, weather, etc.
-          </li>
-          <li>
-            Performance of the battery is subject to the network, signal
-            strength, function, selection and profile. Battery time is based on
-            our own laboratory measurements, and may vary depending on factors
-            such as device settings, usage patterns and operating conditions.
-          </li>
-          <li>
-            Actual available memory for end user usage may vary due to
-            pre-configuration of tablet. The pre-configuration includes
-            preloaded operating system and applications.
-          </li>
-          <li>
-            When pairing/connecting with third-party accessories, AVITA does not
-            guarantee that all Bluetooth devices are compatible with our models.
-          </li>
-          <li>Android, Google Play is a trademark of Google LLC.</li>
           <li>
             We try our best to provide accurate and complete product information
             online yet we reserve the rights to keep, change or correct any
             information without further notice.
           </li>
           <li>
-            In the event of any disputes, Nexstgo Company Limited reserves the
-            right of the final decision.
+            Weights vary depending on configuration and manufacturing
+            variability.
+          </li>
+          <li>
+            Actual battery life may vary depending on product configuration,
+            usage, operational conditions and power management settings. Battery
+            life will decrease over the lifetime of the battery.
+          </li>
+          <li>
+            In the event of any disputes, AVITA TECHNOLOGIES INTERNATIONAL
+            CO.,LTD. reserves the right of the final decision.
           </li>
         </ul>
       </section>
