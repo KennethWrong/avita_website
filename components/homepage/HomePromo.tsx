@@ -1,6 +1,7 @@
 export default function HomePromo() {
   return (
     // TODO: Don't hardcode /hk
+    // maybe also do onclick or Link instead
     <section className="w-screen   flex flex-row">
       <div className="basis-1/4">
         <a href="/hk/product/liber/spec">
