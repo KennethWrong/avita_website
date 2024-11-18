@@ -147,103 +147,128 @@ export default function Home() {
 
       {/* product-satus-t101-text-image-block-4} */}
       <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col lg:flex-row items-center lg:items-start">
-        <div className="flex-grow lg:w-full lg:h-full mt-8 lg:mt-0 lg:ml-8 flex justify-center lg:justify-start lg:items-start">
-          <img
-            src="/images/satus_s102_intel/AVITA_satus_s102_bigcore_feature4_pc.jpg" // Replace this with the path to your image
-            alt="Person using AVITA tablet"
-            className="h-full"
-          />
-        </div>
         <div className="lg:w-full lg:h-full lg:text-left px-12 leading-loose">
           <h2 className="text-2xl text-gray-800 mb-4 max-w-lg">
-            Multiple Color Options to Represent Yourself
+            Aesthetics · Performance in Perfect Balance
           </h2>
           <p className="text-gray-600 max-w-md mx-auto lg:mx-0 mb-6">
-            AVITA SATUS S102 inherits the signature minimalist design of the
-            "AVITA SATUS" series, with a range of colors that includes classic
-            black and lighter shades of blue, pink and purple. Each color option
-            exudes a unique personality and style, making your laptop a true
-            reflection of your individuality.
+            AVITA SATUS S102 is the ultimate combination of aesthetics and
+            performance. Boasting a sleek and stylish design available in a
+            range of eye-catching colors, AVITA SATUS S102 is the perfect
+            accessory to refresh your work and entertainment experiences, while
+            showcasing your unique personality in your daily life.
           </p>
-        </div>
-      </section>
-
-      {/* product-satus-t101-text-image-block-5} */}
-      <section className="bg-gray-100 px-6 md:px-12 lg:px-0 flex flex-col lg:flex-row items-center lg:items-start">
-        <div className="lg:w-full lg:h-full lg:text-left px-12 leading-loose">
-          <h2 className="text-2xl text-gray-800 mb-4 max-w-lg">
-            Precise Details As Usual
-          </h2>
           <p className="text-gray-600 max-w-md mx-auto lg:mx-0 mb-6">
-            To cater to the practical needs of users, AVITA SATUS S102 is
-            equipped with a 15.6-inch Full HD IPS display and a 178-degree
-            ultra-wide viewing angle, enabling the clear display of details and
-            facilitating precise and prompt task handling for users. The Intel®
-            Iris® Xe Graphics card boasts powerful graphic processing
-            capabilities, allowing for speedy handling of complex images and
-            videos, and enabling users to enjoy high-quality visual experiences
-            in various scenarios, whether it be for work, entertainment or
-            creative purposes.
+            More than just a pretty face, AVITA SATUS S102 features the
+            high-performance that includes lightning-fast boot and loading
+            speeds, to ensure a smoother performance and an unparalleled user
+            experience whether you're working or unwinding with your favorite
+            entertainment.
           </p>
-          <div className=" flex flex-col lg:flex-row">
-            <img
-              src="/images/satus_s102_intel/satus_ic_angle_black_en.png" // Replace this with the path to your image
-              alt="Person using AVITA tablet"
-              className="h-full"
-            />
-            <img
-              src="/images/satus_s102_intel/satus_ic_HD_black_en.png" // Replace this with the path to your image
-              alt="Person using AVITA tablet"
-              className="h-full"
-            />
-          </div>
         </div>
         <div className="flex-grow lg:w-full lg:h-full mt-8 lg:mt-0 lg:ml-8 flex justify-center lg:justify-start lg:items-start">
           <img
-            src="/images/satus_s102_intel/AVITA_satus_s102_bigcore_feature5_pc.jpg" // Replace this with the path to your image
+            src="/images/satus_s102_intel/AVITA_satus_s102_bigcore_feature3_mo.jpg" // Replace this with the path to your image
             alt="Person using AVITA tablet"
             className="h-full"
           />
         </div>
       </section>
 
-      {/* product-satus-t101-text-image-block-5} */}
-      <section className="bg-gray-100 px-6 md:px-12 lg:py-10 lg:px-0 flex flex-col lg:flex-row items-center lg:items-start">
-        <div className="flex-grow lg:w-full lg:h-full mt-8 lg:mt-0 lg:ml-8 flex justify-center lg:justify-start lg:items-start">
-          <img
-            src="/images/satus_s102_intel/AVITA_satus_s102_bigcore_feature7_mo.jpg" // Replace this with the path to your image
-            alt=""
-            className="h-full"
-          />
-        </div>
-        <div className="lg:w-1/2 lg:h-full lg:text-left px-12 leading-loose">
-          <div className="max-w-xs">
-            <img
-              src="/images/satus_s102_intel/keypad.png" // Replace this with the path to your image
-              alt="keypad icon"
-              className="h-20"
-            />
-          </div>
-          <h2 className="text-2xl text-gray-800 mb-4 max-w-lg">
-            Full-size keyboard · Improving accuracy of word processing
+      {/* product-satus-t101-text-image-block-3} */}
+      <section className="px-6 py-16 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-8">
+        {/* Left Column - Text */}
+        <div className=" flex flex-col justify-center text-center lg:w-1/2 lg:px-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-10 lg:max-w-xl">
+            Easy to use. Equipped with the latest Android 11 OS and Google Play
+            app.
           </h2>
-          <p className="text-gray-600 max-w-md mx-auto lg:mx-0 mb-6">
-            AVITA SATUS S102 also features a full-size keyboard and large
-            touchpad that provide a comfortable environment for long-term input
-            operations. These features are designed to enhance your work
-            efficiency and overall comfort, delivering a superior user
-            experience that you'll love.
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            While the synchronization function on Google Play allows you to link
+            up multiple devices with a single Google account log-in to achieve
+            an ‘all-in-one’ performance, allowing you to access divergent
+            contents across different device at ease. For instance, reading an
+            e-book taken from Google Play to let you freely enlarge or minimize
+            the layout and text, or use the AVITA UBIQUE Stylus# to jot
+            important notes accordingly. Moreover, Google Play offers an
+            extensive range of games and movies for entertainment, your daily
+            life and fun will no longer be bounded by physical space nor time
+            constraint.
           </p>
+          <br />
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            The robust system of Android 11 and Google Play allows you to use
+            the AVITA SATUS T101 without security concern. Whenever there are
+            security updates available, notifications via Google Play will be
+            sent to remind you to restore any possible security flaws and keep
+            your system running with the latest protection at times.
+          </p>
+          <br />
+          <p className="text-gray-600 leading-relaxed lg:max-w-xl">
+            There are more to discover for Android 11 operating system, please
+            visit the official Android website for the latest information.
+          </p>
+
+          <p className="text-start mt-8 text-gray-600 text-sm lg:max-w-xl">
+            #The above mentioned AVITA UBIQUE Stylus may be sold separately.
+          </p>
+        </div>
+
+        {/* Right Column - Images */}
+        <div className="lg:w-1/2 flex flex-col">
+          <img
+            src="/images/satus_t101/pic-T101-03.jpg"
+            alt="Description of first image"
+            className="w-full h-auto object-cover"
+          />
+          <img
+            src="/images/satus_t101/t101-feature03.png"
+            alt="Description of second image"
+            className="w-full h-auto object-cover"
+          />
         </div>
       </section>
 
-      {/* product-satus-t101-banner 2*/}
-      <section>
-        <div className="w-screen h-auto top-0 left-0 relative">
+      {/* product-satus-t101-text-image-block-4} */}
+      <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-0 flex flex-col content-between lg:flex-row items-center">
+        <div className="lg:w-full lg:h-full lg:text-center px-12 text-center items-center">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center max-w-lg">
+            Flexible Bluetooth configuration. Sync up with whatever accessory of
+            your preference.
+          </h2>
+          <p className="text-gray-600 max-w-lg mx-auto lg:mx-0 leading-relaxed mb-6">
+            AVITA SATUS T101 is compatible with multiple Bluetooth devices^. For
+            instance, by connecting the AVITA UBIQUE True Wireless Earphone#
+            allows you to focus on a call without any interruption from nearby
+            environment, or immerse yourself with enjoyable music or movies in a
+            clean and balanced sound area. You can also connect to AVITA UBIQUE
+            Stylus#, and capture all your random thoughts or creative ideas
+            instantly in just a few simple strokes.
+          </p>
+          <p className="text-gray-600 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            You can also pair any third-party accessories* of your choice to the
+            AVITA SATUS T101 via Bluetooth. No matter you are at home, office or
+            in the car, the tablet can function flexibly in different ways,
+            elevating your daily use or work to the next level.
+          </p>
+          <br />
+          <p className="text-start max-w-lg text-sm text-gray-600 mx-auto lg:mx-0 leading-relaxed">
+            #The above mentioned AVITA UBIQUE Stylus or True Wireless Earphone
+            may be sold separately. <br />
+            ^Some features and applications may not be available in specific
+            countries/regions. Need to use only with compatible smart devices
+            (sold separately)。 Subject to local network, data and messaging
+            services. <br />
+            *When pairing/connecting with third-party accessories, AVITA does
+            not guarantee that all Bluetooth devices are compatible with AVITA
+            SATUS T101.
+          </p>
+        </div>
+        <div className="flex-grow lg:w-full lg:h-full mt-8 lg:mt-0 lg:ml-8 flex justify-center lg:justify-end">
           <img
-            className="w-full"
-            src="/images/satus_s102_intel/AVITA_satus_s102_port_io_pc.jpg"
-            alt="Satus_T102_Intel ports"
+            src="/images/satus_t101/pic-T101-04.jpg" // Replace this with the path to your image
+            alt="Person using AVITA tablet"
+            className="h-full shadow-md"
           />
         </div>
       </section>
@@ -252,66 +277,37 @@ export default function Home() {
       <section className="px-6 py-10 md:px-12 lg:px-24">
         <ul className="list-disc list-inside space-y-0.5 text-gray-700 leading-relaxed text-xs">
           <li>
-            AVITA SATUS series is warranted by Nexstgo Company Limited for a
-            period of twelve (12) months from the date of purchase under the
-            terms and conditions of this warranty. For details, please{" "}
+            Models or specifications may vary from country to country. Check
+            with your local distributors or retailers for any updates on the
+            current product.
             <a href="#" className="text-blue-600 underline">
               click here
             </a>
             .
           </li>
           <li>
-            Product design, models or specifications may vary from country to
-            country. The availability of colors may vary by retailers. Weights
-            vary depending on configuration and manufacturing variability.
+            Product appearance design, color, matching, may vary according to
+            different models and configurations, Colors of actual products may
+            differ from product shots due to photography lighting or display
+            setting of your viewing device.
           </li>
-          <li>
-            Please check with your local distributors or retailers for any
-            updates on the current product.
-          </li>
-          <li>
-            Colors of actual products may differ from product shots due to
-            photography lighting or display setting of your viewing device.
-          </li>
-          <li>
-            4G services are only supported in 4G network enabled locations in
-            4G-ready countries. Requires optimal connection. Actual speed may
-            vary depending on country, carrier and user environment.
-          </li>
-          <li>
-            You may incur additional charges for making calls over Wi-Fi, so
-            check with your mobile service provider for details.
-          </li>
-          <li>
-            GPS connection is subject to local network and data services and
-            network providers may charge additional service fees. Additionally,
-            connection times can be affected by external factors, such as
-            surrounding environment, weather, etc.
-          </li>
-          <li>
-            Performance of the battery is subject to the network, signal
-            strength, function, selection and profile. Battery time is based on
-            our own laboratory measurements, and may vary depending on factors
-            such as device settings, usage patterns and operating conditions.
-          </li>
-          <li>
-            Actual available memory for end user usage may vary due to
-            pre-configuration of tablet. The pre-configuration includes
-            preloaded operating system and applications.
-          </li>
-          <li>
-            When pairing/connecting with third-party accessories, AVITA does not
-            guarantee that all Bluetooth devices are compatible with our models.
-          </li>
-          <li>Android, Google Play is a trademark of Google LLC.</li>
           <li>
             We try our best to provide accurate and complete product information
             online yet we reserve the rights to keep, change or correct any
             information without further notice.
           </li>
           <li>
-            In the event of any disputes, Nexstgo Company Limited reserves the
-            right of the final decision.
+            Weights vary depending on configuration and manufacturing
+            variability.
+          </li>
+          <li>
+            Actual battery life may vary depending on product configuration,
+            usage, operational conditions and power management settings. Battery
+            life will decrease over the lifetime of the battery.
+          </li>
+          <li>
+            In the event of any disputes, AVITA TECHNOLOGIES INTERNATIONAL
+            CO.,LTD. reserves the right of the final decision.
           </li>
         </ul>
       </section>
