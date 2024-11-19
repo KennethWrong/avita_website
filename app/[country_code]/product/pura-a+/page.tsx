@@ -8,8 +8,7 @@ export default function Home() {
         mobileImage={"/images/pura-a-plus/AVITA_pura-a-plus-mo_en.jpg"}
         altText={"Pura A+ Banner"}
       />
-
-      <section className="bg-white flex justify-center items-center">
+      <section className="bg-white flex justify-center items-center text-gray-500">
         <div className="flex flex-col justify-center items-center max-w-3xl p-16">
           <h3 className="text-3xl text-center mb-8">
             Experience Power in Simplicity with PURA A+ Laptop!
