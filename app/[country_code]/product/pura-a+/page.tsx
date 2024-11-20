@@ -46,6 +46,34 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="flex justify-center items-center h-[600px] bg-[#EEEEEE]">
+        <div className="flex h-full w-2/3 p-10 text-gray-700">
+          <div className="basis-1/2 flex justify-center items-center mr-10">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_product_2_hk_mo.png"
+              alt="PURA_A_plus_product_2_hk_pc"
+            />
+          </div>
+          <div className="flex flex-col justify-center basis-1/2">
+            <h2 className="text-3xl mb-14">
+              Immerse Yourself in a World of Color and Creativity!
+            </h2>
+
+            <p className="leading-8 mb-5">
+              For individuals looking for a laptop that stands out, PURA A+ is
+              the ideal choice. The new PURA A+ laptop comes in five vibrant
+              colors, each with its own unique personality and style designed to
+              inspire creativity in its users. Expressing your unique style and
+              unleashing your creativity, only with PURA A+!
+            </p>
+
+            <p className="">
+              <small>*Demo image of the AVITA PURA A+ 15.6”</small>
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
