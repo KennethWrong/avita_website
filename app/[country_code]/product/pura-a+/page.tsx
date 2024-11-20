@@ -8,6 +8,7 @@ export default function Home() {
         mobileImage={"/images/pura-a-plus/AVITA_pura-a-plus-mo_en.jpg"}
         altText={"Pura A+ Banner"}
       />
+      {/* TODO: responsiveness */}
       <section className="bg-white flex justify-center items-center text-gray-500">
         <div className="flex flex-col justify-center items-center max-w-3xl p-16">
           <h3 className="text-3xl text-center mb-8">
@@ -47,18 +48,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center items-center h-[600px] bg-[#EEEEEE]">
-        <div className="flex h-full w-2/3 p-10 text-gray-700">
-          <div className="basis-1/2 flex justify-center items-center mr-10">
+      <section className="flex justify-center items-center bg-[#EEEEEE]">
+        <div className="flex h-full w-2/3 py-24 text-gray-700">
+          <div className="hidden md:flex md:basis-1/2  justify-center items-center mr-10 ">
             <img
               src="/images/pura-a-plus/PURA_A_plus_product_2_hk_mo.png"
               alt="PURA_A_plus_product_2_hk_pc"
             />
           </div>
-          <div className="flex flex-col justify-center basis-1/2">
+          <div className="flex flex-col justify-center md:basis-1/2 ">
             <h2 className="text-3xl mb-14">
               Immerse Yourself in a World of Color and Creativity!
             </h2>
+
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_product_2_hk_mo.png"
+              alt="PURA_A_plus_product_2_hk_pc"
+              className="sm:block md:hidden mb-10"
+            />
 
             <p className="leading-8 mb-5">
               For individuals looking for a laptop that stands out, PURA A+ is
@@ -124,13 +131,11 @@ export default function Home() {
               </p>
 
               <div className="text-purple-900">
-                <div className="">
-                  <div className="">Up to</div>
-                  <div className="text-4xl">Intel i5-1235U</div>
-                  <div className="">
-                    12<sup>th</sup> Gen INTEL®CORE™ PROCESSOR
-                  </div>
-                </div>
+                <p>Up to</p>
+                <p className="text-4xl">Intel i5-1235U</p>
+                <p>
+                  12<sup>th</sup> Gen INTEL®CORE™ PROCESSOR
+                </p>
               </div>
             </div>
           </div>
