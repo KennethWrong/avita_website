@@ -98,6 +98,44 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="bg-[#EEEEEE] h-[680px] flex justify-center items-center">
+        <div className="flex h-full text-gray-700 ">
+          <div className="basis-1/2 h-full py-10 pr-10 flex justify-end">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_feature_1_mo.jpg"
+              alt="PURA_A_plus_feature_1_mo"
+              className="h-full object-contain"
+            />
+          </div>
+          <div className="basis-1/2">
+            <div className="h-full w-3/5 flex flex-col justify-center items-start py-10">
+              <h2 className="text-3xl mb-14">
+                Maximize Your Abilities- Accomplish Your Goals with Skill and
+                Precision!
+              </h2>
+
+              <p className="leading-8 mb-5">
+                PURA A+ is equipped with powerful features that help students
+                achieve their academic goals efficiently. The laptop's
+                high-performance CPU ensures productivity, with options
+                available including the 12th Gen Intel® Core™ processor with
+                Intel® Iris® Xe Graphics.
+              </p>
+
+              <div className="text-purple-900">
+                <div className="">
+                  <div className="">Up to</div>
+                  <div className="text-4xl">Intel i5-1235U</div>
+                  <div className="">
+                    12<sup>th</sup> Gen INTEL®CORE™ PROCESSOR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
