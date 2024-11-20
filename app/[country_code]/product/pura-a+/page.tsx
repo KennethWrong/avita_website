@@ -74,6 +74,30 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="bg-white h-[700px] text-gray-500 flex justify-center items-center">
+        <div className="h-full w-3/4 flex flex-col justify-center items-center">
+          <p className="leading-8 mb-10 w-1/2 text-center">
+            Trophy Purple represents luxury and sophistication, evoking a sense
+            of achievement and success. Award Pink expresses youthful and
+            playful, specifically designed for those who want to add a touch of
+            fun to their lives. Medal Black exudes elegance and className, while
+            evoking a feeling of power and sophistication - perfect for making a
+            bold statement. Badge Silver is associated with achievement and
+            success, perfect for those who want to evoke a sense of
+            accomplishment and recognition. Ribbon Blue creates a peaceful and
+            inviting environment, perfect for those who want to feel safe,
+            friendly, and relaxed.
+          </p>
+
+          <div>
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_product_3.png"
+              alt="PURA_A_plus_product_3"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
