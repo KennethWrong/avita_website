@@ -304,6 +304,45 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 8 */}
+      <section className="text-gray-700 bg-[#EEEEEE]">
+        <div className="flex">
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
+            <div className="md:w-3/5 mr-0 md:mr-16">
+              <h2 className="text-3xl mb-14">
+                Upgrade Your Student Life and Achieve Remarkable High-Grades!
+              </h2>
+
+              <img
+                src="/images/pura-a-plus/PURA_A_plus_feature_3_mo.jpg"
+                alt="PURA_A_plus_feature_3"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p className="">
+                  PURA A+ is the perfect laptop for students who want a simple
+                  yet powerful device to support their all-round education and
+                  development. With a minimalist design, high-quality
+                  performance, and array of features, PURA A+ is the ultimate
+                  laptop for students who demand simplicity and power. Whether
+                  you're studying, working, or pursuing your passions, PURA A+
+                  has got you covered. Achieve remarkable high grades with PURA
+                  A+ and take your education and development to the next level!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_feature_3_mo.jpg"
+              alt="PURA_A_plus_feature_3"
+              className="w-full"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
