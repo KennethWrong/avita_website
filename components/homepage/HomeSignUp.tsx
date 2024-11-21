@@ -1,7 +1,7 @@
 export default function HomeSignUp() {
   return (
-    <section className="h-[300px] w-full flex flex-col justify-center items-center bg-[#f0f0f0]">
-      <form className="flex flex-col justify-center items-center">
+    <section className="w-full flex flex-col justify-center items-center bg-[#f0f0f0] p-20 ">
+      <div className="flex flex-col justify-center items-center">
         <h2 className="text-3xl text-gray-700 mb-5">
           Join the AVITA Community
         </h2>
@@ -17,7 +17,7 @@ export default function HomeSignUp() {
             {/* <input type="hidden" id="alertMsg" value="Thank you for your subscribing!">  */}
           </div>
         </a>
-      </form>
+      </div>
     </section>
   );
 }
