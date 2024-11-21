@@ -265,6 +265,45 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 7 */}
+      <section className="bg-white text-gray-500 flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center py-24 md:w-1/3 px-10 md:px-0">
+          <h3 className="text-3xl text-center mb-8">
+            The OPTIMAL All-round Laptop for Students on-the-go!
+          </h3>
+
+          <div className="mb-8">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_io_ports.png"
+              alt="PURA_A_plus_io_ports"
+            />
+          </div>
+
+          <div className="leading-8 text-center">
+            <p>
+              Designed specifically for students who are always on the move,
+              PURA A+ is the ultimate all-in-one laptop for delivering
+              presentations and staying productive at school. With its multi-I/O
+              ports, connecting to different devices is effortless. Its reliable
+              performance and 178-degree ultra-wide viewing angle make it the
+              perfect device for students who demand high-quality performance.
+            </p>
+            <p>
+              Featuring a 14” and 15.6” Full HD IPS panel, PURA A+ delivers a
+              wider, more vivid, and immersive viewing experience. The
+              full-sized Edge-to-edge backlit keyboard makes typing more
+              comfortable and efficient. It also maximizes the available Space
+              for the keys and minimizes the overall footprint of the keyboard,
+              making it more compact and streamlined. With the backlit keys,
+              which make typing easier in any conditions and increase your
+              productivity. Whether you're exploring the internet or developing
+              your skills in various subjects, PURA A+ makes it easier to stay
+              focused, learn new things, and achieve your academic goals.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
