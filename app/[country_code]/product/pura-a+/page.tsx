@@ -8,7 +8,8 @@ export default function Home() {
         mobileImage={"/images/pura-a-plus/AVITA_pura-a-plus-mo_en.jpg"}
         altText={"Pura A+ Banner"}
       />
-      {/* TODO: responsiveness */}
+
+      {/* Section 1 */}
       <section className="bg-white flex justify-center items-center text-gray-500">
         <div className="flex flex-col justify-center items-center max-w-3xl p-16">
           <h3 className="text-3xl text-center mb-8">
@@ -48,6 +49,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section 2 */}
       <section className="flex justify-center items-center bg-[#EEEEEE]">
         <div className="flex h-full w-2/3 py-24 text-gray-700">
           <div className="hidden md:flex md:basis-1/2  justify-center items-center mr-10 ">
@@ -82,6 +84,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section 3 */}
       <section className="bg-white text-gray-500 flex justify-center items-center py-20 px-5">
         <div className="h-full w-3/4 flex flex-col justify-center items-center">
           <p className="leading-8 mb-10 md:w-1/2 text-center">
@@ -106,6 +109,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section 4 */}
       <section className="bg-[#EEEEEE] flex justify-center items-center">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
@@ -144,6 +148,61 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 5 -- windows 11 */}
+      <section className="text-gray-500">
+        <div className="flex py-20 ">
+          <div className="p-10 md:p-0 md:basis-1/2 flex justify-end items-center ">
+            <div className="md:w-3/5">
+              <h2 className="text-3xl mb-14">
+                Stay Organized and Driven to Achieve Your Dreams!
+              </h2>
+
+              <img
+                src="/images/pura-a-plus/PURA_A_plus_feature_4_mo.jpg"
+                alt="PURA_A_plus_feature_4"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p className="">
+                  Whether you are students, professionals, or busy parents, PURA
+                  A+ helps you stay organized to achieve your dreams. With a
+                  user-friendly interface and Windows 11 Home, PURA A+ helps you
+                  stay productive and on top of your game.
+                </p>
+                <p className="">
+                  The To Do widget keeps you focused and on track, ensuring you
+                  never miss an important deadline.
+                </p>
+
+                <a href="/hk/product/pura-a+/spec" className="text-blue-500">
+                  Tech Spec &gt;
+                </a>
+              </div>
+
+              <div className="text-purple-900">
+                <p>Operating System</p>
+                <p className="text-4xl">Windows 11 Home</p>
+                <a
+                  href="https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85#WindowsVersion=Windows_11"
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  Know more &gt;
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center p-20">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_feature_4_mo.jpg"
+              alt="PURA_A_plus_feature_4"
+              className=""
+            />
           </div>
         </div>
       </section>
