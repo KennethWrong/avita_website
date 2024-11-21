@@ -206,6 +206,65 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 6 */}
+      <section className="bg-[#EEEEEE] flex justify-center items-center">
+        <div className="flex h-full text-gray-700">
+          <div className="md:basis-1/2 py-10 flex justify-end items-center">
+            <img
+              src="/images/pura-a-plus/PURA_A_plus_feature_2_mo.jpg"
+              alt="PURA_A_plus_feature_1_mo"
+              className="w-full object-contain hidden md:block"
+            />
+          </div>
+          <div className="md:basis-1/2 flex sm:justify-center md:justify-start md:pl-10">
+            <div className="h-full sm:w-[90%] md:w-3/5 flex flex-col justify-center items-start py-10">
+              <h2 className="text-3xl mb-14">
+                Unleash Your Potential with BIG Storage and Flexibility!
+              </h2>
+
+              <img
+                src="/images/pura-a-plus/PURA_A_plus_feature_2_mo.jpg"
+                alt="PURA_A_plus_feature_1_mo"
+                className="md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-5">
+                <p>
+                  You always have the ability to enhance your capabilities. PURA
+                  A+ provides you with big storage capacity, ensuring that you
+                  can store all your important files and documents without
+                  worrying about running out of space. With up to 512GB of SSD
+                  storage, you can keep all your photos, videos, and music in
+                  one place.
+                </p>
+                <p>
+                  This feature is perfect for individuals who need to store
+                  large files or work on multiple projects simultaneously.
+                </p>
+              </div>
+
+              <div className="text-purple-900 w-full flex sm:flex-col md:flex-row">
+                <div className="basis-1/2 mb-8 md:mb-0">
+                  <p className="">Up to</p>
+                  <p className="text-4xl">
+                    512<span className="text-sm">GB</span>
+                  </p>
+                  <p className="">SSD</p>
+                </div>
+
+                <div className="basis-1/2">
+                  <p className="">Up to</p>
+                  <p className="text-4xl">
+                    8<span className="text-sm">GB</span>
+                  </p>
+                  <p className="">RAM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
