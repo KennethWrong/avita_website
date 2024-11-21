@@ -343,6 +343,43 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 9 -- product statement */}
+      <section className="text-gray-700 bg-[#EEEEEE] flex justify-center items-center">
+        <div className="flex justify-center items-center px-10 md:w-2/3 py-10 md:py-24">
+          <ul className="list-disc leading-6 text-xs">
+            <li>
+              Models or specifications may vary from country to country. Check
+              with your local distributors or retailers for any updates on the
+              current product.
+            </li>
+            <li>
+              Weights vary depending on configuration and manufacturing
+              variability.
+            </li>
+            <li>
+              Colors of actual products may differ from product shots due to
+              photography lighting or display setting of your viewing device.
+            </li>
+            <li>
+              We try our best to provide accurate and complete product
+              information online yet we reserve the rights to keep, change or
+              correct any information without further notice.
+            </li>
+            <li>
+              Windows is either registered trademark or trademark of Microsoft
+              Corporation in the United States and/or other countries.
+            </li>
+            <li>
+              Battery life will vary depending on various factors including
+              product model, configuration, loaded applications, features, use,
+              wireless functionality, and power management settings. The maximum
+              capacity of the battery will naturally decrease with time and
+              usage.
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }
