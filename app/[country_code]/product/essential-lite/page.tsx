@@ -307,6 +307,44 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 7 */}
+      <section className="text-gray-700 bg-white">
+        <div className="flex">
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center">
+            <img
+              src="/images/essential-lite/essential-lite14_bg6_mo.jpg"
+              alt="essential-lite14_bg6"
+              className="w-full"
+            />
+          </div>
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
+            <div className="md:w-3/5 ml-0 md:ml-16">
+              <h2 className="text-3xl mb-14">
+                ULTRA FLEXIBILITY． FULL-SIZE CURVED KEYBOARD
+              </h2>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg6_mo.jpg"
+                alt="essential-lite14_bg6"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p>
+                  ESSENTIAL Lite is also equipped with a specially designed
+                  full-size island style keyboard, offering you the best typing
+                  experience as distance between buttons are carefully
+                  calculated. Coupled with a large touchpad, you can simply
+                  slide your fingertips to have many different applications in
+                  control. Without any barrier and constraint, your learning and
+                  working performance can be enhanced.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
