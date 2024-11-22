@@ -72,6 +72,56 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 3 */}
+      <section className="text-gray-800 bg-white">
+        <div
+          className="flex bg-white md:bg-[url('/images/essential-lite/essential-lite14_bg2.jpg')]
+            bg-no-repeat bg-cover bg-center py-10 md:py-20"
+        >
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center"></div>
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
+            <div className="md:w-3/5 ml-0 md:ml-16">
+              <h2 className="text-3xl mb-14">
+                LIGHT LOADED WITH 1KG FEATHERWEIGHT．
+                <br />
+                SLIM BODY WITH THIN BEZELS
+              </h2>
+
+              <div className="flex mb-10">
+                <img
+                  src="/images/essential-lite/Essential-lite_ic_boundless.png"
+                  alt="Essential-lite_ic_boundless"
+                />
+                <img
+                  src="/images/essential-lite/Essential-lite_ic_screen.png"
+                  alt="Essential-lite_ic_screen"
+                />
+              </div>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg2_mo.jpg"
+                alt="essential-lite14_bg2"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p>
+                  ESSENTIAL Lite is specially designed for standard users
+                  without compromising its function and quality. Within its 4 mm
+                  extremely thin bezels and 20 mm light-loaded body design there
+                  lies a 14-inch screen, and the whole compact constitues merely
+                  an approximate of 1kg#, which such lightloaded feature makes
+                  it stand out from other similar laptops in the market^. Giving
+                  you a convenient and flexible experience while carrying it
+                  around for learning and working at anytime and anywhere you
+                  want.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
