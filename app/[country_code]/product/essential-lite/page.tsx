@@ -268,6 +268,45 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 6 */}
+      <section className="text-gray-700 bg-white md:bg-[#F9F3E7]">
+        <div className="flex">
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
+            <div className="md:w-3/5 mr-0 md:mr-16">
+              <h2 className="text-3xl mb-14">
+                SIMPLE AND CONVENIENT．AVAILABILITY OF MULTIPLE PORTS
+              </h2>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg5_mo.jpg"
+                alt="essential-lite14_bg5"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p>
+                  ESSENTIAL Lite prioritizes user convenience, and thus moved
+                  various ports that usually found on the left and right hand
+                  sides to the back of the device, which include the plug-ins
+                  for USB 3.0, HDMI to Micro SD. It allows you to connect
+                  peripheral devices no matter you are left-handed or
+                  right-handed, and you can manage your learning and working in
+                  all aspects at ease without having to take up lots of physical
+                  space.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center">
+            <img
+              src="/images/essential-lite/essential-lite14_bg5_mo_cropped.jpg"
+              alt="essential-lite14_bg5"
+              className="w-full"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
