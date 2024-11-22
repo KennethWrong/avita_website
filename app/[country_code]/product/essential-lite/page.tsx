@@ -345,6 +345,50 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 8 -- product statement */}
+      <section className="text-gray-700 bg-[#EEEEEE] flex justify-center items-center">
+        <div className="flex justify-center items-center px-10 md:w-2/3 py-10 md:py-24">
+          <ul className="list-disc leading-6 text-xs">
+            <li>
+              <span>^ Information as of December 2021.</span>
+              <span>
+                # Weights may vary depending on manufacturing process.
+              </span>
+              <span>* Different colors/patterns will be launched soon.</span>
+            </li>
+            <li>
+              Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel
+              Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium,
+              Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside,
+              Xeon, and Xeon Inside are trademarks of Intel Corporation in the
+              U.S. and other countries.
+            </li>
+            <li>
+              Models or specifications may vary from country to country. Check
+              with your local distributors or retailers for any updates on the
+              current product.
+            </li>
+            <li>
+              Weights vary depending on configuration and manufacturing
+              variability.
+            </li>
+            <li>
+              Colors of actual products may differ from product shots due to
+              photography lighting or display setting of your viewing device.
+            </li>
+            <li>
+              We try our best to provide accurate and complete product
+              information online yet we reserve the rights to keep, change or
+              correct any information without further notice.
+            </li>
+            <li>
+              Windows is either registered trademark or trademark of Microsoft
+              Corporation in the United States and/or other countries.
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }
