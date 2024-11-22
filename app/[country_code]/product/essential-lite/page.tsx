@@ -32,7 +32,7 @@ export default function Home() {
       </section>
 
       {/* Section 2 */}
-      <section className="text-gray-500 bg-white">
+      <section className="text-gray-700 bg-white">
         <div className="flex">
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
             <div className="md:w-3/5 mr-0 md:mr-16">
@@ -120,6 +120,58 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Section 4 */}
+      <section className="text-gray-700 bg-white">
+        <div
+          className="flex bg-white md:bg-[url('/images/essential-lite/essential-lite14_bg3.jpg')]
+        bg-no-repeat bg-cover bg-center py-10 md:py-20"
+        >
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
+            <div className="md:w-2/3 mr-0 md:mr-16">
+              <h2 className="text-3xl mb-14">
+                COMFORTABLE VIEWING．
+                <br />
+                FULL HD ANTI-GLARE SCREEN
+              </h2>
+
+              <div className="flex mb-10">
+                <img
+                  src="/images/essential-lite/Essential-lite_ic_HD.png"
+                  alt="Essential-lite_ic_HD"
+                  className=""
+                />
+
+                <img
+                  src="/images/essential-lite/Essential-lite_ic_angle.png"
+                  alt="Essential-lite_ic_angle"
+                  className=""
+                />
+              </div>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg3_mo.jpg"
+                alt="essential-lite14_bg3"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p>
+                  The 14-inch 16:9 full HD IPS anti-glare display of ESSENTIAL
+                  Lite provides a 178-degree ultra-wide viewing angle which can
+                  effectively reduce eye fatigue while retaining the resolution
+                  of screen. It provides an optimal viewing comfort even if you
+                  are having online learning and working for a long duration of
+                  time. Its wide viewing angle allows you to review contents
+                  with every vivid detail from a maximised perspective anytime
+                  and anywhere.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center"></div>
         </div>
       </section>
     </main>
