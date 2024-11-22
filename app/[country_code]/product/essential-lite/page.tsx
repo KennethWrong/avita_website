@@ -174,6 +174,100 @@ export default function Home() {
           <div className="hidden md:basis-1/2 md:flex justify-center items-center"></div>
         </div>
       </section>
+
+      {/* Section 5 */}
+      <section className="text-gray-800 bg-white">
+        <div
+          className="flex bg-[#EEE] md:bg-[url('/images/essential-lite/essential-lite14_bg4.jpg')]
+            bg-no-repeat bg-cover bg-center py-10 md:py-20"
+        >
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center"></div>
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
+            <div className="md:w-3/5 ml-0 md:ml-16">
+              <h2 className="text-3xl mb-14">
+                UP-TO-DATE COMPACT．
+                <br />
+                PRELOADED WITH WINDOWS 11 OPERATING SYSTEM
+              </h2>
+
+              <div className="flex mb-10">
+                <img
+                  src="/images/essential-lite/Intel_Celeron_Logo.png"
+                  alt="Essential-lite_ic_boundless"
+                  className="w-[100px]"
+                />
+              </div>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg4_mo.jpg"
+                alt="essential-lite14_bg4"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p className="mb-8">
+                  ESSENTIAL Lite is pre-loaded with the latest Windows 11 Home
+                  Edition operating system which features a fresh and
+                  intuitively designed interface. Users are able to work on
+                  multiple apps or managing multiple windows simultaneously by
+                  simply clicking the "Start" button located at the center of
+                  the screen, offering incredible experiences for gaming,
+                  entertainment and communication.
+                </p>
+                <p>
+                  The laptop is also equipped with Intel® Celeron® N4020
+                  processor, 8GB LPDDR4 memory and up to 256GB SSD, boosting the
+                  performance with reliable configuration as well as bringing
+                  you a steadier experience while working or learning online
+                  every day.
+                </p>
+                <a
+                  href="https://avita.com/hk/product/essential-lite/spec"
+                  className="text-blue-500 hover:underline"
+                >
+                  Tech Spec &gt;
+                </a>
+              </div>
+
+              <div className="text-purple-900">
+                <div className="mb-8">
+                  <p>Operating System</p>
+                  <p className="text-4xl">Windows 11 Home</p>
+                  <a
+                    href="https://support.microsoft.com/en/help/4020089/windows-10-in-s-mode-faq"
+                    target="_blank"
+                    className="text-blue-500 hover:underline"
+                  >
+                    Know more &gt;
+                  </a>
+                </div>
+                <div className="mb-8">
+                  <p>Up to</p>
+                  <p className="text-4xl">N4020</p>
+                  <p>INTEL® Celeron® PROCESSOR</p>
+                </div>
+
+                <div className="flex">
+                  <div className="basis-1/2">
+                    <p>Up to</p>
+                    <p className="text-4xl">
+                      256<span className="pl-1 text-sm">GB</span>
+                    </p>
+                    <p>SSD</p>
+                  </div>
+                  <div className="basis-1/2">
+                    <p>Up to</p>
+                    <p className="text-4xl">
+                      8<span className="pl-1 text-sm">GB</span>
+                    </p>
+                    <p>RAM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
