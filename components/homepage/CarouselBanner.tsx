@@ -59,12 +59,12 @@ export default function CarouselBanner() {
               <img
                 src={image.m}
                 alt="Banner images"
-                className="hidden md:block"
+                className="hidden md:block w-full"
               />
               <img
                 src={image.s}
                 alt="Banner images"
-                className="block md:hidden"
+                className="block md:hidden w-full"
               />
             </CarouselItem>
           ))}
