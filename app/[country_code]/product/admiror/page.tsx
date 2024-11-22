@@ -20,12 +20,12 @@ export default function AdmirorPage() {
       <AdmirorProduct />
       <AdmirorArtisticDesign />
       <AdmirorExtraDesc />
-      <AdmirorPrideDelighted />
-      <AdmirorOutstanding />
-      <AdmirorWinHello />
-      <AdmirorBatteryInfo />
-      <AdmirorColorOpts />
-      <AdmirorProductStatement />
+      {/* <AdmirorPrideDelighted /> */}
+      {/* <AdmirorOutstanding /> */}
+      {/* <AdmirorWinHello /> */}
+      {/* <AdmirorBatteryInfo /> */}
+      {/* <AdmirorColorOpts /> */}
+      {/* <AdmirorProductStatement /> */}
     </main>
   );
 }

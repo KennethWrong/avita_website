@@ -18,17 +18,18 @@ export default function AdmirorArtisticDesign() {
             </h3>
           </div>
 
-          <div className="flex flex-row  items-center justify-center">
+          <div className="flex flex-row items-center justify-center ">
             <img
-              className="transform translate-x-8 -translate-y-24"
+              className="hidden md:block transform translate-x-8 -translate-y-24"
               src="/images/admiror/ADMIROR03.png"
               alt="ADMIROR Design"
             />
-            <div className="max-w-xl ml-24">
+
+            <div className="text-center md:text-left md:max-w-xl md:ml-24">
               <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
                 Exquisite design that combines Gothic architectural aesthetics
               </h2>
-              <p className="leading-loose text-white text-left">
+              <p className="leading-loose text-white">
                 Inspired by the magnificence of the Gothic architecture, the
                 brand new AVITA ADMIROR series combines contemporary
                 architectural aesthetics into its state-of-the-art technology.
@@ -46,7 +47,7 @@ export default function AdmirorArtisticDesign() {
               <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
                 Stand out with colors
               </h2>
-              <p className="leading-loose text-white text-left">
+              <p className="leading-loose text-white">
                 ADMIROR makes sure your individuality gets all the attention.
                 The new series offers unique color options to express your
                 personal style. Be it the rebellious Blazing Brown or Flaming
