@@ -30,6 +30,48 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 2 */}
+      <section className="text-gray-500 bg-white">
+        <div className="flex">
+          <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
+            <div className="md:w-3/5 mr-0 md:mr-16">
+              <h2 className="text-3xl mb-14">
+                Re-Discover the Beauty in Lite Inspired by Renaissance Art Form
+              </h2>
+
+              <img
+                src="/images/essential-lite/essential-lite14_bg1_mo.jpg"
+                alt="essential-lite14_bg1"
+                className="block md:hidden mb-10"
+              />
+
+              <div className="leading-8 mb-10">
+                <p className="mb-10">
+                  ESSENTIAL Lite range assembled with exquisite craftsmanship
+                  which inspired by the Renaissance era 'sculptural design. The
+                  carved laptop is available in eight different stylish carved
+                  covers.*
+                </p>
+
+                <p>
+                  *Planet Blue, Pixel Green, Solar Pink, Mega Purple, Geometric
+                  Motion, Cyber World, Digital Rainbow, Purple Network
+                  <br />
+                  (Different colors/patterns will be launched soon)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:basis-1/2 md:flex justify-center items-center">
+            <img
+              src="/images/essential-lite/essential-lite14_bg1_mo_cropped.jpg"
+              alt="essential-lite14_bg1"
+              className="w-full"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
