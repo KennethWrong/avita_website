@@ -7,44 +7,56 @@ export default function AdmirorPrideDelighted() {
       className="bg-white flex flex-col justify-center items-center"
     >
       {/* titles */}
-      <div className="flex flex-col items-center">
-        <h3 className="text-3xl font-light tracking-wide mb-5">
+      <div className="flex flex-col items-center py-10">
+        <h3 className="text-xl md:text-3xl font-light tracking-wide mb-5">
           Usage Experience that you can feel{" "}
         </h3>
-        <h1 className="text-6xl font-light uppercase">PRIDE &amp; DELIGHTED</h1>
+        <h1 className="text-3xl md:text-6xl font-light uppercase">
+          PRIDE &amp; DELIGHTED
+        </h1>
       </div>
 
       {/* rows */}
       <section className="my-24">
         {/* row 1 */}
-        <div className="flex flex-row max-w-6xl h-96 bg-[#f2f2f2]">
+        <div className="flex flex-col md:flex-row md:w-[74rem] md:h-96 bg-[#f2f2f2]">
           <img
             src="/images/admiror/bg_A1_15_e.jpg"
             alt="A1_15"
-            className="basis-2/3"
+            className="hidden md:block md:basis-2/3"
+          />
+          <img
+            src="/images/admiror/pic_pride_01_15_e.jpg"
+            alt="A1_15"
+            className="block md:hidden"
           />
 
-          <div className="flex flex-col justify-center items-center p-10 basis-1/3">
+          <div className="flex flex-col justify-center items-center p-10 md:basis-1/3">
             <h2 className={`${styles.admiror_h2} mb-5`}>
               Realistic image with stunning clarity
             </h2>
 
-            <span className="leading-6">
+            <p className="leading-6">
               The ADMIROR series offers a 14-inch and a 15.6-inch 16:9 FHD IPS
               display, both with extra-wide 178-degree viewing angle. The
               lifelike image quality, support up to 72% NTSC color gamut, offers
               an enjoyable viewing experience browsing websites or watching
               video clips.
-            </span>
+            </p>
           </div>
         </div>
 
         {/* row 2 */}
-        <div className="flex flex-row max-w-6xl h-96 bg-[#f2f2f2]">
+        <div className="flex flex-col md:flex-row md:w-[74rem] md:h-96 bg-[#f2f2f2]">
           <img
             src="/images/admiror/bg_B1.jpg"
             alt="bg_B1"
-            className="basis-1/3"
+            className="hidden md:block md:basis-1/3"
+          />
+          <img
+            src="/images/admiror/pic_pride_02.jpg"
+            alt="bg_B1"
+            className="block md:hidden"
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
@@ -62,12 +74,17 @@ export default function AdmirorPrideDelighted() {
           <img
             src="/images/admiror/bg_B3_15_e.jpg"
             alt="B3_15_e"
-            className="basis-1/3"
+            className="hidden md:block md:basis-1/3"
+          />
+          <img
+            src="/images/admiror/pic_pride_03_15_e.jpg"
+            alt="B3_15_e"
+            className="block md:hidden"
           />
         </div>
 
         {/* row 3 */}
-        <div className="flex flex-row max-w-6xl h-96 bg-[#f2f2f2]">
+        <div className="flex flex-col md:flex-row md:w-[74rem] md:h-96 bg-[#f2f2f2]">
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
             <h2 className={`${styles.admiror_h2} mb-5`}>
               Backlit keyboard for unbounded exploration
@@ -85,7 +102,12 @@ export default function AdmirorPrideDelighted() {
           <img
             src="/images/admiror/bg_C2_15_e.jpg"
             alt="C2_15_e"
-            className="basis-1/3"
+            className="hidden md:block md:basis-1/3"
+          />
+          <img
+            src="/images/admiror/pic_pride_04_15_e.jpg"
+            alt="C2_15_e"
+            className="block md:hidden"
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">

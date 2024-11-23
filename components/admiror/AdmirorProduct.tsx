@@ -1,8 +1,10 @@
 export default function AdmirorProduct() {
   return (
     <section className="text-white bg-black p-10">
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-5xl m-5">#YouCanBe Expressing Yourself</h1>
+      <div className="flex flex-col justify-center items-center text-center">
+        <h1 className="text-3xl md:text-5xl m-5">
+          #YouCanBe Expressing Yourself
+        </h1>
         <p className="text-lg m-10">
           Be who you are and show your individuality. The choice is yours.
           #YouCanbe
@@ -29,10 +31,10 @@ export default function AdmirorProduct() {
         </div>
 
         {/* banner anchors */}
-        <h1 className="text-5xl mb-20">AVITA ADMIROR brings you</h1>
+        <h1 className="text-3xl md:text-5xl mb-20">AVITA ADMIROR brings you</h1>
         <section>
-          <div className="flex flex-row max-w-6xl">
-            <div className="mx-5 max-w-[33%]">
+          <div className="flex flex-col md:flex-row md:max-w-6xl justify-center items-center">
+            <div className="mx-5 md:max-w-[33%]">
               <a href="#artistic_design" className="group">
                 <img
                   className="group-hover:hidden"
@@ -45,7 +47,7 @@ export default function AdmirorProduct() {
               </a>
             </div>
 
-            <div className="mx-5 max-w-[33%]">
+            <div className="mx-5 md:max-w-[33%]">
               <a href="#usage_experience" className="group">
                 <img
                   className="group-hover:hidden"
@@ -58,7 +60,7 @@ export default function AdmirorProduct() {
               </a>
             </div>
 
-            <div className="mx-5 max-w-[33%]">
+            <div className="mx-5 md:max-w-[33%]">
               <a href="#outstanding" className="group">
                 <img
                   className="group-hover:hidden"

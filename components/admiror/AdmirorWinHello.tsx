@@ -4,12 +4,17 @@ export default function AdmirorWinHello() {
   return (
     <section className="text-white">
       <div
-        className="bg-[url('/images/admiror/bg_admiror03.jpg')]
-        bg-no-repeat bg-top h-[720px] flex justify-center"
+        className="bg-black md:bg-[url('/images/admiror/bg_admiror03.jpg')]
+        bg-no-repeat bg-top flex justify-center"
       >
-        <div className="flex flex-row  w-full">
-          <div className=" basis-1/2 flex justify-end items-end">
-            <div className=" max-w-xl p-10 mb-16">
+        <div className="flex flex-row w-full">
+          <div className="w-full md:basis-1/2 flex justify-end items-end">
+            <div className="md:max-w-xl p-10 mb-16">
+              <img
+                src="/images/admiror/bg_admiror03_mob.jpg"
+                alt="bg_admiror03"
+                className="block md:hidden mb-6"
+              />
               <div className={`${styles.admiror_h2} mb-5`}>
                 One-touch access with Windows Hello
               </div>
@@ -32,7 +37,7 @@ export default function AdmirorWinHello() {
             </div>
           </div>
 
-          <div className="basis-1/2"></div>
+          <div className="hidden md:block md:basis-1/2"></div>
         </div>
       </div>
     </section>
