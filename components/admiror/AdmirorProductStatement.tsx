@@ -2,9 +2,9 @@ import React from "react";
 
 export default function AdmirorProductStatement() {
   return (
-    <section className="flex justify-center items-center h-[300px] bg-[#f0f0f0] p-52">
-      <div className="tracking-[0.15em] max-w-6xl">
-        <ul className="list-disc">
+    <section className="flex justify-center items-center bg-[#f0f0f0]">
+      <div className="tracking-[0.15em] p-10 md:p-24">
+        <ul className="list-disc leading-6 text-xs">
           <li>
             Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel
             Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium
