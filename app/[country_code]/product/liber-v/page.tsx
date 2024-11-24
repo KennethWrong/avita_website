@@ -8,6 +8,7 @@ export default function LiberPage() {
         mobileImage={"/images/liber-v/AVITA_liber_v_banner_hk_en_mo.jpg"}
         altText={"Liber Banner"}
       />
+
       {/* Section 1 */}
       <section className="text-gray-700">
         <div className="flex bg-[url('/images/liber-v/product-liber-v-computer-bg.jpg')] bg-center bg-no-repeat">
@@ -41,12 +42,14 @@ export default function LiberPage() {
           </div>
         </div>
       </section>
+
       {/* Section 2 */}
       <ProductBanner
         desktopImage={"/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg"}
         mobileImage={"/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg"}
         altText={"Liber Banner"}
       />
+
       {/* Section 3 */}
       <section className="text-gray-700">
         <div className="flex bg-[url('/images/liber-v/product-liber-v-view-bg.jpg')] bg-center bg-no-repeat">
@@ -89,6 +92,7 @@ export default function LiberPage() {
           </div>
         </div>
       </section>
+
       {/* Section 4 */}
       <section className="text-gray-700">
         <div
@@ -134,12 +138,15 @@ export default function LiberPage() {
           </div>
         </div>
       </section>
+
       {/* Section 5 */}
-      {/* TODO: finish this */}
       <section className="text-gray-700 bg-red-50">
-        <div className="flex bg-[url('/images/liber-v/product-liber-v-computer-bg2.png')] bg-center bg-no-repeat">
-          <div className="hidden md:basis-1/2 md:flex flex-col justify-center items-end border-4 border-red-500">
-            <div className="w-[48rem] pr-20">
+        <div
+          className="flex bg-[url('/images/liber-v/product-liber-v-computer-bg2.png')]
+          bg-center bg-no-repeat bg-cover md:p-20"
+        >
+          <div className="hidden md:basis-1/2 md:flex flex-col justify-center items-end">
+            <div className="">
               <img
                 src="/images/liber-v/AVITA_liber_v_screen.jpg"
                 alt="liber-v laptop 03"
@@ -147,8 +154,8 @@ export default function LiberPage() {
               />
             </div>
           </div>
-          <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-start border-4 border-red-500">
-            <div className="md:w-3/5 ml-0 md:ml-16">
+          <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-start">
+            <div className="md:w-3/5 md:ml-16">
               <h2 className="text-3xl text-center md:text-left mb-14">
                 Readily Portable
               </h2>
@@ -165,23 +172,134 @@ export default function LiberPage() {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2">
-              <div className="badge-caption pb-1">
-                <div className="badge-value d-inline pr-1">15.9</div>mm
-                <div className="badge-caption">Thin</div>
+
+            <div className="md:ml-16">
+              <div className="flex flex-row">
+                <div className="mr-36">
+                  <p>
+                    <span className="text-4xl mr-1">15.9</span>mm
+                  </p>
+                  <p>Thin</p>
+                </div>
+                <div>
+                  <img
+                    src="/images/liber-v/FaceUnlock.png"
+                    alt="FaceUnlock logo"
+                    className="w-20"
+                  />
+                </div>
               </div>
               <div>
-                <img
-                  className="bc-computer-image bc-computer-2"
-                  src="/images/liber-v/FaceUnlock.png"
-                />
+                <p>
+                  <span className="text-4xl mr-1">1.28</span>kg
+                </p>
+                <p>14-inch Monitor</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              <div className="badge-caption pb-1">
-                <div className="badge-value d-inline pr-1">1.28</div>kg
-                <div className="badge-caption">14-inch Monitor</div>
+      {/* Section 6 */}
+      <section className="text-gray-700 bg-green-50">
+        <div
+          className="flex bg-[url('/images/liber-v/product-liber-v-computer-bg.png')] 
+              bg-center bg-no-repeat bg-cover md:p-20"
+        >
+          <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-end">
+            <div className="md:w-3/5 md:mr-16 md:max-w-md">
+              <h2 className="text-3xl text-center mb-14">
+                Extraordinary Performance and Productivity{" "}
+              </h2>
+
+              <div className="leading-8 text-center mb-10">
+                <p className="mb-10">
+                  Not only LIBER V is unique in appearance but also in
+                  performance. Adapting the new 10th Gen Intel® Core™
+                  i5-10210U/i7-10510U processors, 8GB RAM and large storage up
+                  to 1TB SSD, LIBER V can swiftly process and access files,
+                  allowing you to work with ease, even with complex workflows.
+                </p>
+
+                <p>
+                  LIBER V’s full-size backlit keyboard with 1.5mm key travel and
+                  19mm key pitch delivers the ultimate word processing
+                  experience that you could ever ask for. Along with AVITA’s
+                  extra-large touchpad, support for 4 fingers gestures
+                  perfectly, you can have more space to control. LIBER V’s
+                  battery life lasts for up to 10 hours whilst the notebook is
+                  equipped with different ports that are compatible with other
+                  devices. Making it possible to simultaneously charge, transfer
+                  data, display, and connect to various devices to meet your
+                  different needs.
+                  <small>*Up to 10 hours on MobileMark 2014</small>
+                </p>
               </div>
-              <div></div>
+            </div>
+            <div className="flex items-center justify-center text-purple-900">
+              <div className="">
+                <div className="mb-6">
+                  <p>Operating System</p>
+                  <p className="text-4xl">Windows 10 Home</p>
+                </div>
+                <div className="flex">
+                  <div className="mr-24">
+                    <p>Up to</p>
+                    <p className="text-4xl">Core i7</p>
+                    <p>10th Gen INTEL® CORE™ PROCESSOR</p>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-4">
+                    <p>
+                      Up to
+                      <br />
+                      <span className="text-4xl">8</span>GB
+                      <br />
+                      RAM
+                    </p>
+
+                    <p>
+                      Up to
+                      <br />
+                      <span className="text-4xl">1</span>TB
+                      <br />
+                      SSD
+                    </p>
+
+                    <p>
+                      Up to
+                      <br />
+                      <span className="text-4xl">1.5</span> mm
+                      <br />
+                      key travel
+                    </p>
+
+                    <p>
+                      Up to
+                      <br />
+                      <span className="text-4xl">19</span>mm
+                      <br />
+                      key pitch
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="hidden md:basis-1/2 md:flex flex-col justify-center items-end">
+            <div className="">
+              <img
+                src="/images/liber-v/AVITA_liber_v_performance.jpg"
+                alt="AVITA_liber_v_performance"
+                className="w-full"
+              />
+
+              <img
+                src="/images/liber-v/p02_hk_en.png"
+                alt=""
+                className="w-full"
+              />
             </div>
           </div>
         </div>
