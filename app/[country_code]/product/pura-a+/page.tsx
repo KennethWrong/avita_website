@@ -1,6 +1,6 @@
 import ProductBanner from "@/components/ProductBanner";
 
-export default function Home() {
+export default function PuraAPlusPage() {
   return (
     <main>
       <ProductBanner
