@@ -156,6 +156,13 @@ export default function LiberPage() {
           </div>
           <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-start">
             <div className="md:w-3/5 md:ml-16">
+              <div className="block md:hidden mb-10">
+                <img
+                  src="/images/liber-v/AVITA_liber_v_screen.jpg"
+                  alt="liber-v laptop 03"
+                  className="w-full"
+                />
+              </div>
               <h2 className="text-3xl text-center md:text-left mb-14">
                 Readily Portable
               </h2>
@@ -208,6 +215,13 @@ export default function LiberPage() {
         >
           <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-end">
             <div className="md:w-3/5 md:mr-16 md:max-w-md">
+              <div className="block md:hidden mb-10">
+                <img
+                  src="/images/liber-v/AVITA_liber_v_performance.jpg"
+                  alt="AVITA_liber_v_performance"
+                  className="w-full"
+                />
+              </div>
               <h2 className="text-3xl text-center mb-14">
                 Extraordinary Performance and Productivity{" "}
               </h2>
@@ -302,6 +316,70 @@ export default function LiberPage() {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Section 7 */}
+      <section className="bg-blue-100">
+        <div
+          className="bg-[url('/images/liber-v/product-liber-v-computer-bg.png')] bg-center bg-no-repeat bg-cover
+        flex justify-center items-center p-10 md:py-28"
+        >
+          <img
+            src="/images/liber-v/AVITA_liber_v_io.png"
+            alt="AVITA_liber_v_io"
+          />
+        </div>
+      </section>
+
+      {/* Section 8 -- product statement */}
+      <section className="text-gray-700 bg-[#EEEEEE] flex justify-center items-center">
+        <div className="flex justify-center items-center px-10 md:w-2/3 py-10 md:py-24">
+          <ul className="list-disc leading-6 text-xs">
+            <li>
+              Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel
+              Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium,
+              Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside,
+              Xeon, and Xeon Inside are trademarks of Intel Corporation in the
+              U.S. and other countries.
+            </li>
+            <li>
+              Actual battery life may vary depending on product configuration,
+              usage, operational conditions and power management settings.
+              Battery life will decrease over the lifetime of the battery.
+            </li>
+            <li>
+              Models or specifications may vary from country to country. Check
+              with your local distributors or retailers for any updates on the
+              current product.
+            </li>
+            <li>
+              Weights vary depending on configuration and manufacturing
+              variability.
+            </li>
+            <li>
+              Colors of actual products may differ from product shots due to
+              photography lighting or display setting of your viewing device.
+            </li>
+            <li>
+              We try our best to provide accurate and complete product
+              information online yet we reserve the rights to keep, change or
+              correct any information without further notice.
+            </li>
+            <li>
+              Windows is either registered trademark or trademark of Microsoft
+              Corporation in the United States and/or other countries.
+            </li>
+            <li>The availability of colors may vary by retailers.</li>
+            <li>
+              Product appearance design, color, matching, may vary according to
+              different models and configurations.
+            </li>
+            <li>
+              In the event of any disputes, Nexstgo Company Limited reserves the
+              right of the final decision.
+            </li>
+          </ul>
         </div>
       </section>
     </main>
