@@ -2,11 +2,16 @@ import styles from "./Admiror.module.css";
 
 export default function AdmirorBatteryInfo() {
   return (
-    <section className="bg-[#777] text-white flex justify-center items-center h-[720px]">
+    <section className="bg-[#777] text-white flex justify-center items-center">
       {/* rows */}
-      <div className="flex flex-row max-w-6xl">
-        <div className="basis-1/2 p-10 bg-[url('/images/admiror/ADMIROR05.png')] bg-contain bg-no-repeat bg-center">
-          <div className="w-[80%]">
+      <div className="flex flex-col md:flex-row md:max-w-6xl py-10 md:py-20">
+        <img
+          src="/images/admiror/ADMIROR05.png"
+          alt="ADMIROR05"
+          className="block md:hidden"
+        />
+        <div className="basis-1/2 p-10 md:bg-[url('/images/admiror/ADMIROR05.png')] bg-contain bg-no-repeat bg-center">
+          <div className="md:w-[80%]">
             <h2 className={`${styles.admiror_h2} mb-5`}>
               Productivity maximized by Extended battery
             </h2>
