@@ -8,7 +8,7 @@ const Main: React.FC = () => {
 
   useEffect(() => {
     // Redirect to "/hk/home" on component load
-    router.push("/");
+    router.push("/hk/");
   }, [router]);
 
   return (
