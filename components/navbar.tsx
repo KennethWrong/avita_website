@@ -15,8 +15,8 @@ export const NavBar = () => {
           <Image
             src="/avita_logo.png"
             className="h-8"
-            width={200}
-            height={50}
+            width={150}
+            height={20}
             alt="avita Logo"
           />
         </Link>
@@ -26,20 +26,20 @@ export const NavBar = () => {
               <NavbarDropdown></NavbarDropdown>
             </li>
             <li>
-              <a
+              <Link
                 href="/hk/news/"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 What&apos;s new
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/hk/support"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Service
-              </a>
+              </Link>
             </li>
             <LanguageToggler></LanguageToggler>
           </ul>
