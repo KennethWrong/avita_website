@@ -1,6 +1,8 @@
-import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("satus_s");
+
   return (
     <main className="flex flex-col flex-grow">
       {/* product-satus-t101-banner */}
@@ -17,30 +19,17 @@ export default function Home() {
       {/* product-satus-t101-infoblock-1 */}
       <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24 text-center">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 leading-loose max-w-2xl mx-auto">
-          AVITA SATUS –Where the Successful Life Journey Begins
+          {t("satus_s_intro_title1")}
         </h2>
 
-        <h3 className=" text-2xl mb-8">Turning a new page of life</h3>
+        <h3 className=" text-2xl mb-8">{t("satus_s_intro_subtitle1")}</h3>
 
         <p className="text-gray-600 max-w-2xl mx-auto leading-loose text-lg">
-          SATUS, derived from the Latin vocabulary meaning “Start” and “Growth”.
-          It also comprises and can be elaborated as “seeding” and “budding”; it
-          represents the beginning of all things. In AVITA, we believe that
-          success derives from a great start, hence an effective and
-          well-designed appliance is crucial to cope with daily challenges and
-          achieving goals. <br />
+          {t("satus_s_intro_paragraph1")}
+          <br />
         </p>
         <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-loose text-lg">
-          Bearing this in mind, AVITA introduces the new - "AVITA SATUS" series
-          - a laptop dedicated for new generation of young users who are highly
-          familiar with studying under the constraints of the New Normal. The
-          product is designed and built in simple clear-cut design yet with
-          comprehensive manner, enabling users to deal with their different
-          missions and completing their various tasks in the best state. Making
-          their studies and daily lives more fulfilling and at ease. Its
-          limitless functions also broaden users’ horizons and imaginations
-          without having set foot to the outside world. SATUS is indeed the best
-          ‘1st laptop’ for many.
+          {t("satus_s_intro_paragraph2")}
         </p>
       </section>
 
@@ -48,16 +37,10 @@ export default function Home() {
       <section className="bg-gray-100 px-6 md:px-12 lg:px-0 flex flex-col lg:flex-row items-center lg:items-start">
         <div className="lg:w-1/2 lg:h-full text-center px-12 items-center mt-8">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-            Modern and Minimalist ．Design Aesthetics
+            {t("satus_s_design_title1")}
           </h2>
           <p className="text-gray-600 w-full mx-auto lg:mx-0 leading-loose mb-6">
-            AVITA SATUS S series leverages minimalist and neat design in neutral
-            color tone, just the right way to present an aesthetic design of
-            simplicity, an expression of ingenious, and be realistic without
-            being flashy. User-oriented with a complete and functional system
-            configuration, the series packs with a powerful punch to meet the
-            studies and work needs, allowing users to further explore and grow
-            without boundaries.
+            {t("satus_s_design_subtitle1")}
           </p>
         </div>
         <div className="flex-grow lg:w-1/2 lg:h-full mt-8 lg:mt-0 lg:ml-0 flex justify-center lg:justify-end">
@@ -80,24 +63,10 @@ export default function Home() {
         </div>
         <div className="lg:w-1/2 lg:h-full text-center px-12 items-center mt-8 flex flex-col">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-            Full HD screen．Broader vision and interaction
+            {t("satus_s_screen_title1")}
           </h2>
           <p className="text-gray-600 w-full mx-auto lg:mx-0 leading-loose mb-6">
-            In order to integrate AVITA SATUS S Series simple design with
-            practical functions, the laptop is equipped with a 15.6-inch full HD
-            IPS LCD Screen, which delivers a 178-degree ultra-wide viewing angle
-            with outstanding colour when being viewed from different angles. Its
-            colour accuracy and consistency with smooth and detailed images
-            showcased on screen can cater perfectly for any learning, social and
-            gaming purposes. For instance, clearer appearance and expressions of
-            participants would help create closer connection with each other
-            during online classes or video conferences, thus increase the level
-            of interaction and engagement throughout the conversations. It would
-            also help enhancing focus and concentration as users can easily read
-            through various file contents displayed on screen especially when
-            working on clerical tasks. In addition, users can easily split the
-            laptop screen into multiple windows, making work progress more
-            visually comfortable and efficient.
+            {t("satus_s_screen_subtitle1")}
           </p>
           <div className="flex lg:flex-row flex-col">
             <img
@@ -120,22 +89,10 @@ export default function Home() {
         <div className="lg:w-1/2 pl-10 flex flex-grow flex-col gap-6 lg:h-full items-center lg:mt-20 lg:mr-20 lg:items-end">
           <div className=" text-center flex flex-col items-center">
             <h3 className="text-xl font-semibold text-gray-800 mb-2 max-w-lg">
-              Quick startup．Smart connections
+              {t("satus_s_startup_title1")}
             </h3>
             <p className="text-gray-600 leading-loose max-w-lg">
-              AVITA SATUS S series comes in simple and smart details of which it
-              is structured with multiple ports, providing users a seamless and
-              convenient experience without the need of adapters. Equipped with
-              a dual core CPU Intel® Celeron® N4020 which brings reliable and
-              responsive performance, as well as a built-in 8GB LPDDR4 memory,
-              every single task whether it is word processing, presentations or
-              video calls can be processed without hindrance. The built-in SSD
-              drive also enables Windows 11 operating system to start up
-              swiftly. Hence, providing stable access to documents and ensuring
-              the data safety. Moreover, a Mini HDMI port and a MicroSD/TF card
-              slot are equipped, allowing users to connect to other external
-              devices for presentation use and expand the storage capacity of
-              their choice anytime without limits.
+              {t("satus_s_startup_subtitle1")}
             </p>
           </div>
           <div className="p-6 lg:ml-20">
