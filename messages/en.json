@@ -1,4 +1,12 @@
 {
+  "homepage": {
+    "signup": {
+      "title": "Join the AVITA Community",
+      "content": "Receive AVITA's latest news, promotions and offers",
+      "btn_text": "Sign Up Now"
+    }
+  },
+
   "satus_s": {
     "satus_s_intro_title1": "AVITA SATUS –Where the Successful Life Journey Begins",
     "satus_s_intro_subtitle1": "Turning a new page of life",
