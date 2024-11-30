@@ -1,6 +1,9 @@
 import ProductBanner from "@/components/ProductBanner";
+import { useTranslations } from "next-intl";
 
 export default function PuraAPlusPage() {
+  const t = useTranslations("pura-a-plus");
+
   return (
     <main>
       <ProductBanner
@@ -9,12 +12,10 @@ export default function PuraAPlusPage() {
         altText={"Pura A+ Banner"}
       />
 
-      {/* Section 1 */}
+      {/* Section 1 -- intro */}
       <section className="bg-white flex justify-center items-center text-gray-500">
         <div className="flex flex-col justify-center items-center max-w-3xl p-16">
-          <h3 className="text-3xl text-center mb-8">
-            Experience Power in Simplicity with PURA A+ Laptop!
-          </h3>
+          <h1 className="text-3xl text-center mb-8">{t("intro.title")}</h1>
 
           <div className="mb-8">
             <img
@@ -23,33 +24,17 @@ export default function PuraAPlusPage() {
               className="mb-2"
             />
 
-            <small>*Demo image of the AVITA PURA A+ 15.6”</small>
+            <small>{t("intro.demo_text")}</small>
           </div>
 
           <div className="leading-8">
-            <p className="text-center mb-8">
-              Power up your life with PURA A+, the new member of our PURA series
-              which provides users with both simplicity and power. When it comes
-              to student life, having a laptop that supports your all-round
-              education, learning, and development is important.
-            </p>
-            <p className="text-center">
-              PURA A+ is your ideal laptop choice for students who want
-              simplicity and power in one device. With its sleek, lightweight,
-              and durable design, PURA A+ is the perfect choice for individuals
-              who are always on-the-go. Whether you're working, reading books,
-              or watching movies, PURA A+ can meet all your needs. From music
-              production to sports knowledge, photography, and beyond, PURA A+
-              can support your interests and help you develop new skills.
-              Whether you're a student or a recent graduate starting your
-              career, PURA A+ is the ultimate companion for achieving your goals
-              and powering up your future.
-            </p>
+            <p className="text-center mb-8">{t("intro.content_part1")}</p>
+            <p className="text-center">{t("intro.content_part2")}</p>
           </div>
         </div>
       </section>
 
-      {/* Section 2 */}
+      {/* Section 2 -- color and creativity */}
       <section className="flex justify-center items-center bg-[#EEEEEE]">
         <div className="flex h-full w-2/3 py-24 text-gray-700">
           <div className="hidden md:flex md:basis-1/2  justify-center items-center mr-10 ">
@@ -60,7 +45,7 @@ export default function PuraAPlusPage() {
           </div>
           <div className="flex flex-col justify-center md:basis-1/2 ">
             <h2 className="text-3xl mb-14">
-              Immerse Yourself in a World of Color and Creativity!
+              {t("color_and_creativity.title")}
             </h2>
 
             <img
@@ -70,34 +55,21 @@ export default function PuraAPlusPage() {
             />
 
             <p className="leading-8 mb-5">
-              For individuals looking for a laptop that stands out, PURA A+ is
-              the ideal choice. The new PURA A+ laptop comes in five vibrant
-              colors, each with its own unique personality and style designed to
-              inspire creativity in its users. Expressing your unique style and
-              unleashing your creativity, only with PURA A+!
+              {t("color_and_creativity.content")}
             </p>
 
             <p className="">
-              <small>*Demo image of the AVITA PURA A+ 15.6”</small>
+              <small>{t("color_and_creativity.demo_text")}</small>
             </p>
           </div>
         </div>
       </section>
 
-      {/* Section 3 */}
+      {/* Section 3 -- color palette */}
       <section className="bg-white text-gray-500 flex justify-center items-center py-20 px-5">
         <div className="h-full w-3/4 flex flex-col justify-center items-center">
           <p className="leading-8 mb-10 md:w-1/2 text-center">
-            Trophy Purple represents luxury and sophistication, evoking a sense
-            of achievement and success. Award Pink expresses youthful and
-            playful, specifically designed for those who want to add a touch of
-            fun to their lives. Medal Black exudes elegance and className, while
-            evoking a feeling of power and sophistication - perfect for making a
-            bold statement. Badge Silver is associated with achievement and
-            success, perfect for those who want to evoke a sense of
-            accomplishment and recognition. Ribbon Blue creates a peaceful and
-            inviting environment, perfect for those who want to feel safe,
-            friendly, and relaxed.
+            {t("color_palette.content")}
           </p>
 
           <div>
@@ -109,7 +81,7 @@ export default function PuraAPlusPage() {
         </div>
       </section>
 
-      {/* Section 4 */}
+      {/* Section 4 -- academic goals */}
       <section className="bg-[#EEEEEE] flex justify-center items-center">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
@@ -121,10 +93,7 @@ export default function PuraAPlusPage() {
           </div>
           <div className="md:basis-1/2 flex sm:justify-center md:justify-start md:pl-10">
             <div className="h-full sm:w-[90%] md:w-3/5 flex flex-col justify-center items-start py-10">
-              <h2 className="text-3xl mb-14">
-                Maximize Your Abilities- Accomplish Your Goals with Skill and
-                Precision!
-              </h2>
+              <h2 className="text-3xl mb-14">{t("academic_goals.title")}</h2>
 
               <img
                 src="/images/pura-a-plus/PURA_A_plus_feature_1_mo.jpg"
@@ -132,13 +101,7 @@ export default function PuraAPlusPage() {
                 className="md:hidden mb-10"
               />
 
-              <p className="leading-8 mb-5">
-                PURA A+ is equipped with powerful features that help students
-                achieve their academic goals efficiently. The laptop's
-                high-performance CPU ensures productivity, with options
-                available including the 12th Gen Intel® Core™ processor with
-                Intel® Iris® Xe Graphics.
-              </p>
+              <p className="leading-8 mb-5">{t("academic_goals.content")}</p>
 
               <div className="text-purple-900">
                 <p>Up to</p>
@@ -157,9 +120,7 @@ export default function PuraAPlusPage() {
         <div className="flex py-20 ">
           <div className="p-10 md:p-0 md:basis-1/2 flex justify-end items-center ">
             <div className="md:w-3/5">
-              <h2 className="text-3xl mb-14">
-                Stay Organized and Driven to Achieve Your Dreams!
-              </h2>
+              <h2 className="text-3xl mb-14">{t("windows_11.title")}</h2>
 
               <img
                 src="/images/pura-a-plus/PURA_A_plus_feature_4_mo.jpg"
@@ -168,16 +129,8 @@ export default function PuraAPlusPage() {
               />
 
               <div className="leading-8 mb-10">
-                <p className="">
-                  Whether you are students, professionals, or busy parents, PURA
-                  A+ helps you stay organized to achieve your dreams. With a
-                  user-friendly interface and Windows 11 Home, PURA A+ helps you
-                  stay productive and on top of your game.
-                </p>
-                <p className="">
-                  The To Do widget keeps you focused and on track, ensuring you
-                  never miss an important deadline.
-                </p>
+                <p className="">{t("windows_11.content_part1")}</p>
+                <p className="">{t("windows_11.content_part2")}</p>
 
                 <a href="/hk/product/pura-a+/spec" className="text-blue-500">
                   Tech Spec &gt;
@@ -207,7 +160,7 @@ export default function PuraAPlusPage() {
         </div>
       </section>
 
-      {/* Section 6 */}
+      {/* Section 6 -- storage spec */}
       <section className="bg-[#EEEEEE] flex justify-center items-center">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
@@ -219,9 +172,7 @@ export default function PuraAPlusPage() {
           </div>
           <div className="md:basis-1/2 flex sm:justify-center md:justify-start md:pl-10">
             <div className="h-full sm:w-[90%] md:w-3/5 flex flex-col justify-center items-start py-10">
-              <h2 className="text-3xl mb-14">
-                Unleash Your Potential with BIG Storage and Flexibility!
-              </h2>
+              <h2 className="text-3xl mb-14">{t("storage_spec.title")}</h2>
 
               <img
                 src="/images/pura-a-plus/PURA_A_plus_feature_2_mo.jpg"
@@ -230,18 +181,8 @@ export default function PuraAPlusPage() {
               />
 
               <div className="leading-8 mb-5">
-                <p>
-                  You always have the ability to enhance your capabilities. PURA
-                  A+ provides you with big storage capacity, ensuring that you
-                  can store all your important files and documents without
-                  worrying about running out of space. With up to 512GB of SSD
-                  storage, you can keep all your photos, videos, and music in
-                  one place.
-                </p>
-                <p>
-                  This feature is perfect for individuals who need to store
-                  large files or work on multiple projects simultaneously.
-                </p>
+                <p>{t("storage_spec.content_part1")}</p>
+                <p>{t("storage_spec.content_part2")}</p>
               </div>
 
               <div className="text-purple-900 w-full flex sm:flex-col md:flex-row">
@@ -266,12 +207,10 @@ export default function PuraAPlusPage() {
         </div>
       </section>
 
-      {/* Section 7 */}
+      {/* Section 7 -- ports */}
       <section className="bg-white text-gray-500 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center py-24 md:w-1/3 px-10 md:px-0">
-          <h3 className="text-3xl text-center mb-8">
-            The OPTIMAL All-round Laptop for Students on-the-go!
-          </h3>
+          <h3 className="text-3xl text-center mb-8">{t("ports.title")}</h3>
 
           <div className="mb-8">
             <img
@@ -281,38 +220,18 @@ export default function PuraAPlusPage() {
           </div>
 
           <div className="leading-8 text-center">
-            <p>
-              Designed specifically for students who are always on the move,
-              PURA A+ is the ultimate all-in-one laptop for delivering
-              presentations and staying productive at school. With its multi-I/O
-              ports, connecting to different devices is effortless. Its reliable
-              performance and 178-degree ultra-wide viewing angle make it the
-              perfect device for students who demand high-quality performance.
-            </p>
-            <p>
-              Featuring a 14” and 15.6” Full HD IPS panel, PURA A+ delivers a
-              wider, more vivid, and immersive viewing experience. The
-              full-sized Edge-to-edge backlit keyboard makes typing more
-              comfortable and efficient. It also maximizes the available Space
-              for the keys and minimizes the overall footprint of the keyboard,
-              making it more compact and streamlined. With the backlit keys,
-              which make typing easier in any conditions and increase your
-              productivity. Whether you're exploring the internet or developing
-              your skills in various subjects, PURA A+ makes it easier to stay
-              focused, learn new things, and achieve your academic goals.
-            </p>
+            <p>{t("ports.content_part1")}</p>
+            <p>{t("ports.content_part2")}</p>
           </div>
         </div>
       </section>
 
-      {/* Section 8 */}
+      {/* Section 8 -- high grades */}
       <section className="text-gray-700 bg-[#EEEEEE]">
         <div className="flex">
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
             <div className="md:w-3/5 mr-0 md:mr-16">
-              <h2 className="text-3xl mb-14">
-                Upgrade Your Student Life and Achieve Remarkable High-Grades!
-              </h2>
+              <h2 className="text-3xl mb-14">{t("high_grades.title")}</h2>
 
               <img
                 src="/images/pura-a-plus/PURA_A_plus_feature_3_mo.jpg"
@@ -321,16 +240,7 @@ export default function PuraAPlusPage() {
               />
 
               <div className="leading-8 mb-10">
-                <p className="">
-                  PURA A+ is the perfect laptop for students who want a simple
-                  yet powerful device to support their all-round education and
-                  development. With a minimalist design, high-quality
-                  performance, and array of features, PURA A+ is the ultimate
-                  laptop for students who demand simplicity and power. Whether
-                  you're studying, working, or pursuing your passions, PURA A+
-                  has got you covered. Achieve remarkable high grades with PURA
-                  A+ and take your education and development to the next level!
-                </p>
+                <p className="">{t("high_grades.content")}</p>
               </div>
             </div>
           </div>
@@ -344,39 +254,16 @@ export default function PuraAPlusPage() {
         </div>
       </section>
 
-      {/* Section 9 -- product statement */}
+      {/* Section 9 -- disclaimer */}
       <section className="text-gray-700 bg-[#EEEEEE] flex justify-center items-center">
         <div className="flex justify-center items-center px-10 md:w-2/3 py-10 md:py-24">
           <ul className="list-disc leading-6 text-xs">
-            <li>
-              Models or specifications may vary from country to country. Check
-              with your local distributors or retailers for any updates on the
-              current product.
-            </li>
-            <li>
-              Weights vary depending on configuration and manufacturing
-              variability.
-            </li>
-            <li>
-              Colors of actual products may differ from product shots due to
-              photography lighting or display setting of your viewing device.
-            </li>
-            <li>
-              We try our best to provide accurate and complete product
-              information online yet we reserve the rights to keep, change or
-              correct any information without further notice.
-            </li>
-            <li>
-              Windows is either registered trademark or trademark of Microsoft
-              Corporation in the United States and/or other countries.
-            </li>
-            <li>
-              Battery life will vary depending on various factors including
-              product model, configuration, loaded applications, features, use,
-              wireless functionality, and power management settings. The maximum
-              capacity of the battery will naturally decrease with time and
-              usage.
-            </li>
+            <li>{t("disclaimer.bullet1")}</li>
+            <li>{t("disclaimer.bullet2")}</li>
+            <li>{t("disclaimer.bullet3")}</li>
+            <li>{t("disclaimer.bullet4")}</li>
+            <li>{t("disclaimer.bullet5")}</li>
+            <li>{t("disclaimer.bullet6")}</li>
           </ul>
         </div>
       </section>
