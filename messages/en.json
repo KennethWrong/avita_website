@@ -111,5 +111,47 @@
       "bullet5": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
       "bullet6": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries."
     }
+  },
+
+  "liber-v": {
+    "inspired_design": {
+      "title": "Post-modern inspired design",
+      "content": "Taking \"Limitless Evolution\" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion."
+    },
+
+    "viewing_experience": {
+      "title": "Incredible Viewing Experience",
+      "content": "Slimmer but greater. The LIBER V series has a 3.7mm unbound ultra-narrow bezel which has been reduced by about 63% compared with previous LIBER series notebooks, one step closer to perfection with its 78.2% screen-to-body ratio. With a full HD 16:9 IPS display with anti-glare, presenting detailed images clearly with a stable response time under various ambient indoor and outdoor lighting conditions, allowing you to enjoy the LIBER V's big world with the ultra-wide viewing angle of 178 degrees. Whether you are studying, working, or simply having fun, LIBER V brings you an extraordinary viewing experience that you have never seen."
+    },
+
+    "colorful_expression": {
+      "title": "Colorful Expression",
+      "content_part1": "Appealing to different style personalities, LIBER V debuts with over 14 distinguishably attractive colors. You can also customize your LIBER V with a laser engraving service, engraving names or words onto the chassis to reflect your unique personal statement, like a fashion accessory tailored just for you. You can fully release your personal charm and stand out from the crowd.",
+      "content_part2": "More color combinations will be coming soon to suit your every day needs. Whether you are a professional or a fashionista, LIBER V makes you shine even more."
+    },
+
+    "portable": {
+      "title": "Readily Portable",
+      "content": "LIBER V is sophisticatedly engineered by compacting a 14-inch screen inside the 13.3-inch that weights from just 1.28kg, 14% less than previous models and well-balancing lightness and durability, bringing you an easy and convenient experience. LIBER V incorporates a Windows Hello fingerprint reader, which strengthens privacy protection. LIBER V can always accompany you while traveling or working effortlessly."
+    },
+
+    "specs": {
+      "title": "Extraordinary Performance and Productivity",
+      "content_part1": "Not only LIBER V is unique in appearance but also in performance. Adapting the new 10th Gen Intel® Core™ i5-10210U/i7-10510U processors, 8GB RAM and large storage up to 1TB SSD, LIBER V can swiftly process and access files, allowing you to work with ease, even with complex workflows.",
+      "content_part2": "LIBER V’s full-size backlit keyboard with 1.5mm key travel and 19mm key pitch delivers the ultimate word processing experience that you could ever ask for. Along with AVITA’s extra-large touchpad, support for 4 fingers gestures perfectly, you can have more space to control. LIBER V’s battery life lasts for up to 10 hours whilst the notebook is equipped with different ports that are compatible with other devices. Making it possible to simultaneously charge, transfer data, display, and connect to various devices to meet your different needs. <br></br><small>*Up to 10 hours on MobileMark 2014</small>"
+    },
+
+    "disclaimer": {
+      "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.",
+      "bullet2": "Actual battery life may vary depending on product configuration, usage, operational conditions and power management settings. Battery life will decrease over the lifetime of the battery.",
+      "bullet3": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
+      "bullet4": "Weights vary depending on configuration and manufacturing variability.",
+      "bullet5": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
+      "bullet6": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
+      "bullet7": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.",
+      "bullet8": "The availability of colors may vary by retailers.",
+      "bullet9": "Product appearance design, color, matching, may vary according to different models and configurations.",
+      "bullet10": "In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision."
+    }
   }
 }
