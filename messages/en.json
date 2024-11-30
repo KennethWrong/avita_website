@@ -209,5 +209,55 @@
       "bullet5": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.",
       "bullet6": "Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage."
     }
+  },
+
+  "essential-lite": {
+    "intro": {
+      "title": "The ultra-lightweight ESSENTIAL Lite revolutionizes laptop <br></br> aesthetic with exquisite craftsmanship"
+    },
+
+    "art_form": {
+      "title": "Re-Discover the Beauty in Lite Inspired by Renaissance Art Form",
+      "content_part1": "ESSENTIAL Lite range assembled with exquisite craftsmanship which inspired by the Renaissance era 'sculptural design. The carved laptop is available in eight different stylish carved covers.*",
+      "content_part2": "*Planet Blue, Pixel Green, Solar Pink, Mega Purple, Geometric Motion, Cyber World, Digital Rainbow, Purple Network <br></br> (Different colors/patterns will be launched soon)"
+    },
+
+    "light_weight": {
+      "title": "LIGHT LOADED WITH 1KG FEATHERWEIGHT． <br></br> SLIM BODY WITH THIN BEZELS",
+      "content": "ESSENTIAL Lite is specially designed for standard users without compromising its function and quality. Within its 4 mm extremely thin bezels and 20 mm light-loaded body design there lies a 14-inch screen, and the whole compact constitues merely an approximate of 1kg#, which such lightloaded feature makes it stand out from other similar laptops in the market^. Giving you a convenient and flexible experience while carrying it around for learning and working at anytime and anywhere you want."
+    },
+
+    "anti_glare": {
+      "title": "COMFORTABLE VIEWING. <br></br> FULL HD ANTI-GLARE SCREEN",
+      "content": "The 14-inch 16:9 full HD IPS anti-glare display of ESSENTIAL Lite provides a 178-degree ultra-wide viewing angle which can effectively reduce eye fatigue while retaining the resolution of screen. It provides an optimal viewing comfort even if you are having online learning and working for a long duration of time. Its wide viewing angle allows you to review contents with every vivid detail from a maximised perspective anytime and anywhere."
+    },
+
+    "windows_11": {
+      "title": "UP-TO-DATE COMPACT． <br></br> PRELOADED WITH WINDOWS 11 OPERATING SYSTEM",
+      "content_part1": "ESSENTIAL Lite is pre-loaded with the latest Windows 11 Home Edition operating system which features a fresh and intuitively designed interface. Users are able to work on multiple apps or managing multiple windows simultaneously by simply clicking the \"Start\" button located at the center of the screen, offering incredible experiences for gaming, entertainment and communication.",
+      "content_part2": "The laptop is also equipped with Intel® Celeron® N4020 processor, 8GB LPDDR4 memory and up to 256GB SSD, boosting the performance with reliable configuration as well as bringing you a steadier experience while working or learning online every day."
+    },
+
+    "ports": {
+      "title": "SIMPLE AND CONVENIENT．AVAILABILITY OF MULTIPLE PORTS",
+      "content": "ESSENTIAL Lite prioritizes user convenience, and thus moved various ports that usually found on the left and right hand sides to the back of the device, which include the plug-ins for USB 3.0, HDMI to Micro SD. It allows you to connect peripheral devices no matter you are left-handed or right-handed, and you can manage your learning and working in all aspects at ease without having to take up lots of physical space."
+    },
+
+    "keyboard": {
+      "title": "ULTRA FLEXIBILITY． FULL-SIZE CURVED KEYBOARD",
+      "content": "ESSENTIAL Lite is also equipped with a specially designed full-size island style keyboard, offering you the best typing experience as distance between buttons are carefully calculated. Coupled with a large touchpad, you can simply slide your fingertips to have many different applications in control. Without any barrier and constraint, your learning and working performance can be enhanced."
+    },
+
+    "disclaimer": {
+      "bullet1": "^ Information as of December 2021.",
+      "bullet2": "# Weights may vary depending on manufacturing process.",
+      "bullet3": "* Different colors/patterns will be launched soon.",
+      "bullet4": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.",
+      "bullet5": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
+      "bullet6": "Weights vary depending on configuration and manufacturing variability.",
+      "bullet7": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
+      "bullet8": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
+      "bullet9": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries."
+    }
   }
 }
