@@ -2,7 +2,7 @@ import styles from "./Admiror.module.css";
 import { useTranslations } from "next-intl";
 
 export default function AdmirorPrideDelighted() {
-  const t = useTranslations("admiror");
+  const t = useTranslations("admiror.pride_delighted");
 
   return (
     <section
@@ -12,10 +12,10 @@ export default function AdmirorPrideDelighted() {
       {/* titles */}
       <div className="flex flex-col items-center py-10">
         <h3 className="text-xl md:text-3xl font-light tracking-wide mb-5">
-          {t("admiror_pride_title_h3")}
+          {t("title_h3")}
         </h3>
         <h1 className="text-3xl md:text-6xl font-light uppercase">
-          {t("admiror_pride_title")}
+          {t("title")}
         </h1>
       </div>
 
@@ -35,11 +35,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 md:basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              {t("admiror_pride_row1_title")}
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row1_title")}</h2>
 
-            <p className="leading-6">{t("admiror_pride_row1_content")}</p>
+            <p className="leading-6">{t("row1_content")}</p>
           </div>
         </div>
 
@@ -57,11 +55,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              {t("admiror_pride_row2_title")}
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row2_title")}</h2>
 
-            <span className="leading-6">{t("admiror_pride_row2_content")}</span>
+            <span className="leading-6">{t("row2_content")}</span>
           </div>
           <img
             src="/images/admiror/bg_B3_15_e.jpg"
@@ -78,11 +74,9 @@ export default function AdmirorPrideDelighted() {
         {/* row 3 */}
         <div className="flex flex-col md:flex-row md:w-[74rem] md:h-96 bg-[#f2f2f2]">
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              {t("admiror_pride_row3_title")}
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row3_title")}</h2>
 
-            <span className="leading-6">{t("admiror_pride_row3_content")}</span>
+            <span className="leading-6">{t("row3_content")}</span>
           </div>
 
           <img
@@ -97,13 +91,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              {t("admiror_pride_row3_title2")}
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row3_title2")}</h2>
 
-            <span className="leading-6">
-              {t("admiror_pride_row3_content2")}
-            </span>
+            <span className="leading-6">{t("row3_content2")}</span>
           </div>
         </div>
       </section>

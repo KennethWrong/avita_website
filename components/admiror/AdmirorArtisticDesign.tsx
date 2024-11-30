@@ -2,7 +2,7 @@ import styles from "./Admiror.module.css";
 import { useTranslations } from "next-intl";
 
 export default function AdmirorArtisticDesign() {
-  const t = useTranslations("admiror");
+  const t = useTranslations("admiror.artistic_design");
 
   return (
     <section className="text-white" id="artistic_design">
@@ -13,12 +13,8 @@ export default function AdmirorArtisticDesign() {
       >
         <div className="flex flex-col">
           <div className="text-center w-full">
-            <h1 className="text-4xl font-bold uppercase mb-5">
-              {t("admiror_artistic_title")}
-            </h1>
-            <h3 className="text-3xl font-medium mb-4">
-              {t("admiror_artistic_sub_title")}
-            </h3>
+            <h1 className="text-4xl font-bold uppercase mb-5">{t("title")}</h1>
+            <h3 className="text-3xl font-medium mb-4">{t("sub_title")}</h3>
           </div>
 
           <div className="flex flex-row items-center justify-center ">
@@ -30,18 +26,14 @@ export default function AdmirorArtisticDesign() {
 
             <div className="text-center md:text-left md:max-w-xl md:ml-24">
               <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
-                {t("admiror_artistic_p_title")}
+                {t("p_title")}
               </h2>
-              <p className="leading-loose text-white">
-                {t("admiror_artistic_p_content")}
-              </p>
+              <p className="leading-loose text-white">{t("p_content")}</p>
 
               <h2 className={`${styles.admiror_h2} pb-5 mt-16`}>
-                {t("admiror_artistic_p_title2")}
+                {t("p_title2")}
               </h2>
-              <p className="leading-loose text-white">
-                {t("admiror_artistic_p_content2")}
-              </p>
+              <p className="leading-loose text-white">{t("p_content2")}</p>
             </div>
           </div>
         </div>

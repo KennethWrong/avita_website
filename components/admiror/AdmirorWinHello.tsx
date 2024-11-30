@@ -1,6 +1,9 @@
 import styles from "./Admiror.module.css";
+import { useTranslations } from "next-intl";
 
 export default function AdmirorWinHello() {
+  const t = useTranslations("admiror.win_hello");
+
   return (
     <section className="text-white">
       <div
@@ -15,17 +18,9 @@ export default function AdmirorWinHello() {
                 alt="bg_admiror03"
                 className="block md:hidden mb-6"
               />
-              <div className={`${styles.admiror_h2} mb-5`}>
-                One-touch access with Windows Hello
-              </div>
+              <h2 className={`${styles.admiror_h2} mb-5`}>{t("title")}</h2>
 
-              <p className="leading-8 mb-5">
-                Gone are the days when password is used for login. ADMIROR
-                incorporates fingerprint reader and works seamlessly with
-                Windows Hello for both convenient log-in and strengthened
-                privacy protection. You can rest assured that every piece of
-                work and personal data is well protected.
-              </p>
+              <p className="leading-8 mb-5">{t("content")}</p>
 
               <div className="flex flex-row">
                 <img
