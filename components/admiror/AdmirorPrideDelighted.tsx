@@ -1,6 +1,9 @@
 import styles from "./Admiror.module.css";
+import { useTranslations } from "next-intl";
 
 export default function AdmirorPrideDelighted() {
+  const t = useTranslations("admiror.pride_delighted");
+
   return (
     <section
       id="usage_experience"
@@ -9,10 +12,10 @@ export default function AdmirorPrideDelighted() {
       {/* titles */}
       <div className="flex flex-col items-center py-10">
         <h3 className="text-xl md:text-3xl font-light tracking-wide mb-5">
-          Usage Experience that you can feel{" "}
+          {t("title_h3")}
         </h3>
         <h1 className="text-3xl md:text-6xl font-light uppercase">
-          PRIDE &amp; DELIGHTED
+          {t("title")}
         </h1>
       </div>
 
@@ -32,17 +35,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 md:basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              Realistic image with stunning clarity
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row1_title")}</h2>
 
-            <p className="leading-6">
-              The ADMIROR series offers a 14-inch and a 15.6-inch 16:9 FHD IPS
-              display, both with extra-wide 178-degree viewing angle. The
-              lifelike image quality, support up to 72% NTSC color gamut, offers
-              an enjoyable viewing experience browsing websites or watching
-              video clips.
-            </p>
+            <p className="leading-6">{t("row1_content")}</p>
           </div>
         </div>
 
@@ -60,16 +55,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              Extra-large Touchscreen
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row2_title")}</h2>
 
-            <span className="leading-6">
-              Explore endless possibilities with Precision Touchpad (PTP)
-              technology which supports up to four-finger smart gestures. This
-              feature allows you to navigate websites and videos with greater
-              ease.
-            </span>
+            <span className="leading-6">{t("row2_content")}</span>
           </div>
           <img
             src="/images/admiror/bg_B3_15_e.jpg"
@@ -86,17 +74,9 @@ export default function AdmirorPrideDelighted() {
         {/* row 3 */}
         <div className="flex flex-col md:flex-row md:w-[74rem] md:h-96 bg-[#f2f2f2]">
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              Backlit keyboard for unbounded exploration
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row3_title")}</h2>
 
-            <span className="leading-6">
-              The backlit design of the Full Size keyboard enables you to locate
-              each keycap in dimly-lit environments. Work and entertainment are
-              no longer constrained by time and place. This feature makes
-              uninterrupted workflow possible and helps you explore the world
-              anytime anywhere.
-            </span>
+            <span className="leading-6">{t("row3_content")}</span>
           </div>
 
           <img
@@ -111,15 +91,9 @@ export default function AdmirorPrideDelighted() {
           />
 
           <div className="flex flex-col justify-center items-center p-10 basis-1/3">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              Exceptional audio-visual ex erience
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("row3_title2")}</h2>
 
-            <span className="leading-6">
-              Music is a big part of an identity. ADMIROR's 2 full range
-              speakers and 4 passive boosters are set to bring out the best
-              audio-visual experience for your enjoyment.
-            </span>
+            <span className="leading-6">{t("row3_content2")}</span>
           </div>
         </div>
       </section>

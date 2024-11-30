@@ -1,6 +1,9 @@
 import ProductBanner from "@/components/ProductBanner";
+import { useTranslations } from "next-intl";
 
 export default function EssentialLitePage() {
+  const t = useTranslations("essential-lite");
+
   return (
     <main>
       <ProductBanner
@@ -9,36 +12,34 @@ export default function EssentialLitePage() {
         altText={"AVITA_essential_lite_en"}
       />
 
-      {/* Section 1 */}
+      {/* Section 1 -- intro */}
       <section className="bg-[#EEE] text-gray-700 w-full">
         <div className="w-full flex flex-col justify-center items-center py-20 md:py-32">
-          <h1 className="text-center text-3xl mb-20">
-            The ultra-lightweight ESSENTIAL Lite revolutionizes laptop
-            <br />
-            aesthetic with exquisite craftsmanship
+          <h1 className="text-center text-3xl">
+            {t.rich("intro.title", {
+              br: () => <br />,
+            })}
           </h1>
-          <div className="w-full flex justify-center">
-            <a href="/" target="_blank" className="mr-10 hover:underline">
-              Buy now &gt;
-            </a>
-            <a
-              href="/hk/product/essential-lite/where_to_buy"
-              className="hover:underline"
-            >
-              Where to buy &gt;
-            </a>
-          </div>
+          {/* <div className="w-full flex justify-center mt-20"> */}
+          {/*   <a href="/" target="_blank" className="mr-10 hover:underline"> */}
+          {/*     Buy now &gt; */}
+          {/*   </a> */}
+          {/*   <a */}
+          {/*     href="/hk/product/essential-lite/where_to_buy" */}
+          {/*     className="hover:underline" */}
+          {/*   > */}
+          {/*     Where to buy &gt; */}
+          {/*   </a> */}
+          {/* </div> */}
         </div>
       </section>
 
-      {/* Section 2 */}
+      {/* Section 2 -- art form */}
       <section className="text-gray-700 bg-white">
         <div className="flex">
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
             <div className="md:w-3/5 mr-0 md:mr-16">
-              <h2 className="text-3xl mb-14">
-                Re-Discover the Beauty in Lite Inspired by Renaissance Art Form
-              </h2>
+              <h2 className="text-3xl mb-14">{t("art_form.title")}</h2>
 
               <img
                 src="/images/essential-lite/essential-lite14_bg1_mo.jpg"
@@ -47,19 +48,9 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p className="mb-10">
-                  ESSENTIAL Lite range assembled with exquisite craftsmanship
-                  which inspired by the Renaissance era 'sculptural design. The
-                  carved laptop is available in eight different stylish carved
-                  covers.*
-                </p>
+                <p className="mb-10">{t("art_form.content_part1")}</p>
 
-                <p>
-                  *Planet Blue, Pixel Green, Solar Pink, Mega Purple, Geometric
-                  Motion, Cyber World, Digital Rainbow, Purple Network
-                  <br />
-                  (Different colors/patterns will be launched soon)
-                </p>
+                <p>{t.rich("art_form.content_part2", { br: () => <br /> })}</p>
               </div>
             </div>
           </div>
@@ -73,7 +64,7 @@ export default function EssentialLitePage() {
         </div>
       </section>
 
-      {/* Section 3 */}
+      {/* Section 3 -- light weight */}
       <section className="text-gray-800 bg-white">
         <div
           className="flex bg-white md:bg-[url('/images/essential-lite/essential-lite14_bg2.jpg')]
@@ -83,9 +74,7 @@ export default function EssentialLitePage() {
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
             <div className="md:w-3/5 ml-0 md:ml-16">
               <h2 className="text-3xl mb-14">
-                LIGHT LOADED WITH 1KG FEATHERWEIGHT．
-                <br />
-                SLIM BODY WITH THIN BEZELS
+                {t.rich("light_weight.title", { br: () => <br /> })}
               </h2>
 
               <div className="flex mb-10">
@@ -106,24 +95,14 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p>
-                  ESSENTIAL Lite is specially designed for standard users
-                  without compromising its function and quality. Within its 4 mm
-                  extremely thin bezels and 20 mm light-loaded body design there
-                  lies a 14-inch screen, and the whole compact constitues merely
-                  an approximate of 1kg#, which such lightloaded feature makes
-                  it stand out from other similar laptops in the market^. Giving
-                  you a convenient and flexible experience while carrying it
-                  around for learning and working at anytime and anywhere you
-                  want.
-                </p>
+                <p>{t("light_weight.content")}</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 4 */}
+      {/* Section 4 -- anti glare */}
       <section className="text-gray-700 bg-white">
         <div
           className="flex bg-white md:bg-[url('/images/essential-lite/essential-lite14_bg3.jpg')]
@@ -132,9 +111,7 @@ export default function EssentialLitePage() {
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
             <div className="md:w-2/3 mr-0 md:mr-16">
               <h2 className="text-3xl mb-14">
-                COMFORTABLE VIEWING．
-                <br />
-                FULL HD ANTI-GLARE SCREEN
+                {t.rich("anti_glare.title", { br: () => <br /> })}
               </h2>
 
               <div className="flex mb-10">
@@ -158,16 +135,7 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p>
-                  The 14-inch 16:9 full HD IPS anti-glare display of ESSENTIAL
-                  Lite provides a 178-degree ultra-wide viewing angle which can
-                  effectively reduce eye fatigue while retaining the resolution
-                  of screen. It provides an optimal viewing comfort even if you
-                  are having online learning and working for a long duration of
-                  time. Its wide viewing angle allows you to review contents
-                  with every vivid detail from a maximised perspective anytime
-                  and anywhere.
-                </p>
+                <p>{t("anti_glare.content")}</p>
               </div>
             </div>
           </div>
@@ -175,7 +143,7 @@ export default function EssentialLitePage() {
         </div>
       </section>
 
-      {/* Section 5 */}
+      {/* Section 5 -- windows 11 */}
       <section className="text-gray-800 bg-white">
         <div
           className="flex bg-[#EEE] md:bg-[url('/images/essential-lite/essential-lite14_bg4.jpg')]
@@ -185,9 +153,7 @@ export default function EssentialLitePage() {
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
             <div className="md:w-3/5 ml-0 md:ml-16">
               <h2 className="text-3xl mb-14">
-                UP-TO-DATE COMPACT．
-                <br />
-                PRELOADED WITH WINDOWS 11 OPERATING SYSTEM
+                {t.rich("windows_11.title", { br: () => <br /> })}
               </h2>
 
               <div className="flex mb-10">
@@ -205,22 +171,8 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p className="mb-8">
-                  ESSENTIAL Lite is pre-loaded with the latest Windows 11 Home
-                  Edition operating system which features a fresh and
-                  intuitively designed interface. Users are able to work on
-                  multiple apps or managing multiple windows simultaneously by
-                  simply clicking the "Start" button located at the center of
-                  the screen, offering incredible experiences for gaming,
-                  entertainment and communication.
-                </p>
-                <p>
-                  The laptop is also equipped with Intel® Celeron® N4020
-                  processor, 8GB LPDDR4 memory and up to 256GB SSD, boosting the
-                  performance with reliable configuration as well as bringing
-                  you a steadier experience while working or learning online
-                  every day.
-                </p>
+                <p className="mb-8">{t("windows_11.content_part1")}</p>
+                <p>{t("windows_11.content_part2")}</p>
                 <a
                   href="https://avita.com/hk/product/essential-lite/spec"
                   className="text-blue-500 hover:underline"
@@ -269,14 +221,12 @@ export default function EssentialLitePage() {
         </div>
       </section>
 
-      {/* Section 6 */}
+      {/* Section 6 -- ports */}
       <section className="text-gray-700 bg-white md:bg-[#F9F3E7]">
         <div className="flex">
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-end items-center">
             <div className="md:w-3/5 mr-0 md:mr-16">
-              <h2 className="text-3xl mb-14">
-                SIMPLE AND CONVENIENT．AVAILABILITY OF MULTIPLE PORTS
-              </h2>
+              <h2 className="text-3xl mb-14">{t("ports.title")}</h2>
 
               <img
                 src="/images/essential-lite/essential-lite14_bg5_mo.jpg"
@@ -285,16 +235,7 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p>
-                  ESSENTIAL Lite prioritizes user convenience, and thus moved
-                  various ports that usually found on the left and right hand
-                  sides to the back of the device, which include the plug-ins
-                  for USB 3.0, HDMI to Micro SD. It allows you to connect
-                  peripheral devices no matter you are left-handed or
-                  right-handed, and you can manage your learning and working in
-                  all aspects at ease without having to take up lots of physical
-                  space.
-                </p>
+                <p>{t("ports.content")}</p>
               </div>
             </div>
           </div>
@@ -308,7 +249,7 @@ export default function EssentialLitePage() {
         </div>
       </section>
 
-      {/* Section 7 */}
+      {/* Section 7 -- keyboard */}
       <section className="text-gray-700 bg-white">
         <div className="flex">
           <div className="hidden md:basis-1/2 md:flex justify-center items-center">
@@ -320,9 +261,7 @@ export default function EssentialLitePage() {
           </div>
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
             <div className="md:w-3/5 ml-0 md:ml-16">
-              <h2 className="text-3xl mb-14">
-                ULTRA FLEXIBILITY． FULL-SIZE CURVED KEYBOARD
-              </h2>
+              <h2 className="text-3xl mb-14">{t("keyboard.title")}</h2>
 
               <img
                 src="/images/essential-lite/essential-lite14_bg6_mo.jpg"
@@ -331,61 +270,26 @@ export default function EssentialLitePage() {
               />
 
               <div className="leading-8 mb-10">
-                <p>
-                  ESSENTIAL Lite is also equipped with a specially designed
-                  full-size island style keyboard, offering you the best typing
-                  experience as distance between buttons are carefully
-                  calculated. Coupled with a large touchpad, you can simply
-                  slide your fingertips to have many different applications in
-                  control. Without any barrier and constraint, your learning and
-                  working performance can be enhanced.
-                </p>
+                <p>{t("keyboard.content")}</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 8 -- product statement */}
+      {/* Section 8 -- disclaimer */}
       <section className="text-gray-700 bg-[#EEEEEE] flex justify-center items-center">
         <div className="flex justify-center items-center px-10 md:w-2/3 py-10 md:py-24">
           <ul className="list-disc leading-6 text-xs">
-            <li>
-              <span>^ Information as of December 2021.</span>
-              <span>
-                # Weights may vary depending on manufacturing process.
-              </span>
-              <span>* Different colors/patterns will be launched soon.</span>
-            </li>
-            <li>
-              Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel
-              Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium,
-              Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside,
-              Xeon, and Xeon Inside are trademarks of Intel Corporation in the
-              U.S. and other countries.
-            </li>
-            <li>
-              Models or specifications may vary from country to country. Check
-              with your local distributors or retailers for any updates on the
-              current product.
-            </li>
-            <li>
-              Weights vary depending on configuration and manufacturing
-              variability.
-            </li>
-            <li>
-              Colors of actual products may differ from product shots due to
-              photography lighting or display setting of your viewing device.
-            </li>
-            <li>
-              We try our best to provide accurate and complete product
-              information online yet we reserve the rights to keep, change or
-              correct any information without further notice.
-            </li>
-            <li>
-              Windows is either registered trademark or trademark of Microsoft
-              Corporation in the United States and/or other countries.
-            </li>
+            <li>{t("disclaimer.bullet1")}</li>
+            <li>{t("disclaimer.bullet2")}</li>
+            <li>{t("disclaimer.bullet3")}</li>
+            <li>{t("disclaimer.bullet4")}</li>
+            <li>{t("disclaimer.bullet5")}</li>
+            <li>{t("disclaimer.bullet6")}</li>
+            <li>{t("disclaimer.bullet7")}</li>
+            <li>{t("disclaimer.bullet8")}</li>
+            <li>{t("disclaimer.bullet9")}</li>
           </ul>
         </div>
       </section>
