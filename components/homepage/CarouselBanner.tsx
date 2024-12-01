@@ -10,37 +10,25 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useTranslations } from "next-intl";
 
 export default function CarouselBanner() {
+  const t = useTranslations("homepage");
+
   const images = [
     {
-      s: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_mo.jpg",
-      m: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_pc.jpg",
+      s: t("homepage_image_pura_s"),
+      m: t("homepage_image_pura_m"),
     },
 
     {
-      s: "/images/home/banner_1_en_mo.jpg",
-      m: "/images/home/banner_1_en_pc.jpg",
+      s: t("homepage_image_satus_s102_s"),
+      m: t("homepage_image_satus_s102_m"),
     },
 
     {
-      s: "/images/home/blockchainpc_solution_mo_en.png",
-      m: "/images/home/blockchainpc_solution_pc_en.png",
-    },
-
-    {
-      s: "/images/home/AVITA_pura-a-plus-mo_en.jpg",
-      m: "/images/home/AVITA_pura-a-plus-pc_en.jpg",
-    },
-
-    {
-      s: "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
-      m: "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
-    },
-
-    {
-      s: "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
-      m: "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
+      s: t("homepage_image_satus_15_s"),
+      m: t("homepage_image_satus_15_m"),
     },
   ];
 
