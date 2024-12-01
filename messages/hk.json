@@ -200,12 +200,12 @@
         "satus_s_disclaimer_dispute": "In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision."
     },
     "homepage": {
-        "homepage_image_pura_s": "AVITA_pura-a-plus-mo_en.jpg",
-        "homepage_image_pura_m": "AVITA_pura-a-plus-pc_en.jpg",
-        "homepage_image_satus_s102_s": "AVITA_satus_s102_bigcore_banner_en_mo.jpg",
-        "homepage_image_satus_s102_m": "AVITA_satus_s102_bigcore_banner_en.jpg",
-        "homepage_image_satus_15_s": "AVITA_satus_15_win_11_banner_en_mo.jpg",
-        "homepage_image_satus_15_m": "AVITA_satus_15_win_11_banner_en.jpg",
+        "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_en.jpg",
+        "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+        "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
+        "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+        "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
+        "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
         "homepage_image_box": {
             "computer": "/images/home/promo-01-en.jpg",
             "event": "/images/home/promo-02-en.jpg",
