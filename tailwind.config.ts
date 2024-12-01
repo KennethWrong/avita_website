@@ -11,6 +11,7 @@ export default {
 	listStyleType: {
 		square: 'square',
 		disc: 'disc',
+		decimal: 'decimal'
 	},
   	extend: {
   		colors: {

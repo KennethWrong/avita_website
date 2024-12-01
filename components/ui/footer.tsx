@@ -1,8 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaGlobe } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const Footer: React.FC = () => {
+  const t = useTranslations("footer");
+
   return (
     <footer className="bg-gray-100 text-gray-800 py-8 px-4">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 flex-col">
@@ -32,30 +35,30 @@ const Footer: React.FC = () => {
             <div className="flex lg:flex-row flex-row space-x-12">
               <div className="flex flex-col space-y-2">
                 <Link href="/hk/product/liber-v" className="hover:underline">
-                  <p>Products</p>
+                  <p>{t("footer_products")}</p>
                 </Link>
                 <Link href="/hk/news" className="hover:underline">
-                  <p>What's New</p>
+                  <p>{t("footer_whats_new")}</p>
                 </Link>
                 <Link href="/aboutus" className="hover:underline">
-                  <p>About Us</p>
+                  <p>{t("footer_about_us")}</p>
                 </Link>
                 <Link href="/contact_us" className="hover:underline">
-                  <p>Contact AVITA</p>
+                  <p>{t("footer_contact")}</p>
                 </Link>
               </div>
               <div className="flex flex-col space-y-2">
                 <Link href="/hk/support" className="hover:underline">
-                  <p>Support</p>
+                  <p>{t("footer_support")}</p>
                 </Link>
                 <Link href="/hk/repair_tnc" className="hover:underline">
-                  <p>Repair Terms & Conditions</p>
+                  <p>{t("footer_repair")}</p>
                 </Link>
                 <Link href="/tnc" className="hover:underline">
-                  <p>Terms of Use Notice</p>
+                  <p>{t("footer_term_of_use")}</p>
                 </Link>
                 <Link href="/tnc" className="hover:underline">
-                  <p>Privacy Policy</p>
+                  <p>{t("footer_privacy_policy")}</p>
                 </Link>
               </div>
             </div>
@@ -65,11 +68,11 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-2 gap-x-2">
               <FaGlobe className=" ml-4"></FaGlobe>
               <Link href="/entry" className=" hover:underline">
-                HONG KONG
+                {t("footer_country")}
               </Link>
             </div>
             <p className="text-xs text-gray-600">
-              © AVITA TECHNOLOGIES INTERNATIONAL CO., LTD. ALL RIGHTS RESERVED.
+              {t("footer_rights_reserved")}
             </p>
           </div>
         </div>
