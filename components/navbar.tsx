@@ -3,8 +3,11 @@ import Image from "next/image";
 import { NavbarDropdown } from "./navbar-dropdown";
 import Link from "next/link";
 import { LanguageToggler } from "./languageToggler";
+import { useTranslations } from "next-intl";
 
 export const NavBar = () => {
+  const t = useTranslations("navbar");
+
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -30,7 +33,7 @@ export const NavBar = () => {
                 href="/hk/news/"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                What&apos;s new
+                {t("navbar_whats_new")}
               </Link>
             </li>
             <li>
@@ -38,7 +41,7 @@ export const NavBar = () => {
                 href="/hk/support"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Service
+                {t("navbar_service")}
               </Link>
             </li>
             <LanguageToggler></LanguageToggler>
