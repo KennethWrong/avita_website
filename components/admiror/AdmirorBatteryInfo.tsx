@@ -1,6 +1,9 @@
 import styles from "./Admiror.module.css";
+import { useTranslations } from "next-intl";
 
 export default function AdmirorBatteryInfo() {
+  const t = useTranslations("admiror.battery_info");
+
   return (
     <section className="bg-[#777] text-white flex justify-center items-center">
       {/* rows */}
@@ -12,47 +15,38 @@ export default function AdmirorBatteryInfo() {
         />
         <div className="basis-1/2 p-10 md:bg-[url('/images/admiror/ADMIROR05.png')] bg-contain bg-no-repeat bg-center">
           <div className="md:w-[80%]">
-            <h2 className={`${styles.admiror_h2} mb-5`}>
-              Productivity maximized by Extended battery
-            </h2>
+            <h2 className={`${styles.admiror_h2} mb-5`}>{t("title")}</h2>
 
-            <p className="leading-8 mb-10">
-              Battery life lasts up to 10 hours. Without the need to look around
-              for a power source, let your creativity flow and stay
-              uninterrupted during your work or a favourite show.
-            </p>
+            <p className="leading-8 mb-10">{t("desc")}</p>
 
             <div className="">
-              Up to <br />
+              {t("life_prefix")} <br />
               <img src="/images/admiror/10hr_e.png" alt="Battery Life Icon" />
-              Battery life <br />
-              <small>* Battery life up to 9 hours for 15.6-inch</small>
+              {t("life_suffix")} <br />
+              <span className="text-sm">{t("life_note")}</span>
             </div>
           </div>
         </div>
 
         <div className="basis-1/2 p-10">
           <h2 className={`${styles.admiror_h2} mb-5`}>
-            Connectivity that fits your needs
+            {t("connectivity_title")}
           </h2>
 
           <p className="leading-8">
-            With two built-in USB-C ports, the ADMIROR is the perfect for work
-            on the go. The ADMIROR comes with a USB-C to USB, HDMI and 3.5mm
-            audio jack adapter, ensuring the highest connectivity. Meanwhile,
-            the USB-C to 3.5mm headphone jack cable allows you to indulge in
-            your favorite jam.
-            <br />
-            <br />
-            Colour-coordinated wireless mouse and portable bluetooth speaker
-            will be launched soon.
+            {t.rich("connectivity_desc", {
+              br: () => <br />,
+            })}
           </p>
 
           <div className="flex flex-row mt-5">
             <div className="mr-10">
               <img src="/images/admiror/pic_usb_adapter_15.png" alt="Adapter" />
               <p className="txt_white">
-                USB-C to <br /> USB/HDMI/3.5mm audio jack adapter
+                {/* USB-C to <br></br> USB/HDMI/3.5mm audio jack adapter */}
+                {t.rich("adapter_desc", {
+                  br: () => <br />,
+                })}
               </p>
             </div>
             <img
