@@ -79,7 +79,7 @@ export const Page = ({
     const country = params.country_code;
     const article = findArticle(params.country_code, params.id);
     if (article == null) {
-      router.push("/hk/news");
+      router.push("/news");
     } else {
       setArticle(article);
     }
@@ -125,9 +125,6 @@ export const Page = ({
       {/* Description */}
       {article.body.map((val: string, index: number) => {
         return renderBody(index, val);
-        // <p key={index} className="text-gray-600 mb-4">
-        //   {val}
-        // </p>
       })}
     </div>
   );

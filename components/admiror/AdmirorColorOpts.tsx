@@ -22,18 +22,6 @@ export default function AdmirorColorOpts() {
             src="/images/admiror/pic_offer_hk_15_en.png"
             className="w-[60%] mb-5 mt-10"
           />
-
-          {/* <div className=""> */}
-          {/*   <a href="" className="text-[#7accc8] mr-3 hover:underline"> */}
-          {/*     Buy now &gt; */}
-          {/*   </a> */}
-          {/*   <a */}
-          {/*     href="/hk/product/admiror/where_to_buy" */}
-          {/*     className="hover:underline" */}
-          {/*   > */}
-          {/*     Where to buy &gt; */}
-          {/*   </a> */}
-          {/* </div> */}
         </div>
 
         <div className="hidden md:block md:basis-1/2">

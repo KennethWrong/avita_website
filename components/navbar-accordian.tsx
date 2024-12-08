@@ -5,7 +5,7 @@ import Link from "next/link";
 import { LanguageToggler } from "./languageToggler";
 import { useTranslations } from "next-intl";
 
-export const NavBar = () => {
+export const NavBarAccordian = () => {
   const t = useTranslations("navbar");
 
   return (

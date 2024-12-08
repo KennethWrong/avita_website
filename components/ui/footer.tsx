@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaGlobe } from "react-icons/fa";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Footer: React.FC = () => {
   const t = useTranslations("footer");
@@ -34,30 +34,30 @@ const Footer: React.FC = () => {
           <div className="flex justify-between items-start text-sm">
             <div className="flex lg:flex-row flex-row space-x-12">
               <div className="flex flex-col space-y-2">
-                <Link href="/hk/product/liber-v" className="hover:underline">
+                <Link href={`/product/liber-v`} className="hover:underline">
                   <p>{t("footer_products")}</p>
                 </Link>
-                <Link href="/hk/news" className="hover:underline">
+                <Link href={`/news`} className="hover:underline">
                   <p>{t("footer_whats_new")}</p>
                 </Link>
-                <Link href="/aboutus" className="hover:underline">
+                <Link href={`/aboutus`} className="hover:underline">
                   <p>{t("footer_about_us")}</p>
                 </Link>
-                <Link href="/contact_us" className="hover:underline">
+                <Link href={`/contact_us`} className="hover:underline">
                   <p>{t("footer_contact")}</p>
                 </Link>
               </div>
               <div className="flex flex-col space-y-2">
-                <Link href="/hk/support" className="hover:underline">
+                <Link href={`/support`} className="hover:underline">
                   <p>{t("footer_support")}</p>
                 </Link>
-                <Link href="/hk/repair_tnc" className="hover:underline">
+                <Link href={`/repair_tnc`} className="hover:underline">
                   <p>{t("footer_repair")}</p>
                 </Link>
-                <Link href="/tnc" className="hover:underline">
+                <Link href={`/tnc`} className="hover:underline">
                   <p>{t("footer_term_of_use")}</p>
                 </Link>
-                <Link href="/tnc" className="hover:underline">
+                <Link href={`/tnc`} className="hover:underline">
                   <p>{t("footer_privacy_policy")}</p>
                 </Link>
               </div>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center sm:items-end text-center sm:text-right mt-6 sm:mt-0">
             <div className="flex items-center mb-2 gap-x-2">
               <FaGlobe className=" ml-4"></FaGlobe>
-              <Link href="/entry" className=" hover:underline">
+              <Link href={`/entry`} className="hover:underline">
                 {t("footer_country")}
               </Link>
             </div>
