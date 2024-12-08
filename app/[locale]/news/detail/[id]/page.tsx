@@ -1,4 +1,5 @@
 "use client";
+
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
@@ -6,13 +7,13 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const findArticle = (countryCode: string, articleId: number) => {
-  const inArticle = countryCode in newsJSON;
+const findArticle = (articleId: number) => {
+  const inArticle = newsJSON.hk;
   if (!inArticle) {
     return null;
   }
 
-  const arr = ParseJSONToNewsClass(newsJSON[countryCode]);
+  const arr = ParseJSONToNewsClass(newsJSON.hk);
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].id === articleId) {
       return arr[i];
@@ -56,21 +57,24 @@ const renderBody = (key: number, text: string) => {
   }
 };
 
-export const Page = ({
-  params,
-}: {
-  params: { id: number; country_code: string };
-}) => {
+export default function Page({ params }: { params: Promise<{ id: number }> }) {
   const router = useRouter();
   const [article, setArticle] = useState(new News(0, "", [], "", "", ""));
 
   useEffect(() => {
-    const article = findArticle(params.country_code, params.id);
-    if (article == null) {
-      router.push("/news");
-    } else {
-      setArticle(article);
-    }
+    const asyncArticle = async () => {
+      const id = (await params).id;
+      const article = findArticle(id);
+      if (article == null) {
+        router.push("/news");
+      } else {
+        setArticle(article);
+      }
+    };
+
+    asyncArticle().finally(() => {
+      console.log("Fetched");
+    });
   }, []);
 
   return (
@@ -116,6 +120,4 @@ export const Page = ({
       })}
     </div>
   );
-};
-
-export default Page;
+}
