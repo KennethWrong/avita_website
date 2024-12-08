@@ -1,7 +1,7 @@
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { Card, CardContent, CardHeader } from "./ui/card";
 
-import { News } from "@/app/[country_code]/news/const";
+import { News } from "@/app/[locale]/news/const";
 import { useRouter } from "next/navigation";
 interface NewsComponentProps {
   news: News;

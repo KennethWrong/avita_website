@@ -5,16 +5,15 @@ import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { useLocale } from "next-intl";
 import Link from "next/link";
 
-const findArticle = (countryCode: string, articleId: number) => {
-  const inArticle = countryCode in newsJSON;
+const findArticle = (articleId: number) => {
+  const inArticle = newsJSON.hk;
   if (!inArticle) {
     return null;
   }
 
-  const arr = ParseJSONToNewsClass(newsJSON[countryCode]);
+  const arr = ParseJSONToNewsClass(newsJSON.hk);
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].id === articleId) {
       return arr[i];
@@ -61,12 +60,11 @@ const renderBody = (key: number, text: string) => {
 export default function Page({ params }: { params: Promise<{ id: number }> }) {
   const router = useRouter();
   const [article, setArticle] = useState(new News(0, "", [], "", "", ""));
-  const locale = useLocale();
 
   useEffect(() => {
     const asyncArticle = async () => {
       const id = (await params).id;
-      const article = findArticle(locale, id);
+      const article = findArticle(id);
       if (article == null) {
         router.push("/news");
       } else {
