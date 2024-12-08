@@ -58,7 +58,7 @@ const renderBody = (key: number, text: string) => {
   }
 };
 
-export default function Page({ params }: { params: { id: number } }) {
+export default function Page({ params }: { params: Promise<{ id: number }> }) {
   const router = useRouter();
   const [article, setArticle] = useState(new News(0, "", [], "", "", ""));
   const locale = useLocale();
@@ -75,7 +75,7 @@ export default function Page({ params }: { params: { id: number } }) {
     };
 
     asyncArticle().finally(() => {
-      console.log("finito");
+      console.log("Fetched");
     });
   }, []);
 
