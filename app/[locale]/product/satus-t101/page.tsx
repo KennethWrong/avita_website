@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Home() {
   const t = useTranslations("satus_t101");
@@ -216,9 +217,9 @@ export default function Home() {
         <ul className="list-disc list-inside space-y-0.5 text-gray-700 leading-relaxed text-xs">
           <li>
             {t("satus_t101_disclaimer_warranted")}
-            <a href="#" className="text-blue-600 underline">
+            <Link href="#" className="text-blue-600 underline">
               {t("satus_t101_disclaimer_click_here")}
-            </a>
+            </Link>
             .
           </li>
           <li>{t("satus_t101_disclaimer_specifications")}</li>

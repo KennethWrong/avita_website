@@ -4,17 +4,7 @@ import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-
-const getNewsIdNumber = (number: string) => {
-  const newsId = parseInt(number, 10);
-
-  // Check if the result is a valid number (not NaN)
-  if (isNaN(newsId)) {
-    console.error("Error: The input is not a valid integer.");
-    return ""; // Return null if not a valid integer
-  }
-  return newsId;
-};
+import Link from "next/link";
 
 const findArticle = (countryCode: string, articleId: number) => {
   const inArticle = countryCode in newsJSON;
@@ -75,8 +65,6 @@ export const Page = ({
   const [article, setArticle] = useState(new News(0, "", [], "", "", ""));
 
   useEffect(() => {
-    const newsId = params.id;
-    const country = params.country_code;
     const article = findArticle(params.country_code, params.id);
     if (article == null) {
       router.push("/news");
@@ -93,12 +81,12 @@ export const Page = ({
         <div className="flex items-center space-x-3">
           <span className="text-gray-500">Share:</span>
           <div className="flex space-x-2">
-            <a href="#" className="text-gray-400 hover:text-gray-600">
+            <Link href="#" className="text-gray-400 hover:text-gray-600">
               <FaTwitter color="purple" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-gray-600">
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-gray-600">
               <FaFacebook color="purple" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

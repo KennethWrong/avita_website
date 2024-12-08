@@ -1,5 +1,6 @@
 import ProductBanner from "@/components/ProductBanner";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function EssentialLitePage() {
   const t = useTranslations("essential-lite");
@@ -162,25 +163,25 @@ export default function EssentialLitePage() {
               <div className="leading-8 mb-10">
                 <p className="mb-8">{t("windows_11.content_part1")}</p>
                 <p>{t("windows_11.content_part2")}</p>
-                <a
+                <Link
                   href="https://avita.com/hk/product/essential-lite/spec"
                   className="text-blue-500 hover:underline"
                 >
                   Tech Spec &gt;
-                </a>
+                </Link>
               </div>
 
               <div className="text-purple-900">
                 <div className="mb-8">
                   <p>Operating System</p>
                   <p className="text-4xl">Windows 11 Home</p>
-                  <a
+                  <Link
                     href="https://support.microsoft.com/en/help/4020089/windows-10-in-s-mode-faq"
                     target="_blank"
                     className="text-blue-500 hover:underline"
                   >
                     Know more &gt;
-                  </a>
+                  </Link>
                 </div>
                 <div className="mb-8">
                   <p>Up to</p>

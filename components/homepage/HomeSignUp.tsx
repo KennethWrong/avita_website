@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function HomeSignUp() {
   const t = useTranslations("homepage");
@@ -8,7 +9,7 @@ export default function HomeSignUp() {
       <div className="flex flex-col justify-center items-center">
         <h2 className="text-3xl text-gray-700 mb-5">{t("signup.title")}</h2>
         <p className="text-lg text-gray-500 mb-5">{t("signup.content")}</p>
-        <a className="" href="/register?">
+        <Link className="" href="/register?">
           <div
             className="flex justify-center items-center
               bg-purple-800 hover:bg-gray-700 text-white w-80 h-10 p-5"
@@ -16,7 +17,7 @@ export default function HomeSignUp() {
             {t("signup.btn_text")}
             {/* <input type="hidden" id="alertMsg" value="Thank you for your subscribing!">  */}
           </div>
-        </a>
+        </Link>
       </div>
     </section>
   );

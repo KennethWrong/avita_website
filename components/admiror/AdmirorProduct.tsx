@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function AdmirorProduct() {
   const t = useTranslations("admiror.product");
@@ -31,7 +32,7 @@ export default function AdmirorProduct() {
         <section>
           <div className="flex flex-col md:flex-row md:max-w-6xl justify-center items-center">
             <div className="mx-5 md:max-w-[33%]">
-              <a href="#artistic_design" className="group">
+              <Link href="#artistic_design" className="group">
                 <img
                   className="group-hover:hidden"
                   src="/images/admiror/btn_artistic_1.png"
@@ -40,11 +41,11 @@ export default function AdmirorProduct() {
                   className="hidden group-hover:block"
                   src="/images/admiror/btn_artistic_2.png"
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="mx-5 md:max-w-[33%]">
-              <a href="#usage_experience" className="group">
+              <Link href="#usage_experience" className="group">
                 <img
                   className="group-hover:hidden"
                   src="/images/admiror/btn_pride_1.png"
@@ -53,11 +54,11 @@ export default function AdmirorProduct() {
                   className="hidden group-hover:block"
                   src="/images/admiror/btn_pride_2.png"
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="mx-5 md:max-w-[33%]">
-              <a href="#outstanding" className="group">
+              <Link href="#outstanding" className="group">
                 <img
                   className="group-hover:hidden"
                   src="/images/admiror/btn_outstanding_1.png"
@@ -66,7 +67,7 @@ export default function AdmirorProduct() {
                   className="hidden group-hover:block"
                   src="/images/admiror/btn_outstanding_2.png"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </section>

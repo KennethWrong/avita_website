@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaGlobe } from "react-icons/fa";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
 const Footer: React.FC = () => {
   const t = useTranslations("footer");
