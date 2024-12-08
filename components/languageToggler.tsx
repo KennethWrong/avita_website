@@ -2,13 +2,6 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 
-// const language = {
-//     hk: ["en", "中"],
-//     tw: ["en", "中"],
-//     th: ["ภาษาไทย", "en"],
-//     ph: ["en"],
-// };
-
 export const LanguageToggler = () => {
   const [click, setClick] = useState(0);
 

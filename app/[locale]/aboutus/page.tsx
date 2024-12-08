@@ -24,12 +24,12 @@ const Aboutus: React.FC = () => {
             <img
               src="/images/aboutus/intel_Titanium_partner.jpg" // Replace this with the path to your image
               alt="People sitting in a line laughing"
-              className=" w-32 h-auto"
+              className="lg:w-32 h-auto w-16"
             />
             <img
               src="/images/aboutus/reddot_winner_2021.png" // Replace this with the path to your image
               alt="People sitting in a line laughing"
-              className="w-56 h-auto"
+              className="lg:w-56 h-auto w-32"
             />
           </div>
           <p>

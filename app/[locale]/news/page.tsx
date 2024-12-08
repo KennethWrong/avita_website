@@ -1,15 +1,6 @@
 "use client";
 
 import { NewsCard } from "@/components/newsCard";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import Image from "next/image";
-import { FaRegCalendarAlt } from "react-icons/fa";
 import newsJSON from "./news.json";
 import { News, ParseJSONToNewsClass } from "./const";
 
