@@ -1,5 +1,6 @@
 import ProductBanner from "@/components/ProductBanner";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function PuraAPlusPage() {
   const t = useTranslations("pura-a-plus");
@@ -132,21 +133,21 @@ export default function PuraAPlusPage() {
                 <p className="">{t("windows_11.content_part1")}</p>
                 <p className="">{t("windows_11.content_part2")}</p>
 
-                <a href="/hk/product/pura-a+/spec" className="text-blue-500">
+                <Link href="/product/pura-a+/spec" className="text-blue-500">
                   Tech Spec &gt;
-                </a>
+                </Link>
               </div>
 
               <div className="text-purple-900">
                 <p>Operating System</p>
                 <p className="text-4xl">Windows 11 Home</p>
-                <a
+                <Link
                   href="https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85#WindowsVersion=Windows_11"
                   target="_blank"
                   className="text-blue-500"
                 >
                   Know more &gt;
-                </a>
+                </Link>
               </div>
             </div>
           </div>
