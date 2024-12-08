@@ -1,4 +1,10 @@
+"use client";
+
+import { useTranslations } from "use-intl";
+
 export default function HomePromo() {
+  const t = useTranslations("homepage.homepage_image_box");
+
   return (
     // TODO: Don't hardcode /hk
     // maybe also do onclick or Link instead
@@ -9,41 +15,25 @@ export default function HomePromo() {
     >
       <div className="basis-1/4">
         <a href="/hk/product/liber/spec">
-          <img
-            src="/images/home/promo-01-en.jpg"
-            alt="promo-01-en"
-            className="w-full"
-          />
+          <img src={t("computer")} alt="promo-01-en" className="w-full" />
         </a>
       </div>
 
       <div className="basis-1/4">
         <a href="/hk/news">
-          <img
-            src="/images/home/promo-02-en.jpg"
-            alt="promo-02-en"
-            className="w-full"
-          />
+          <img src={t("event")} alt="promo-02-en" className="w-full" />
         </a>
       </div>
 
       <div className="basis-1/4">
         <a href="/aboutus">
-          <img
-            src="/images/home/promo-03-en.jpg"
-            alt="promo-03-en"
-            className="w-full"
-          />
+          <img src={t("about_us")} alt="promo-03-en" className="w-full" />
         </a>
       </div>
 
       <div className="basis-1/4">
         <a href="/hk/support">
-          <img
-            src="/images/home/promo-04-en.jpg"
-            alt="promo-04-en"
-            className="w-full"
-          />
+          <img src={t("support")} alt="promo-04-en" className="w-full" />
         </a>
       </div>
     </section>

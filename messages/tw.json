@@ -109,6 +109,20 @@
         "satus_s102_disclaimer_battery_life":"實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
         "satus_s102_disclaimer_dispute": "如有任何爭議，AVITA TECHNOLOGIES INTERNATIONAL CO.,LTD. 保留最終決定權。"
     },
+    "homepage": {
+        "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_tc.jpg",
+        "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_tc.jpg",
+        "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_mo_tc.jpg",
+        "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_pc_tc.jpg",
+        "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_tc_mo.jpg",
+        "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_tc.jpg",
+        "homepage_image_box": {
+            "computer": "/images/home/promo-01.jpg",
+            "event": "/images/home/promo-02.jpg",
+            "about_us": "/images/home/promo-03.jpg",
+            "support": "/images/home/promo-04.jpg"
+        }
+    },
     "satus_t101": {
         "satus_t101_image_banner": "AVITA_satus_t101_product_banner_tc.jpg",
         "satus_t101_intro_title1": "開拓全新視野．由 Android 驅動的平板電腦 AVITA SATUS T101 開始",

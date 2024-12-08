@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="flex flex-col justify-center items-center w-screen">
       <CarouselBanner />
       <HomePromo />
-      <HomeSignUp />
+      {/* <HomeSignUp /> */}
     </main>
   );
 }
