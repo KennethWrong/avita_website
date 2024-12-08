@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
 import { useRouter } from "next/navigation";
-import { useActionState, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 import Link from "next/link";
 
