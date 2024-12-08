@@ -1,9 +1,10 @@
 "use client";
+
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useActionState, useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 import Link from "next/link";
 
@@ -63,12 +64,19 @@ export default function Page({ params }: { params: { id: number } }) {
   const locale = useLocale();
 
   useEffect(() => {
-    const article = findArticle(locale, params.id);
-    if (article == null) {
-      router.push("/news");
-    } else {
-      setArticle(article);
-    }
+    const asyncArticle = async () => {
+      const id = (await params).id;
+      const article = findArticle(locale, id);
+      if (article == null) {
+        router.push("/news");
+      } else {
+        setArticle(article);
+      }
+    };
+
+    asyncArticle().finally(() => {
+      console.log("finito");
+    });
   }, []);
 
   return (
