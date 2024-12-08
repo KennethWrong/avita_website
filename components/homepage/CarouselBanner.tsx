@@ -2,6 +2,7 @@
 
 // Autoplay can only be used on the client
 import Autoplay from "embla-carousel-autoplay";
+import { useTranslations } from "next-intl";
 
 import {
   Carousel,
@@ -12,35 +13,37 @@ import {
 } from "@/components/ui/carousel";
 
 export default function CarouselBanner() {
+  const t = useTranslations("homepage.carousel");
+
   const images = [
     {
-      s: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_mo.jpg",
-      m: "/images/home/avita_global_cloud_SIM_Pocket_WiFi_pc.jpg",
+      s: t("banner1_mo"),
+      m: t("banner1_pc"),
     },
 
     {
-      s: "/images/home/banner_1_en_mo.jpg",
-      m: "/images/home/banner_1_en_pc.jpg",
+      s: t("banner2_mo"),
+      m: t("banner2_pc"),
     },
 
     {
-      s: "/images/home/blockchainpc_solution_mo_en.png",
-      m: "/images/home/blockchainpc_solution_pc_en.png",
+      s: t("banner3_mo"),
+      m: t("banner3_pc"),
     },
 
     {
-      s: "/images/home/AVITA_pura-a-plus-mo_en.jpg",
-      m: "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+      s: t("banner4_mo"),
+      m: t("banner4_pc"),
     },
 
     {
-      s: "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
-      m: "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+      s: t("banner5_mo"),
+      m: t("banner5_pc"),
     },
 
     {
-      s: "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
-      m: "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
+      s: t("banner6_mo"),
+      m: t("banner6_pc"),
     },
   ];
 

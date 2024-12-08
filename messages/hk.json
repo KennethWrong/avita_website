@@ -207,10 +207,25 @@
   },
 
   "homepage": {
-    "signup": {
-      "title": "Join the AVITA Community",
-      "content": "Receive AVITA's latest news, promotions and offers",
-      "btn_text": "Sign Up Now"
+    "carousel": {
+      "banner1_mo": "/images/home/banner_1_en_mo.jpg",
+      "banner1_pc": "/images/home/banner_1_en_pc.jpg",
+      "banner2_mo": "/images/home/avita_global_cloud_SIM_Pocket_WiFi_mo.jpg",
+      "banner2_pc": "/images/home/avita_global_cloud_SIM_Pocket_WiFi_pc.jpg",
+      "banner3_mo": "/images/home/blockchainpc_solution_mo_en.png",
+      "banner3_pc": "/images/home/blockchainpc_solution_pc_en.png",
+      "banner4_mo": "/images/home/AVITA_pura-a-plus-mo_en.jpg",
+      "banner4_pc": "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+      "banner5_mo": "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
+      "banner5_pc": "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+      "banner6_mo": "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
+      "banner6_pc": "/images/home/AVITA_satus_15_win_11_banner_en.jpg"
+    },
+    "promo": {
+      "promo1": "/images/home/promo-01-en.jpg",
+      "promo2": "/images/home/promo-02-en.jpg",
+      "promo3": "/images/home/promo-03-en.jpg",
+      "promo4": "/images/home/promo-04-en.jpg"
     }
   },
 
