@@ -1,6 +1,14 @@
 import React from "react";
 
-export default function ProductBanner({ desktopImage, mobileImage, altText }) {
+export default function ProductBanner({
+  desktopImage,
+  mobileImage,
+  altText,
+}: {
+  desktopImage: string;
+  mobileImage: string;
+  altText: string;
+}) {
   return (
     <section>
       <div className="w-full h-auto top-0 left-0 relative">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FaMap, FaClock, FaPhone, FaEnvelope } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 

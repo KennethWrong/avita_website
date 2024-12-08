@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Page() {
   const titleColour = "text-purple-800 mb-1";
   const sectionStyle = "mt-7";
