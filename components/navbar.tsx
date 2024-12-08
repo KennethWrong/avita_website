@@ -4,13 +4,14 @@ import { NavbarDropdown } from "./navbar-dropdown";
 import Link from "next/link";
 import { LanguageToggler } from "./languageToggler";
 import { useTranslations } from "next-intl";
+import { NavBarAccordian } from "./navbar-accordian";
 
 export const NavBar = () => {
   const t = useTranslations("navbar");
 
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 flex-col md:flex-row">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -23,6 +24,7 @@ export const NavBar = () => {
             alt="avita Logo"
           />
         </Link>
+        <NavBarAccordian />
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
