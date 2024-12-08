@@ -4,6 +4,7 @@ import newsJSON from "../../news.json";
 import { News, ParseJSONToNewsClass } from "../../const";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useLocale } from "next-intl";
 import Link from "next/link";
 
 const findArticle = (countryCode: string, articleId: number) => {
@@ -56,16 +57,13 @@ const renderBody = (key: number, text: string) => {
   }
 };
 
-export const Page = ({
-  params,
-}: {
-  params: { id: number; country_code: string };
-}) => {
+export default function Page({ params }: { params: { id: number } }) {
   const router = useRouter();
   const [article, setArticle] = useState(new News(0, "", [], "", "", ""));
+  const locale = useLocale();
 
   useEffect(() => {
-    const article = findArticle(params.country_code, params.id);
+    const article = findArticle(locale, params.id);
     if (article == null) {
       router.push("/news");
     } else {
@@ -116,6 +114,4 @@ export const Page = ({
       })}
     </div>
   );
-};
-
-export default Page;
+}
