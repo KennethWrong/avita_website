@@ -20,17 +20,6 @@ export default function EssentialLitePage() {
               br: () => <br />,
             })}
           </h1>
-          {/* <div className="w-full flex justify-center mt-20"> */}
-          {/*   <a href="/" target="_blank" className="mr-10 hover:underline"> */}
-          {/*     Buy now &gt; */}
-          {/*   </a> */}
-          {/*   <a */}
-          {/*     href="/hk/product/essential-lite/where_to_buy" */}
-          {/*     className="hover:underline" */}
-          {/*   > */}
-          {/*     Where to buy &gt; */}
-          {/*   </a> */}
-          {/* </div> */}
         </div>
       </section>
 

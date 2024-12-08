@@ -33,7 +33,7 @@ export const NewsCard: React.FC<NewsComponentProps> = ({ news }) => {
     <div
       className=" hover:cursor-pointer max-w-5/6"
       onClick={() => {
-        router.push(`/hk/news/detail/${news.id}`);
+        router.push(`/news/detail/${news.id}`);
       }}
     >
       <Card className=" lg:w-5/6 w-full content-between mb-2 shadow-2xl lg:min-h-72 items-center justify-center">

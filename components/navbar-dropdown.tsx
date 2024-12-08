@@ -34,38 +34,38 @@ export const NavbarDropdown = () => {
           <DropdownMenuSubTrigger>{t("navbar_laptop")}</DropdownMenuSubTrigger>
           <DropdownMenuSubContent>
             <DropdownMenuItem>
-              <Link href="/hk/product/admiror">AVITA ADMIROR</Link>
+              <Link href="/product/admiror">AVITA ADMIROR</Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/hk/product/liber-v">AVITA LIBER</Link>
+              <Link href="/product/liber-v">AVITA LIBER</Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/hk/product/pura-a+">AVITA PURA</Link>
+              <Link href="/product/pura-a+">AVITA PURA</Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/hk/product/essential-lite">AVITA ESSENTIAL</Link>
+              <Link href="/product/essential-lite">AVITA ESSENTIAL</Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuSub>
               <DropdownMenuSubTrigger>AVITA SATUS</DropdownMenuSubTrigger>
               <DropdownMenuSubContent>
                 <DropdownMenuItem>
-                  <Link href="/hk/product/satus-t101">AVITA SATUS T101</Link>
+                  <Link href="/product/satus-t101">AVITA SATUS T101</Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
-                  <Link href="/hk/product/satus-s">AVITA SATUS S101</Link>
+                  <Link href="/product/satus-s">AVITA SATUS S101</Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
-                  <Link href="/hk/product/satus-s">AVITA SATUS S102</Link>
+                  <Link href="/product/satus-s">AVITA SATUS S102</Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
-                  <Link href="/hk/product/satus-s102-intelcore">
+                  <Link href="/product/satus-s102-intelcore">
                     AVITA SATUS S102-Intel Core
                   </Link>
                 </DropdownMenuItem>
