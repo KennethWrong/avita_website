@@ -307,12 +307,24 @@
   },
 
   "liber-v": {
+    "banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_hk_en.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_hk_en_mo.jpg"
+    },
+
     "inspired_design": {
       "title": "Post-modern inspired design",
-      "content": "Taking \"Limitless Evolution\" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion."
+      "content": "Taking \"Limitless Evolution\" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion.",
+      "color_opts_img": "/images/liber-v/LiberV_14colors_hk_en.png"
+    },
+
+    "limitless_vision_banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg"
     },
 
     "viewing_experience": {
+      "features_img": "/images/liber-v/Features_hk_en.png",
       "title": "Incredible Viewing Experience",
       "content": "Slimmer but greater. The LIBER V series has a 3.7mm unbound ultra-narrow bezel which has been reduced by about 63% compared with previous LIBER series notebooks, one step closer to perfection with its 78.2% screen-to-body ratio. With a full HD 16:9 IPS display with anti-glare, presenting detailed images clearly with a stable response time under various ambient indoor and outdoor lighting conditions, allowing you to enjoy the LIBER V's big world with the ultra-wide viewing angle of 178 degrees. Whether you are studying, working, or simply having fun, LIBER V brings you an extraordinary viewing experience that you have never seen."
     },
@@ -325,13 +337,22 @@
 
     "portable": {
       "title": "Readily Portable",
-      "content": "LIBER V is sophisticatedly engineered by compacting a 14-inch screen inside the 13.3-inch that weights from just 1.28kg, 14% less than previous models and well-balancing lightness and durability, bringing you an easy and convenient experience. LIBER V incorporates a Windows Hello fingerprint reader, which strengthens privacy protection. LIBER V can always accompany you while traveling or working effortlessly."
+      "content": "LIBER V is sophisticatedly engineered by compacting a 14-inch screen inside the 13.3-inch that weights from just 1.28kg, 14% less than previous models and well-balancing lightness and durability, bringing you an easy and convenient experience. LIBER V incorporates a Windows Hello fingerprint reader, which strengthens privacy protection. LIBER V can always accompany you while traveling or working effortlessly.",
+      "thickness_unit": "mm",
+      "thickness_desc": "Thin",
+      "weight_unit": "kg",
+      "monitor_desc": "14-inch Monitor"
     },
 
     "specs": {
       "title": "Extraordinary Performance and Productivity",
       "content_part1": "Not only LIBER V is unique in appearance but also in performance. Adapting the new 10th Gen Intel® Core™ i5-10210U/i7-10510U processors, 8GB RAM and large storage up to 1TB SSD, LIBER V can swiftly process and access files, allowing you to work with ease, even with complex workflows.",
-      "content_part2": "LIBER V’s full-size backlit keyboard with 1.5mm key travel and 19mm key pitch delivers the ultimate word processing experience that you could ever ask for. Along with AVITA’s extra-large touchpad, support for 4 fingers gestures perfectly, you can have more space to control. LIBER V’s battery life lasts for up to 10 hours whilst the notebook is equipped with different ports that are compatible with other devices. Making it possible to simultaneously charge, transfer data, display, and connect to various devices to meet your different needs. <br></br><small>*Up to 10 hours on MobileMark 2014</small>"
+      "content_part2": "LIBER V’s full-size backlit keyboard with 1.5mm key travel and 19mm key pitch delivers the ultimate word processing experience that you could ever ask for. Along with AVITA’s extra-large touchpad, support for 4 fingers gestures perfectly, you can have more space to control. LIBER V’s battery life lasts for up to 10 hours whilst the notebook is equipped with different ports that are compatible with other devices. Making it possible to simultaneously charge, transfer data, display, and connect to various devices to meet your different needs. <br></br><small>*Up to 10 hours on MobileMark 2014</small>",
+      "operating_system": "Operating System",
+      "up_to": "Up to",
+      "mm": "mm",
+      "key_travel": "key travel",
+      "key_pitch": "key pitch"
     },
 
     "disclaimer": {

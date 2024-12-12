@@ -298,5 +298,68 @@
       "bullet4": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
       "bullet5": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。"
     }
+  },
+
+  "liber-v": {
+    "banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_tw.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_tw_mo.jpg"
+    },
+
+    "inspired_design": {
+      "title": "外形．破格非凡",
+      "content": "以「Limitless Evolution」為系列理念，注入以鮮明多變為創作原則的後現代建築設計風格，LIBER V 參照西班牙La Muralla Roja前衛堡壘，獨樹一格地以俐落的幾何線條，把網絡鏡頭劃出螢幕界限。完美演繹後現代主義的幾何立方結構風格，令機身更纖巧，亦更容易開啟。配合亮麗的機身色系，為手提電腦的設計時尚帶來重新詮釋！",
+      "color_opts_img": "/images/liber-v/LiberV_14colors.png"
+    },
+
+    "limitless_vision_banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_v2_tw.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_v2_tw_mo.jpg"
+    },
+
+    "viewing_experience": {
+      "features_img": "/images/liber-v/Features_tw.png",
+      "title": "視野．從此無界",
+      "content": "機身細細，但畫面強大。LIBER V 擁有極致纖幼的 3.7mm 無邊際邊框，比以往 LIBER 系列大大縮減了約 63%，達致完美的 78.2% 螢幕機身比例。 <br></br>  配合 16:9 全高清 IPS 防眩液晶螢幕，能在室內和室外的不同光線下，穩定流暢地呈現螢幕上的細節，精準還原細緻的畫面，令您在這 178 度超廣闊視角內，全情投入 LIBER V 的大世界。 <br></br>  而上置式的網絡鏡頭，更可展現更佳的拍攝角度，為您帶來更高視野。無論是學習、工作、或玩樂，就由 LIBER V 帶給您前所未見的細緻觀賞體驗。"
+    },
+
+    "colorful_expression": {
+      "title": "色彩．唯您釋放",
+      "content_part1": "AVITA一直注重用家個人風格，將時尚色彩融入科技 生活。全新 LIBER V 引入超過 14 款配色任您選擇，全面釋放專屬於您的個人魅力，讓您瞬間成為全場焦點。",
+      "content_part2": "更多嶄新配色將陸續推出，為您帶來耳目一新的驚 喜。無論你是職場份子還是時尚達人，LIBER V 一樣讓您更出色、更出眾。"
+    },
+
+    "portable": {
+      "title": "隨身．更是隨心",
+      "content": "LIBER V系列再創科技突破，將 14 吋屏幕內藏於 13.3 吋機身內，以精密的工序打造出細緻的機身，重量僅由 1.28 千克起，較以往的 LIBER 型號輕 14%，將輕巧與堅固達致最佳的平衡，務求讓您感受來去自如的便捷體驗。<br></br> LIBER V 支援 Windows Hello 指紋辨識功能，過程輕鬆簡便，大大提高個人資料安全保障。出遊或出勤，LIBER V 都可常伴左右，輕鬆隨行無負擔。",
+      "thickness_unit": "毫米",
+      "thickness_desc": "纖薄機身",
+      "weight_unit": "千克起",
+      "monitor_desc": "14\" 螢幕"
+    },
+
+    "specs": {
+      "title": "效能．兼顧性能",
+      "content_part1": "LIBER V 不僅外型前衛獨特，性能也兼備 。配備第 10 代 Intel® Core™ i5-10210U 處理器，結合 8GB 記憶體和提供高達 1TB SSD 固態硬碟的超大容量，讓您能快速處理和存取大量檔案，效率提升至更高層次，即使面對繁重工作，依然遊刃有餘。",
+      "content_part2": "LIBER V 的全尺寸背光鍵盤，具有 1.5mm 按鍵行程及 <br></br> 約 19mm 鍵距，為您帶來舒適流暢的打字體驗。配合特大觸控板， <br></br>可完美支援四指觸控，給予您的手指更多發揮空間， <br></br>操作更自如。LIBER V 更貼心的配置多個連接端口 <br></br>和長達 10 小時的電池續航力，為您做好萬全準備， <br></br>兼容您的不同裝置，輕鬆實現同時充電、傳輸資料、顯示， <br></br>及連接各種周邊設備，滿足您的不同需要。<br></br> <small>*根據MobileMark 2014 測試長達10小時</small>",
+      "operating_system": "作業系統",
+      "up_to": "最高",
+      "mm": "毫米",
+      "key_travel": "按鍵行程",
+      "key_pitch": "鍵距"
+    },
+
+    "disclaimer": {
+      "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
+      "bullet2": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
+      "bullet3": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+      "bullet4": "重量會因組態及製造差異而有所不同。",
+      "bullet5": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+      "bullet6": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+      "bullet7": "Windows 是 Microsoft Corporation 在美國及其他國家或地區的商標或註冊商標。",
+      "bullet8": "銷售顏色可能因零售商而異。",
+      "bullet9": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
+      "bullet10": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+    }
   }
 }
