@@ -211,6 +211,94 @@
     "satus_s_disclaimer_color_availability": "銷售顏色可能因零售商而異。",
     "satus_s_disclaimer_appearance": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
     "satus_s_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+  },
+
+  "admiror": {
+    "banner": {
+      "pc": "/images/admiror/banner_admiror_15_c.jpg",
+      "mo": "/images/admiror/banner_mob_admiror_15_c.jpg"
+    },
+
+    "product": {
+      "express_yourself_title": "釋放自我 展現個性 #YouCanBe",
+      "you_can_be_paragraph": "是時候拒絕隨波逐流，AVITA 全新的 ADMIROR 系列",
+      "description": "打破常規，以時尚典雅的獨特設計及奪目配色，與你超越平凡、大放異彩！",
+      "brings_you_title": "AVITA ADMIROR 為你帶來",
+      "button1": "/images/admiror/btn_artistic_1c.png",
+      "button1-hover": "/images/admiror/btn_artistic_2c.png",
+      "button2": "/images/admiror/btn_pride_1c.png",
+      "button2-hover": "/images/admiror/btn_pride_2c.png",
+      "button3": "/images/admiror/btn_outstanding_1c.png",
+      "button3-hover": "/images/admiror/btn_outstanding_2c.png"
+    },
+
+    "artistic_design": {
+      "title": "盡顯自我的",
+      "sub_title": "時尚典雅設計",
+      "p_title": "雅緻設計  揉合哥德式建築美學",
+      "p_content": "AVITA ADMIROR 以典雅的哥德式建築設計概念，融入 時尚風格，每個細節都別具匠心。螢幕與鍵盤之間的拱頂裝飾參照哥德式建築的飛扶壁設計，讓與眾不同的 ADMIROR 成為觸目焦點。其修長筆挺的機身與 圓角鉸位渾然天成，完美演繹哥德式建築的尖拱美學。機身的裝飾細節仿如哥德教堂內的花窗玻璃，將典雅時尚風格推向極致。",
+      "p_title2": "大放異彩  盡顯風格",
+      "p_content2": "\"以ADMIROR破格配色 -- 極具玩味的 「火焰銅」 及 「炫咖啡」，率性的「熾熱紅」及 「悅粉紅」，配上個性穿搭，讓你贏盡 目光！ （14”配色：悅粉紅、炫咖啡、火焰銅；15.6”配色：悅粉紅、熾熱紅、火焰銅）\""
+    },
+
+    "extra_desc": {
+      "title": "纖細機身  輕巧便攜",
+      "content": "以輕量金屬製作的ADMIROR，纖細精巧，最薄處只有9毫米，14吋及15.6吋重量分別為僅1.32及1.79千克起，方便隨身攜帶，是你探索世界的絕佳良伴。",
+      "title2": "窄邊框設計  工作娛樂專心致志",
+      "content2": "要突破界限，首先要擴闊視野。ADMIROR的窄邊框僅7毫米闊，減低視覺障礙和干擾，螢幕亦變得更廣更闊，讓你全情投入工作或娛樂。"
+    },
+
+    "pride_delighted": {
+      "title_h3": "引以為傲的",
+      "title": "使用體驗",
+      "row1_title": "逼真畫面  細緻清晰",
+      "row1_content": "ADMIROR系列提供14吋及15.6吋兩款16:9 全高清IPS螢幕選擇，呈現178度超寬闊可視角度， 以確保各個方向的視覺品質，其清晰銳利的影像畫面，並在高達 72% NTSC 色域下，讓您盡覽豐富內容。",
+      "row2_title": "流暢操控  得心應手",
+      "row2_content": "ADMIROR 配備特大觸控板，支援多點觸控及精確式觸控板技術，靈活度及精準度大大提升，應付大小任務都能得心應手。",
+      "row3_title": "背光鍵盤  不受環境束縛",
+      "row3_content": "全尺寸鍵盤使用背光設計，即是在昏暗的環境中每個鍵帽仍然能清晰易見，工作娛樂從此不受時間及環境限制。",
+      "row3_title2": "極致音質  震撼人心",
+      "row3_content2": "ADMIROR將你的音樂品味完美無瑕地呈現，配以兩個全頻加四個被動式的高品質喇叭，帶來精彩絕倫的視聽享受。"
+    },
+
+    "outstanding": {
+      "title": "安全可靠的",
+      "title_h3": "卓越性能",
+      "title_h2": "出色效能  無與倫比",
+      "content": "ADMIROR 外型出眾，其功能配置亦同樣出色。搭載 第10代 Intel® Core <sup>TM</sup> i5-10210U 或 i7-10510U 處理器及最高可搭載16GB記憶體，效能大大提升。最高可搭載1TB SSD，可儲存大量檔案。即使創意再多，ADMIROR都可以一一收錄。"
+    },
+
+    "win_hello": {
+      "title": "指紋辨識    一指開關兼登入",
+      "content": "ADMIROR支援Windows Hello 的指紋辨識功能，一指開關，過程輕鬆簡便。指紋識別亦保障你的工作檔案及個人資料不易外洩，更安全更放心。"
+    },
+
+    "battery_info": {
+      "title": "持久電量  釋放潛能",
+      "desc": "長達10小時的電池續航力，工作娛樂從此不受電量限制，讓你無間斷釋放潛能。",
+      "life_prefix": "最高",
+      "battery_img": "/images/admiror/10hr_c.png",
+      "life_suffix": "電池續航力",
+      "life_note": "* 15.6吋型號電池續航力為最高9小時",
+      "connectivity_title": "全方位連接  無拘無束",
+      "connectivity_desc": "出外工作要靈活輕便，ADMIROR 內置兩個USB-C連接埠，配上隨機附送的USB-C至USB、HDMI及3.5 mm全方位外置轉換器，連接不同裝置亦毫無難度。另附加USB-C至3.5mm連接線，讓你沉醉於音樂世界。<br></br><br></br> 同款時尚色系無線滑鼠及手提藍芽喇叭即將登場",
+      "adapter_desc": "USB-C to <br></br> USB/HDMI/3.5mm audio jack adapter"
+    },
+
+    "color_opts": {
+      "title": "多款已登場配色",
+      "content": "14吋型號: 悅粉紅、炫咖啡、火焰銅 <br></br> 15.6吋型號: 悅粉紅、熾熱紅、火焰銅",
+      "offer_img": "/images/admiror/pic_offer_tw.png"
+    },
+
+    "disclaimer": {
+      "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
+      "bullet2": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+      "bullet3": "重量會因組態及製造差異而有所不同。",
+      "bullet4": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+      "bullet5": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+      "bullet6": ""
+    }
   }
 }
 

@@ -18,10 +18,7 @@ export default function AdmirorColorOpts() {
             </p>
           </div>
 
-          <img
-            src="/images/admiror/pic_offer_hk_15_en.png"
-            className="w-[60%] mb-5 mt-10"
-          />
+          <img src={t("offer_img")} className="w-[60%] mb-5 mt-10" />
         </div>
 
         <div className="hidden md:block md:basis-1/2">

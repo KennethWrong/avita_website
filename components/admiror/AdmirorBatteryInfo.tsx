@@ -21,7 +21,7 @@ export default function AdmirorBatteryInfo() {
 
             <div className="">
               {t("life_prefix")} <br />
-              <img src="/images/admiror/10hr_e.png" alt="Battery Life Icon" />
+              <img src={t("battery_img")} alt="Battery Life Icon" />
               {t("life_suffix")} <br />
               <span className="text-sm">{t("life_note")}</span>
             </div>

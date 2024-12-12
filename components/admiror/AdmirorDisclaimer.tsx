@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function AdmirorProductStatement() {
-  const t = useTranslations("admiror.product_statement");
+export default function AdmirorDisclaimer() {
+  const t = useTranslations("admiror.disclaimer");
 
   return (
     <section className="flex justify-center items-center bg-[#f0f0f0]">
@@ -13,6 +13,7 @@ export default function AdmirorProductStatement() {
           <li>{t("bullet3")}</li>
           <li>{t("bullet4")}</li>
           <li>{t("bullet5")}</li>
+          {/* TODO: handle different number of bullets */}
           <li>{t("bullet6")}</li>
         </ul>
       </div>

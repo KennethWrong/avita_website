@@ -219,11 +219,22 @@
     }
   },
   "admiror": {
+    "banner": {
+      "pc": "/images/admiror/banner_admiror_15_e.jpg",
+      "mo": "/images/admiror/banner_mob_admiror_15_e.jpg"
+    },
+
     "product": {
       "express_yourself_title": "#YouCanBe Expressing Yourself",
       "you_can_be_paragraph": "Be who you are and show your individuality. The choice is yours. #YouCanbe",
       "description": " The all-new AVITA ADMIROR takes you on a journey of self-discovery. Shattering the norms and constraints of conventional laptops, the ADMIROR’s intricate designs and eye-catching colours are yours to embrace, because you deserve to be extraordinary!",
-      "brings_you_title": "AVITA ADMIROR brings you"
+      "brings_you_title": "AVITA ADMIROR brings you",
+      "button1": "/images/admiror/btn_artistic_1.png",
+      "button1-hover": "/images/admiror/btn_artistic_2.png",
+      "button2": "/images/admiror/btn_pride_1.png",
+      "button2-hover": "/images/admiror/btn_pride_2.png",
+      "button3": "/images/admiror/btn_outstanding_1.png",
+      "button3-hover": "/images/admiror/btn_outstanding_2.png"
     },
 
     "artistic_design": {
@@ -271,6 +282,7 @@
       "title": "Productivity maximized by Extended battery",
       "desc": "Battery life lasts up to 10 hours. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.",
       "life_prefix": "Up to",
+      "battery_img": "/images/admiror/10hr_e.png",
       "life_suffix": "Battery life",
       "life_note": "* Battery life up to 9 hours for 15.6-inch",
       "connectivity_title": "Connectivity that fits your needs",
@@ -280,10 +292,11 @@
 
     "color_opts": {
       "title": "VARIOUS COLOURS AVAILABLE NOW",
-      "content": "14-inch: Flaming Copper, Delight Pink, Blazing Brown <br></br> 15.6-inch: Flaming Copper, Delight Pink, Passionate Red"
+      "content": "14-inch: Flaming Copper, Delight Pink, Blazing Brown <br></br> 15.6-inch: Flaming Copper, Delight Pink, Passionate Red",
+      "offer_img": "/images/admiror/pic_offer_hk_15_en.png"
     },
 
-    "product_statement": {
+    "disclaimer": {
       "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.",
       "bullet2": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
       "bullet3": "Weights vary depending on configuration and manufacturing variability.",
