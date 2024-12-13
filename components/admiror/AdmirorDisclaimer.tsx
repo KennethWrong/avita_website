@@ -9,7 +9,7 @@ export default function AdmirorDisclaimer() {
       <div className="tracking-[0.15em] p-10 md:p-24">
         <ul className="list-disc leading-6 text-xs">
           {Object.keys(t.raw("disclaimer")).map((key) => (
-            <li>{t(`disclaimer.${key}`)}</li>
+            <li key={key}>{t(`disclaimer.${key}`)}</li>
           ))}
         </ul>
       </div>
