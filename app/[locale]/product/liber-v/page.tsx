@@ -212,14 +212,14 @@ export default function LiberPage() {
                   <p>{t("specs.operating_system")}</p>
                   <p className="text-4xl">Windows 10 Home</p>
                 </div>
-                <div className="flex">
+                <div className="flex flex-col md:flex-row">
                   <div className="mr-24">
                     <p>{t("specs.up_to")}</p>
                     <p className="text-4xl">Core i7</p>
                     <p>10th Gen INTEL® CORE™ PROCESSOR</p>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-4 mt-4 md:mt-0">
                     <p>
                       {t("specs.up_to")}
                       <br />
