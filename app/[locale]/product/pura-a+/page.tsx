@@ -132,10 +132,6 @@ export default function PuraAPlusPage() {
               <div className="leading-8 mb-10">
                 <p className="">{t("windows_11.content_part1")}</p>
                 <p className="">{t("windows_11.content_part2")}</p>
-
-                <Link href="/product/pura-a+/spec" className="text-blue-500">
-                  Tech Spec &gt;
-                </Link>
               </div>
 
               <div className="text-purple-900">

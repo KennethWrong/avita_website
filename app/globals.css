@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "myriad-pro";
+  /* src: url("/fonts/Myriad_Pro/MyriadPro-Light.otf") format("opentype"); */
+  src: url("/fonts/Myriad_Pro/MYRIADPRO-REGULAR.OTF") format("opentype");
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "myriad-pro", Arial, Helvetica, sans-serif;
 }
 
 @layer base {

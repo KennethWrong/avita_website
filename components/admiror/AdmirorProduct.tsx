@@ -5,7 +5,7 @@ export default function AdmirorProduct() {
   const t = useTranslations("admiror.product");
 
   return (
-    <section className="text-white bg-black p-10">
+    <section className="text-white bg-black p-10 font-times">
       <div className="flex flex-col justify-center items-center text-center">
         <h1 className="text-3xl md:text-5xl m-5">
           {t("express_yourself_title")}
