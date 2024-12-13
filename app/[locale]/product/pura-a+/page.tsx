@@ -83,7 +83,7 @@ export default function PuraAPlusPage() {
       </section>
 
       {/* Section 4 -- academic goals */}
-      <section className="bg-[#EEEEEE] flex justify-center items-center">
+      <section className="bg-[#EEEEEE] flex justify-center items-center p-10">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
             <img
@@ -162,7 +162,7 @@ export default function PuraAPlusPage() {
       </section>
 
       {/* Section 6 -- storage spec */}
-      <section className="bg-[#EEEEEE] flex justify-center items-center">
+      <section className="bg-[#EEEEEE] flex justify-center items-center p-10">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
             <img

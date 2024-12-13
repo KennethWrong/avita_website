@@ -41,7 +41,7 @@ export default function AdmirorProduct() {
               </Link>
             </div>
 
-            <div className="mx-5 md:max-w-[33%]">
+            <div className="my-5 md:my-0 mx-5 md:max-w-[33%]">
               <Link href="#usage_experience" className="group">
                 <img className="group-hover:hidden" src={t("button2")} />
                 <img
