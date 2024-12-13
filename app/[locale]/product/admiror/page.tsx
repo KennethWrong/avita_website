@@ -5,16 +5,19 @@ import AdmirorExtraDesc from "@/components/admiror/AdmirorExtraDesc";
 import AdmirorOutstanding from "@/components/admiror/AdmirorOutstanding";
 import AdmirorPrideDelighted from "@/components/admiror/AdmirorPrideDelighted";
 import AdmirorProduct from "@/components/admiror/AdmirorProduct";
-import AdmirorProductStatement from "@/components/admiror/AdmirorProductStatement";
+import AdmirorDisclaimer from "@/components/admiror/AdmirorDisclaimer";
 import AdmirorWinHello from "@/components/admiror/AdmirorWinHello";
 import ProductBanner from "@/components/ProductBanner";
+import { useTranslations } from "next-intl";
 
 export default function AdmirorPage() {
+  const t = useTranslations("admiror");
+
   return (
     <main className="flex flex-col">
       <ProductBanner
-        desktopImage={"/images/admiror/banner_admiror_15_e.jpg"}
-        mobileImage={"/images/admiror/banner_mob_admiror_15_e.jpg"}
+        desktopImage={t("banner.pc")}
+        mobileImage={t("banner.mo")}
         altText={"Admiror Banner"}
       />
       <AdmirorProduct />
@@ -25,7 +28,7 @@ export default function AdmirorPage() {
       <AdmirorWinHello />
       <AdmirorBatteryInfo />
       <AdmirorColorOpts />
-      <AdmirorProductStatement />
+      <AdmirorDisclaimer />
     </main>
   );
 }

@@ -83,7 +83,7 @@ export default function PuraAPlusPage() {
       </section>
 
       {/* Section 4 -- academic goals */}
-      <section className="bg-[#EEEEEE] flex justify-center items-center">
+      <section className="bg-[#EEEEEE] flex justify-center items-center p-10">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
             <img
@@ -132,10 +132,6 @@ export default function PuraAPlusPage() {
               <div className="leading-8 mb-10">
                 <p className="">{t("windows_11.content_part1")}</p>
                 <p className="">{t("windows_11.content_part2")}</p>
-
-                <Link href="/product/pura-a+/spec" className="text-blue-500">
-                  Tech Spec &gt;
-                </Link>
               </div>
 
               <div className="text-purple-900">
@@ -162,7 +158,7 @@ export default function PuraAPlusPage() {
       </section>
 
       {/* Section 6 -- storage spec */}
-      <section className="bg-[#EEEEEE] flex justify-center items-center">
+      <section className="bg-[#EEEEEE] flex justify-center items-center p-10">
         <div className="flex h-full text-gray-700">
           <div className="md:basis-1/2 py-10 flex justify-end items-center">
             <img

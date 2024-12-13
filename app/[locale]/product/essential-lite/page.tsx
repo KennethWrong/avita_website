@@ -67,7 +67,7 @@ export default function EssentialLitePage() {
                 {t.rich("light_weight.title", { br: () => <br /> })}
               </h2>
 
-              <div className="flex mb-10">
+              <div className="flex flex-col md:flex-row mb-10">
                 <img
                   src="/images/essential-lite/Essential-lite_ic_boundless.png"
                   alt="Essential-lite_ic_boundless"
@@ -84,7 +84,7 @@ export default function EssentialLitePage() {
                 className="block md:hidden mb-10"
               />
 
-              <div className="leading-8 mb-10">
+              <div className="leading-8 md:mb-10">
                 <p>{t("light_weight.content")}</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function EssentialLitePage() {
                 {t.rich("anti_glare.title", { br: () => <br /> })}
               </h2>
 
-              <div className="flex mb-10">
+              <div className="flex flex-col md:flex-row mb-10">
                 <img
                   src="/images/essential-lite/Essential-lite_ic_HD.png"
                   alt="Essential-lite_ic_HD"
@@ -163,12 +163,6 @@ export default function EssentialLitePage() {
               <div className="leading-8 mb-10">
                 <p className="mb-8">{t("windows_11.content_part1")}</p>
                 <p>{t("windows_11.content_part2")}</p>
-                <Link
-                  href="https://avita.com/hk/product/essential-lite/spec"
-                  className="text-blue-500 hover:underline"
-                >
-                  Tech Spec &gt;
-                </Link>
               </div>
 
               <div className="text-purple-900">

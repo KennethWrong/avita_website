@@ -1,215 +1,471 @@
 {
-    "contact_us": {
-        "contact_us_title": "聯絡我們",
-        "contact_us_sales": "台灣銷售查詢",
-        "contact_us_email": "電郵",
-        "contact_us_sales_email": "twsales@avita-tech.com",
-        "contact_us_tech_support": "台灣維修服務及技術支援",
-        "contact_us_tech_support_email": "tw_support@avita-tech.com"
-    },
-    "repair_tnc": {
-        "repair_tnc_title": "維修條款及細則",
-        "repair_tnc_1": "保固期內，力進科技（國際）有限公司（以下稱「AVITA」或「維修中心」）遵從維修服務條款及細則及產品有限硬體保固條款及細則為AVITA有關產品提供免費維修服務。",
-        "repair_tnc_2": "AVITA保修服務僅適用於您購買產品的國家。（包括在\"尊尚保養計劃\"的地區除外。）",
-        "repair_tnc_3": "保固期內，若違反任何維修服務條款及細則，產品均不在保固範圍之內，維修中心將按故障情況另行報價或不提供維修服務。用戶自行維修產品、產品主機或配件入水、人為損壞、機殼／表面損毀，未依說明書使用產品及將產品更改使用均被視為違反維修服務條款及細則。",
-        "repair_tnc_4": "所有保固期外、保固標籤損毀之產品或非該地區所銷售之貨品（例如:平行進口之貨品）、保固期外或任何產品辨認標貼損毀或缺失之產品及在違反維修服務條款及細則的情況下，除所需之零件費用外，用戶需先付服務費，此費用並不予發還。維修中心將在適當的時候通過電話或書面形式通知客戶正式報價。 所有費用必須全額支付。保固期外，如產品已經停止銷售，沒有零件可以維修，維修中心並有權拒絕維修此產品。維修中心有權以相同產品、產品升級或折扣優惠替代產品維修，費用必須由用戶全額支付。",
-        "repair_tnc_5": "享用產品保修服務，客戶必須在指定經銷商購買產品及出示機身序號或有效銷售發票正本（發票必須清楚顯示經銷商的名稱、購買日期、發票編號、產品型號、機身編號 （適用之產品）、產品價格並蓋上經銷商的印章；手寫發票必須附上機盒內的型號編碼及機身編號貼紙，方可享用產品保修服務。",
-        "repair_tnc_6": "未能出示有效銷售發票正本或機身序號之產品將被視為非保修產品處理。",
-        "repair_tnc_7": "AVITA將為經維修中心於完成維修後維修後更換之零件提供30天免費保固服務（限於在正常使用情況下相同的零件和/或機械缺陷）您將得到相同硬體保修的餘額或額外三十日（30）之保修服務，以較長者為準。",
-        "repair_tnc_8": "所更換損壞之零件，包括但不限於硬碟和記憶體之零件恕不退回。",
-        "repair_tnc_9": "維修中心對由於與客戶溝通失敗造成的延誤概不負責。中心提供有效的聯繫電話號碼和/或電子郵件地址。 如果客戶維修後一（1）週內沒有收到通知，請通過電郵聯繫維修中心。",
-        "repair_tnc_10": "客戶需在維修中心通知取件日期開始計三個月內取回產品，否則用戶產品如有損壞、遺失等情況，維修中心概不承擔任何責任。如用戶六（6）個月內還未取回產品，維修中心有權自行處置該產品，恕不另行通知和賠償。 ",
-        "repair_tnc_11": "請妥善保管維修單據，憑單取件，若被他人冒領，維修中心概不承擔任何責任。如未能提供該單據，維修中心有權拒絕退回產品。",
-        "repair_tnc_12": "客戶有責任為產品中所有用戶程式和數據備份。AVITA不對任何軟體，程式或數據或文件的丟失，更改或損壞負責。 所有交付給維修中心之產品，如果客戶在發出維修通知後要求退回，維修中心應當按照規定將產品退回給客戶（包括維修報價如適用）。產品將以當前現狀退回給客戶。",
-        "repair_tnc_13": "如維修中心在維修非保固產品期間發現用戶違反任何維修服務條款及細則（包括但不限於自行維修、產品主機或配件入水、人為損壞、蟲害侵入），維修中心有權取消定額維俢報價，並按故障情況向客戶重新報價。",
-        "repair_tnc_14": "維修中心有權拒絕處理書面或非書面的不合理維修服務要求。",
-        "repair_tnc_15": "維修中心的維修服務只適用於產品硬體。除另有規定外，配件如耳機、電腦連接線、電源線、雷射光碟片等將不包括在維修服務內。",
-        "repair_tnc_16": "電子產品中所有內存資料有可能於維修後遺失或刪除。用戶將產品送修前，請自行及自費（如適用的話）預先製作一份獨立的資料複本，並取消任何密碼。用戶同意和明白在維修期間，產品上的所有資料都有可能會被刪除或改動，用戶對此不會異議。對於儲存在產品上的任何資料發生遺失、更動、刪除或無法存取的問題，維修中心概不負責，也不承擔任何責任。",
-        "repair_tnc_17": "維修中心不會保證任何產品在維俢後不會出現作業中斷或作業錯誤的問題，也沒有確保任何產品在所有的作業環境下都能得到支援的義務，包括但不限於與所有軟硬體及其將來版本的相容性問題，客戶確認並無任何異議。",
-        "repair_tnc_18": "有限保固並不包括非AVITA之硬體、軟體及配件。",
-        "repair_tnc_19": "AVITA擁有對上述的條款及細則之最終裁決權及解釋權。",
-        "repair_tnc_20": "不可抗力：AVITA對於天災，火災，水災，事故，騷亂，戰爭，政府介入，禁運，罷工，勞工困難或罷工，設備故障等造成的任何延誤或失敗或其他任何超出我們控制的原因不承擔任何責任。",
-        "repair_tnc_21": "在任何情況下，我們都不承擔由於您或其他人或與服務有關（直接或間接）。或因以下原因（直接或間接）而遭受，支付或招致的收入，利潤損失或任何間接或相應的損失（不論直接或間接）。",
-        "repair_tnc_22": "AVITA保留隨時修改上述條款及細則的權利。請瀏覽AVITA網頁查看最新產品保固資料及其他適用條款: http://www.avita.com",
-        "repair_tnc_23": "條款和條件受香港特別行政區法律的管轄，我們和客戶同意服從香港法院的專屬管轄權。",
-        "repair_tnc_24": "英文版本與中文版本倘出現任何抵觸或不相符之處，概以英文版本為準。"
-    },
-    "aboutus": {
-        "aboutus_about": "關於AVITA",
-        "aboutus_consumer_lifestyle": "AVITA源於美國，2017年AVITA品牌開始引入亞洲，更推廣及銷售至全球不同地區。AVITA相信奇蹟，更相信個人的力量。我們的產品不甘於只迎合你生活方式，更表現著你的個性。",
-        "aboutus_product_series": "AVITA產品系列包含個人電腦、智能家居和物聯網設備，透過這些產品實現三大核心價值：自由度 (Liberty)、多樣性 (Diversity) 及個性化 (Individualism)，為新世代提供卓越而有個性的用戶體驗。’LIVE IT UP’ 不僅是我們的口號，更是我們公司的精神與DNA。",
-        "aboutus_passions": "你的想法、熱情、風格讓你獨一無二，我們的產品設計靈感正源於此。我們深信，你的科技產品不應規限著你，而是反映著你。",
-        "aboutus_in": "",
-        "aboutus_2021": "2021年",
-        "aboutus_partner_award": "，我們獲得Intel英特爾合作夥伴聯盟計劃中的鈦級合作夥伴獎。該獎項標誌著我們與英特爾的頂級合作夥伴關係，亦是對AVITA業務於亞洲地區重大貢獻的高度認可。同年，AVITA LIBER V手提電腦系列被授予備受矚目的「紅點設計大獎：產品設計 2021」，肯定其卓越的設計和品質。",
-        "aboutus_july": "於 2022 年 7 月 21 日",
-        "aboutus_hereinafter": "，AVITA Technologies International Company Limited（以下簡稱 ’AVITA Technologies’）正式成立。AVITA Technologies 勇於重新構想既有框架及打破常規，致力於科技上的創新與突破，並創造更好情感價值品牌，確立了「科技時尚」的獨特產品定位，即「科技」和「時尚」，為我們帶來了多項國際獎項和知名認可。我們以「體現與眾不同，成就不可能任務」為格言，激發AVITA Technologies團隊與眾不同的意念、打破只關注價格競爭和產品規格以取得成功的常規做法。",
-        "aboutus_elaborated": "我們根據並利用三個公司的核心價值來闡述並作為我們的行動靈感；利用當今的新技術發展，我們致力於為各個利益相關者提供正面的影響，並取得豐碩的成果。",
-        "aboutus_nov_2022": "直至2022年11月",
-        "aboutus_jasmy": "，日本的Jasmy Incorporated正式成為AVITA Technologies的策略投資者，以把握Web3、區塊鏈技術和加密貨幣應用所帶來的機遇，及探索新一代數碼安全設備和物聯網以及金融科技的解決方案。我們的願景是開發能夠為我們的客戶帶來技術突破並塑造未來的產品，隨著時間的推進，我們不再將自己定義和限制為僅僅一個服務供應商和筆記本電腦製造商。我們相信將自己重新定位為行業變革者，利用人類和人工智能的優勢，開發數碼安全的物聯網設備和解決方案，以及在金融科技和加密貨幣領域的應用。這一切都建基於數據民主的理念之上，我們堅信個人數據的所有權和自主權。每個人都有權安全地使用其個人資料以及對個人數據的完全控制，從而為我們的日常生活增添價值。",
-        "aboutus_diversity": "「多元化」乃AVITA一直賴以成功的關鍵，現借助Web3和區塊鏈技術的興起，期望為下一代做出貢獻。最後但同樣重要的是， AVITA Technologies 將繼續專注於技術和產品的開發，使人們能夠在一個更互聯的虛擬世界中更好地工作和生活，從而實現公司的可持續發展並為顧客帶來全新意義和價值。"
-    },
-    "service": {
-        "service_notice":"故障報修 - 請Email以下資訊至報修郵件地址:",
-        "service_description":"報修人姓名, 聯絡電話, 郵件地址, 產品型號, 產品序號(S/N), 故障原因描述, 購買處",
-        "service_avita_email":"tw_support@avita-tech.com",
-        "service_satisfaction_claim":"Our professional team will provide you with the most intimate service to your satisfaction!",
-        "service_service_center":"技術支援",
-        "service_customer_service":"Line ID:AVITASUPPORT",
-        "service_repair_enquiry":"週一至週五 09:30~12:00, 13:00~17:00 (國定假日及星期例假日休息 )",
-        "service_repair_email":"hk_support@avita-tech.com"
-    },
-    "footer": {
-        "footer_products":"產品",
-        "footer_whats_new": "最新消息",
-        "footer_about_us": "關於我們",
-        "footer_contact": "聯絡AVITA",
-        "footer_support": "支援",
-        "footer_repair": "維修條款及細則",
-        "footer_term_of_use": "使用條款",
-        "footer_privacy_policy": "私隱政策",
-        "footer_country": "Taiwan",
-        "footer_rights_reserved": "© AVITA Technologies International Co.,Ltd. All rights reserved."
-    },
-    "navbar": {
-        "navbar_products":"產品",
-        "navbar_whats_new":"最新消息",
-        "navbar_service":"服務與支援",
-        "navbar_laptop": "筆記型電腦"
-    },
-    "satus_s102": {
-        "satus_s102_image_banner": "AVITA_satus_s102_bigcore_banner_pc_tc.jpg",
-        "satus_s102_image_ips":"satus_ic_HD_black_tc.png",
-        "satus_s102_image_ultrawide":"satus_ic_angle_black_tc.png",
-        "satus_s102_intro_title1": "保持初心 並延續「AVITA SATUS」系列的設計理念",
-        "satus_s102_intro_subtitle1": "保持初心並延續「AVITA SATUS」系列的設計理念，AVITA SATUS S102 與您同步成長，搭載更強大的硬件配置，即時化身成一款美學與性能兼備的筆記型電腦，讓您展現不同個性和風格的同時，盡享超卓的使用體驗及性能表現，大大提升工作效率。",
-        "satus_s102_accelerator_title1": "效率 · 大躍進",
-        "satus_s102_accelerator_subtitle1": "AVITA SATUS S102 搭載了第12代Intel® Core™處理器 i5-1235U，配備了10核心處理器，可同時處理12條線程， 提供卓越的處理速度和運行效率。它能夠滿足用戶對高效、高性能和高品質的需求，非常適合工作和學習使用， 讓您輕鬆處理複雜的多項任務。另一方面，這個低電壓處理器的設計，令SATUS S102 釋放出更強大的性能，同時保持良好的電池續航能力。 配合最新Windows 11 作業系統，AVITA SATUS S102 提供更快的啟動速度、更流暢的使用體驗、及更高效的多任務管理功能。 Windows 11 具備更快的啟動速度，只需幾秒鐘即可啟動系統進入工作模式。智慧型開始菜單可根據您的使用習慣自動調整應用程式和文件的顯示，提供更快速便利的搜索及應用程式啟動方式。此外，Windows 11的多任務管理功能更加高效，包括更好的視窗管理及虛擬桌面功能，讓您輕鬆處理多個任務和應用程式。",
-        "satus_s102_specs_up_to": "最高",
-        "satus_s102_specs_os": "作業系統",
-        "satus_s102_specs_windows": "Windows 11 家用版",
-        "satus_s102_specs_processor1": "Core i5",
-        "satus_s102_specs_processor2": "12th Gen INTEL® CORE™ PROCESSOR",
-        "satus_s102_specs_gb": "GB",
-        "satus_s102_specs_ram": "RAM",
-        "satus_s102_specs_ssd": "SSD",
-        "satus_s102_aesthetic_title1": "美學 · 性能齊兼顧",
-        "satus_s102_aesthetic_subtitle1": "AVITA SATUS S102 絕對是一款結合美感與性能的極致筆記型電腦。其外觀設計簡約時尚，亮眼色彩可供選擇，使您無論在工作或娛樂時，都能夠煥然一新，讓您在日常生活中盡情展現獨特個性。",
-        "satus_s102_aesthetic_subtitle2": "除了外觀，AVITA SATUS S102 配備高性能表現，開機及讀取速度更快，讓您在工作或娛樂中流暢度更高，使用體驗更佳。",
-        "satus_s102_multicolor_title1": "不同顏色 展示不一樣的您",
-        "satus_s102_multicolor_subtitle1": "繼承「AVITA SATUS」系列的簡潔美學，AVITA SATUS S102 繼續以簡約設計為主題，從基礎的黑色及灰色到淺色系的淺藍、淺粉紅、淺紫，每種顏色都能展現出不同的個性和風格，讓您的電腦成為您的獨特標誌。",
-        "satus_s102_precise_details_title1": "精準細節 · 依舊貼心",
-        "satus_s102_precise_details_subtitle1": "顧及到用戶的實際需要，AVITA SATUS S102 配備15.6吋全高清IPS液晶螢幕，擁有178度超廣闊可視角度，能夠清晰展示細節，讓用戶處理各項任務更加精確和快捷。而Intel® Iris® Xe Graphics 顯示卡具備強大的圖形處理能力，可快速處理複雜的圖像和影片，讓您不論在辦公、娛樂、創作不同場景下都能享受高品質的視覺體驗。",
-        "satus_s102_keyboard_title1": "全尺寸鍵盤 · 提升文書處理的精準度",
-        "satus_s102_keyboard_subtitle1": "同時，AVITA SATUS S102 搭載了全尺寸連數字鍵盤和大型觸控板，讓用戶能夠在更加舒適的環境下進行長時間的輸入操作。這些功能都有助於提高用戶的工作效率和舒適度，為用戶帶來更好的使用體驗。",
-        "satus_s102_disclaimer_distributor":"產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
-        "satus_s102_disclaimer_different_model":"產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
-        "satus_s102_disclaimer_accurate_information":"我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
-        "satus_s102_disclaimer_weight_vary":"重量會因組態及製造差異而有所不同。",
-        "satus_s102_disclaimer_battery_life":"實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
-        "satus_s102_disclaimer_dispute": "如有任何爭議，AVITA TECHNOLOGIES INTERNATIONAL CO.,LTD. 保留最終決定權。"
-    },
-    "homepage": {
-        "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_tc.jpg",
-        "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_tc.jpg",
-        "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_mo_tc.jpg",
-        "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_pc_tc.jpg",
-        "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_tc_mo.jpg",
-        "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_tc.jpg",
-        "homepage_image_box": {
-            "computer": "/images/home/promo-01.jpg",
-            "event": "/images/home/promo-02.jpg",
-            "about_us": "/images/home/promo-03.jpg",
-            "support": "/images/home/promo-04.jpg"
-        }
-    },
-    "satus_t101": {
-        "satus_t101_image_banner": "AVITA_satus_t101_product_banner_tc.jpg",
-        "satus_t101_intro_title1": "開拓全新視野．由 Android 驅動的平板電腦 AVITA SATUS T101 開始",
-        "satus_t101_intro_subtitle1": "SATUS，在拉丁文中有「開始」及「成長」的意思，代表萬物起源； AVITA 以 SATUS 為主題，推出專為年輕用戶而設的「首部個人電腦」全新系列，冀望用戶可以由 SATUS 開始新一頁、踏上成長路。",
-        "satus_t101_intro_subtitle2": "承接 SATUS 的理念，本系列迎來全新成員 — AVITA SATUS T101平板電腦，並貫徹了 SATUS的簡潔美學，盡顯率直態度；載入了全新的 Android 11 作業系統，適合喜歡簡單隨興的用戶使用。只要一機在手，便可以透過選用在 Google Play 上的流動應用程式，助您探索世界新領域、開拓全新視野與想像，絕對是您多功能平板電腦的不二之選。",
-        "satus_t101_anywhere_title1": "隨處隨心．",
-        "satus_t101_anywhere_title2": "滿足休閒娛樂及",
-        "satus_t101_anywhere_title3": "工作多方面需要",
-        "satus_t101_anywhere_subtitle1": "AVITA SATUS T101平板電腦結合筆記型電腦的貼心規格與平板電腦的靈活性，在時尚的金屬機身內置10.1 吋全高清 IPS 輕觸式液晶螢幕，解像度為1,200 x 1,920，帶來更寬廣清晰的畫面，助您因應各種生活需求，輕鬆切換成休閒、娛樂或工作模式。",
-        "satus_t101_anywhere_subtitle2": "配合僅重約 480 克、纖薄至約 9.5 毫米的平板電腦，就能執行您所要的操作，輕便易攜隨您而行，無論何時何地都能讓您在清晰的畫質下，享受順暢便捷的多功能體驗。",
-        "satus_t101_boundless_title1": "支援雙卡雙待．擴充無限可能",
-        "satus_t101_boundless_subtitle1": "配備雙卡插槽*的AVITA SATUS T101，支援雙卡雙待#功能。您可隨個人需求同時存放兩張Nano SIM卡，無需切換便可同時接收別人發到這兩個號碼的來電和短訊，從此輕鬆無煩惱。亦可輕易分開處理工作和私人用途的號碼，或在海外工作及旅遊時附加當地的流動數據計劃，從此享受更高的靈活度和自主性。",
-        "satus_t101_boundless_subtitle2": "內置高達6GB RAM及128GB儲存空間，容許您儲存大量重要文件或檔案。如無須同時使用兩張電話卡，您可以將其中一個插槽換上microSD卡以增加容量。配合USB-C 連接埠，方便您隨時隨地儲存及傳輸資料，不怕錯過任何珍貴時刻。",
-        "satus_t101_boundless_subtitle3": "加上八核心Octa Core處理器，AVITA SATUS T101帶來可靠穩定的速度與電池效能，並支援 4G LTE 及WiFi 5 無線網路。透過與 Google Play同步的功能，AVITA SATUS T101讓您輕易銜接不同裝置的 Google 帳戶，從記錄中找到原用裝置的活動和喜好設定，省卻您需要重新搜尋和下載瀏覽內容的時間，在便攜性、速度和效能之間取得完美平衡。",
-        "satus_t101_boundless_subtitle4": "作為最佳的隨行拍擋，AVITA SATUS T101支援以藍牙 5.0 連接對應的無線耳機，配合其前置 5MP 自拍鏡頭和 8MP 後置自動對焦相機，方便拍攝及進行視訊通話、線上學習等，讓您隨時隨地與親朋好友和同事保持聯繫，時刻緊貼世界步伐。",
-        "satus_t101_boundless_disclaimer": "*雙卡插槽設有兩個單獨隔室以放置兩張Nano SIM卡（Nano SIM1 和 Nano SIM2），或放置一張Nano SIM卡及一張microSD卡（Nano SIM1 和microSD） #雙卡雙待模式中所使用的兩張Nano SIM卡（Nano SIM1 和 Nano SIM2）皆支援4G LTE流動網路。",
-        "satus_t101_specs_up_to": "最高",
-        "satus_t101_specs_os": "作業系統",
-        "satus_t101_specs_windows": "Android 11",
-        "satus_t101_specs_processor1": "Unisoc T618",
-        "satus_t101_specs_processor2": "Octa CPU",
-        "satus_t101_specs_gb": "GB",
-        "satus_t101_specs_ram": "RAM",
-        "satus_t101_specs_emmc": "eMMC",
-        "satus_t101_easy_title1": "方便易用．搭載最新Android 11作業系統及Google Play應用程式",
-        "satus_t101_easy_subtitle1": "AVITA SATUS T101搭載最新的 Android 11作業系統，透過Google Play的同步功能，達致強大的「一機到位」多效用途。令您可以無縫銜接不同裝置的 Google 帳戶；當要閱讀Google Play上的電子書時，可以多方位顯示更多內容、放大或縮細版面文字。當您想要記低重點時，更可透過AVITA UBIQUE的觸控筆#，享受隨意書寫的樂趣。閒時在Google Play下載遊戲程式或其電影頻道，帶來更多娛樂。從此不再受空間限制，完美配合您的日常生活，同時令您的生活變得更充實。",
-        "satus_t101_easy_subtitle2": "Android 11和 Google Play的穩健系統，可讓您在使用AVITA SATUS T101時更安枕無憂。當Android有安全性更新時，您可以從Google Play收到通知，定時執行系統更新和安全性修補程式，確保您的 AVITA SATUS T101 時刻備有最新的防護功能。",
-        "satus_t101_easy_subtitle3": "Android 11 作業系統尚有更多功能待您發掘，歡迎到 Android 官方網頁獲取最新資訊。",
-        "satus_t101_easy_disclaimer": "#以上提及的AVITA UBIQUE觸控筆或需另外購買。",
-        "satus_t101_bluetooth_title1": "靈活藍牙配置．隨您喜好與您同步",
-        "satus_t101_bluetooth_subtitle1": "AVITA SATUS T101 兼容多個藍牙配置^，可隨您的喜好和日常習慣添置AVITA UBIQUE真無線藍牙耳機#，方便您在通話時專注其中，不易受外間的噪音所干擾，或在聆聽音樂或觀看影片時，帶來沉浸式的視聽享受；您亦可配置 AVITA UBIQUE的觸控筆#，感受猶如真實的書寫體驗，隨心地捕捉想法與創意。",
-        "satus_t101_bluetooth_subtitle2": "您亦可透過藍牙自行配對第三方配件*，找到專屬於您的最佳拍檔。無論您在家、辦公室或車內，都能以不同方式靈活使用 AVITA SATUS T101平板電腦，助你將日常生活與工作帶上更高層次。",
-        "satus_t101_bluetooth_disclaimer": "#以上提及的AVITA UBIQUE觸控筆及真無線藍牙耳機或需另外購買。^部分功能和裝置可能無法在所有國家/地區使用。需使用兼容的智能裝置 (需另外購買)，或須配合網絡及有關數據與訊息服務。*配對/連接第三方配件時，AVITA 不保證所有藍牙裝置皆與AVITA SATUS T101 相容。",
-        "satus_t101_disclaimer_warranted": "根據保固條款，AVITA SATUS 系列由 Nexstgo Company Limited提供自購買日起12個月的保養期。詳情",
-        "satus_t101_disclaimer_click_here": "按此參閱。",
-        "satus_t101_disclaimer_specifications": "產品規格可能會依國家地區而有所變動，銷售顏色可能因零售商而異。重量會因組態及製造差異而有所不同。",
-        "satus_t101_disclaimer_distributor": "我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
-        "satus_t101_disclaimer_color_difference": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
-        "satus_t101_disclaimer_4g": "4G LTE服務僅於支援4G網絡的國家中已啟用4G網絡的地區可用。需與合適的網絡連線。實際速度或因國家、供應商及用戶網絡環境而異。",
-        "satus_t101_disclaimer_additional": "透過 Wi-Fi 撥打電話可能須支付額外費用。詳情請洽詢你的行動服務供應商。",
-        "satus_t101_disclaimer_gps": "GPS連接須配合網絡及數據服務, 網絡供應商可能會就相關服務另作收費。而連接時間將視乎使用環境及天氣等不同因素而有所影響。",
-        "satus_t101_disclaimer_battery_performance": "電池表現視乎網絡結構、訊號強度、功能選擇以及話音與使用模式而定。電池使用時間是根據我們的實驗結果量度所得。電池表現視乎裝置設定、使用模式及操作環境等因素而定。",
-        "satus_t101_disclaimer_available_memory": "作業系统及預設應用程式將佔用部分儲存空間。實際可使用的儲存容量或會因作業系统或程式更新而有所不同。",
-        "satus_t101_disclaimer_pairing": "配對/連接第三方配件時，AVITA 不保證所有藍牙裝置皆與AVITA產品相容。",
-        "satus_t101_disclaimer_android": "Android, Google Play 是 Google LLC 的商標。",
-        "satus_t101_disclaimer_accurate_information": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
-        "satus_t101_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
-    },
-    "satus_s": {
-        "satus_s_image_banner": "AVITA_satus_s101_banner_tc_pc.jpg",
-        "satus_s_image_ips":"satus_ic_HD_tc.png",
-        "satus_s_image_ultrawide":"satus_ic_angle_tc.png",
-        "satus_s_intro_title1": "成長路上無比支持．AVITA SATUS",
-        "satus_s_intro_subtitle1": "開始新一頁",
-        "satus_s_intro_paragraph1": "SATUS，在拉丁文中是「開始」及「成長」的意思；代表萬物起源，同時有播種和萌芽的含義。AVITA 一直深信好的開始就是成功的一半，良好有效的設備可以助您一臂之力，令您在日常挑戰和成長路上更輕易邁向成功。",
-        "satus_s_intro_paragraph2": "AVITA以此為始， 設計出全新產品系列「AVITA SATUS」，專為習慣於新常態下學習的年輕用戶而設的筆記型電腦。「AVITA SATUS」齊備為標準用户而設的貼心規格，只要一機在手，便能讓您以最佳狀態迎接不同挑戰、完成各項任務，令學習和生活變得更充實。即使安在家中，都能擴闊您的眼界和想像空間，帶給您無限可能，絕對是第一部個人電腦的首選。",
-        "satus_s_design_title1": "知性簡約．設計美學",
-        "satus_s_design_subtitle1": "AVITA SATUS S 系列以簡約俐落的設計及中性顏色為主調， 恰到好處地呈現簡潔美學，盡顯率直態度，實而不華。 以用家為本，透過實用的功能配置，從內到外盡顯 產品設計的初心，一部SATUS S系列便可滿足您日常學習 以至生活所需，時刻探索領悟更多，每日成長不停步。",
-        "satus_s_screen_title1": "全高清螢幕．更廣闊視野與互動",
-        "satus_s_screen_subtitle1": "為了整合簡約風格和實用功能，AVITA SATUS S系列配置了全高清IPS液晶螢幕，以及178度超廣闊可視角度，無論學習需要以至娛樂用途，都可謂「一機到位」，為您呈現更清晰準確的細節；在網上課堂及視像會議時，不但能讓用家清楚看到與會者的樣貌和神情，也可增加互動性和投入度，大大拉近人與人之間的距離。 此外，其全高清大螢幕能有效地令課堂或會議內容變得一覽無遺，讓您學習及工作時更專注、文書處理時更為得心應手，亦可因應實際需要，輕鬆分割各個視窗介面，提升用戶的視覺舒適度，令多工作業時更有效率，更能掌握學習的進度。",
-        "satus_s_startup_title1": "快捷啟動．精簡連接",
-        "satus_s_startup_subtitle1": "輕薄簡約的AVITA SATUS S系列機身配置多個連接埠， 用戶無需額外添置或帶備轉接器，無縫體驗更為便利。 配合雙核心Intel® Celeron® N4020處理器帶來 可靠穩定的效能及靈敏反應，內置8GB LPDDR4 記憶體， 不論文書處理、工作簡報或視像課程均能暢順地運行。 其耐用及可靠的SSD固態硬碟讓Windows 11作業系統 快速起動，特別在執行存取資料時更為穩定，可確保儲存 資料的安全。配備Mini HDMI連接埠，簡報就更得心應手。 另備有MicroSD/TF卡插槽，用戶可隨時隨地進一步 擴充儲存容量的需求，從容打破既有界限。",
-        "satus_s_specs_up_to": "最高",
-        "satus_s_specs_os": "作業系統",
-        "satus_s_specs_windows": "Windows 11 Home",
-        "satus_s_specs_processor1": "N4020",
-        "satus_s_specs_processor2": "INTEL® Celeron® PROCESSOR",
-        "satus_s_specs_gb": "GB",
-        "satus_s_specs_ram": "RAM",
-        "satus_s_specs_ssd": "SSD",
-        "satus_s_keyboard_title1": "全尺寸鍵盤．提升文書處理的精準度",
-        "satus_s_keyboard_subtitle1": "AVITA SATUS S系列為顧及用戶在文書處理以至日常應用的流暢度， 除配備了全尺寸孤島式鍵盤，還貼心加入數字鍵盤*方便進行計算。 而按鍵更經過準確調校，帶來極致舒適的輸入體驗，使用時更為靈活。 讓您輕鬆應付日常學習或其他不同需要。",
-        "satus_s_keyboard_kg": "千克起",
-        "satus_s_keyboard_kg_avita": "AVITA SATUS S102",
-        "satus_s_keyboard_keypad_caption": "數字鍵盤",
-        "satus_s_keyboard_disclaimer": "*數字鍵盤只適用於 15.6 吋AVITA SATUS S102",
-        "satus_s_port_disclaimer": "*AVITA SATUS S101及S102的插口位置相同",
-        "satus_s_disclaimer_warrant": "根據保固條款，AVITA SATUS系列由 Nexstgo Company Limited提供自購買之日起12個月的保養期。詳情請",
-        "satus_s_disclaimer_click_here": "按此參閱。",
-        "satus_s_disclaimer_battery": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
-        "satus_s_disclaimer_specification": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
-        "satus_s_disclaimer_weight": "重量會因組態及製造差異而有所不同。",
-        "satus_s_disclaimer_color_difference": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
-        "satus_s_disclaimer_accurate": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
-        "satus_s_disclaimer_trademark": "Windows 是 Microsoft Corporation 在美國及其他國家或地區的商標或註冊商標。",
-        "satus_s_disclaimer_color_availability": "銷售顏色可能因零售商而異。",
-        "satus_s_disclaimer_appearance": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
-        "satus_s_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+  "contact_us": {
+    "contact_us_title": "聯絡我們",
+    "contact_us_sales": "台灣銷售查詢",
+    "contact_us_email": "電郵",
+    "contact_us_sales_email": "twsales@avita-tech.com",
+    "contact_us_tech_support": "台灣維修服務及技術支援",
+    "contact_us_tech_support_email": "tw_support@avita-tech.com"
+  },
+  "repair_tnc": {
+    "repair_tnc_title": "維修條款及細則",
+    "repair_tnc_1": "保固期內，力進科技（國際）有限公司（以下稱「AVITA」或「維修中心」）遵從維修服務條款及細則及產品有限硬體保固條款及細則為AVITA有關產品提供免費維修服務。",
+    "repair_tnc_2": "AVITA保修服務僅適用於您購買產品的國家。（包括在\"尊尚保養計劃\"的地區除外。）",
+    "repair_tnc_3": "保固期內，若違反任何維修服務條款及細則，產品均不在保固範圍之內，維修中心將按故障情況另行報價或不提供維修服務。用戶自行維修產品、產品主機或配件入水、人為損壞、機殼／表面損毀，未依說明書使用產品及將產品更改使用均被視為違反維修服務條款及細則。",
+    "repair_tnc_4": "所有保固期外、保固標籤損毀之產品或非該地區所銷售之貨品（例如:平行進口之貨品）、保固期外或任何產品辨認標貼損毀或缺失之產品及在違反維修服務條款及細則的情況下，除所需之零件費用外，用戶需先付服務費，此費用並不予發還。維修中心將在適當的時候通過電話或書面形式通知客戶正式報價。 所有費用必須全額支付。保固期外，如產品已經停止銷售，沒有零件可以維修，維修中心並有權拒絕維修此產品。維修中心有權以相同產品、產品升級或折扣優惠替代產品維修，費用必須由用戶全額支付。",
+    "repair_tnc_5": "享用產品保修服務，客戶必須在指定經銷商購買產品及出示機身序號或有效銷售發票正本（發票必須清楚顯示經銷商的名稱、購買日期、發票編號、產品型號、機身編號 （適用之產品）、產品價格並蓋上經銷商的印章；手寫發票必須附上機盒內的型號編碼及機身編號貼紙，方可享用產品保修服務。",
+    "repair_tnc_6": "未能出示有效銷售發票正本或機身序號之產品將被視為非保修產品處理。",
+    "repair_tnc_7": "AVITA將為經維修中心於完成維修後維修後更換之零件提供30天免費保固服務（限於在正常使用情況下相同的零件和/或機械缺陷）您將得到相同硬體保修的餘額或額外三十日（30）之保修服務，以較長者為準。",
+    "repair_tnc_8": "所更換損壞之零件，包括但不限於硬碟和記憶體之零件恕不退回。",
+    "repair_tnc_9": "維修中心對由於與客戶溝通失敗造成的延誤概不負責。中心提供有效的聯繫電話號碼和/或電子郵件地址。 如果客戶維修後一（1）週內沒有收到通知，請通過電郵聯繫維修中心。",
+    "repair_tnc_10": "客戶需在維修中心通知取件日期開始計三個月內取回產品，否則用戶產品如有損壞、遺失等情況，維修中心概不承擔任何責任。如用戶六（6）個月內還未取回產品，維修中心有權自行處置該產品，恕不另行通知和賠償。 ",
+    "repair_tnc_11": "請妥善保管維修單據，憑單取件，若被他人冒領，維修中心概不承擔任何責任。如未能提供該單據，維修中心有權拒絕退回產品。",
+    "repair_tnc_12": "客戶有責任為產品中所有用戶程式和數據備份。AVITA不對任何軟體，程式或數據或文件的丟失，更改或損壞負責。 所有交付給維修中心之產品，如果客戶在發出維修通知後要求退回，維修中心應當按照規定將產品退回給客戶（包括維修報價如適用）。產品將以當前現狀退回給客戶。",
+    "repair_tnc_13": "如維修中心在維修非保固產品期間發現用戶違反任何維修服務條款及細則（包括但不限於自行維修、產品主機或配件入水、人為損壞、蟲害侵入），維修中心有權取消定額維俢報價，並按故障情況向客戶重新報價。",
+    "repair_tnc_14": "維修中心有權拒絕處理書面或非書面的不合理維修服務要求。",
+    "repair_tnc_15": "維修中心的維修服務只適用於產品硬體。除另有規定外，配件如耳機、電腦連接線、電源線、雷射光碟片等將不包括在維修服務內。",
+    "repair_tnc_16": "電子產品中所有內存資料有可能於維修後遺失或刪除。用戶將產品送修前，請自行及自費（如適用的話）預先製作一份獨立的資料複本，並取消任何密碼。用戶同意和明白在維修期間，產品上的所有資料都有可能會被刪除或改動，用戶對此不會異議。對於儲存在產品上的任何資料發生遺失、更動、刪除或無法存取的問題，維修中心概不負責，也不承擔任何責任。",
+    "repair_tnc_17": "維修中心不會保證任何產品在維俢後不會出現作業中斷或作業錯誤的問題，也沒有確保任何產品在所有的作業環境下都能得到支援的義務，包括但不限於與所有軟硬體及其將來版本的相容性問題，客戶確認並無任何異議。",
+    "repair_tnc_18": "有限保固並不包括非AVITA之硬體、軟體及配件。",
+    "repair_tnc_19": "AVITA擁有對上述的條款及細則之最終裁決權及解釋權。",
+    "repair_tnc_20": "不可抗力：AVITA對於天災，火災，水災，事故，騷亂，戰爭，政府介入，禁運，罷工，勞工困難或罷工，設備故障等造成的任何延誤或失敗或其他任何超出我們控制的原因不承擔任何責任。",
+    "repair_tnc_21": "在任何情況下，我們都不承擔由於您或其他人或與服務有關（直接或間接）。或因以下原因（直接或間接）而遭受，支付或招致的收入，利潤損失或任何間接或相應的損失（不論直接或間接）。",
+    "repair_tnc_22": "AVITA保留隨時修改上述條款及細則的權利。請瀏覽AVITA網頁查看最新產品保固資料及其他適用條款: http://www.avita.com",
+    "repair_tnc_23": "條款和條件受香港特別行政區法律的管轄，我們和客戶同意服從香港法院的專屬管轄權。",
+    "repair_tnc_24": "英文版本與中文版本倘出現任何抵觸或不相符之處，概以英文版本為準。"
+  },
+  "aboutus": {
+    "aboutus_about": "關於AVITA",
+    "aboutus_consumer_lifestyle": "AVITA源於美國，2017年AVITA品牌開始引入亞洲，更推廣及銷售至全球不同地區。AVITA相信奇蹟，更相信個人的力量。我們的產品不甘於只迎合你生活方式，更表現著你的個性。",
+    "aboutus_product_series": "AVITA產品系列包含個人電腦、智能家居和物聯網設備，透過這些產品實現三大核心價值：自由度 (Liberty)、多樣性 (Diversity) 及個性化 (Individualism)，為新世代提供卓越而有個性的用戶體驗。’LIVE IT UP’ 不僅是我們的口號，更是我們公司的精神與DNA。",
+    "aboutus_passions": "你的想法、熱情、風格讓你獨一無二，我們的產品設計靈感正源於此。我們深信，你的科技產品不應規限著你，而是反映著你。",
+    "aboutus_in": "",
+    "aboutus_2021": "2021年",
+    "aboutus_partner_award": "，我們獲得Intel英特爾合作夥伴聯盟計劃中的鈦級合作夥伴獎。該獎項標誌著我們與英特爾的頂級合作夥伴關係，亦是對AVITA業務於亞洲地區重大貢獻的高度認可。同年，AVITA LIBER V手提電腦系列被授予備受矚目的「紅點設計大獎：產品設計 2021」，肯定其卓越的設計和品質。",
+    "aboutus_july": "於 2022 年 7 月 21 日",
+    "aboutus_hereinafter": "，AVITA Technologies International Company Limited（以下簡稱 ’AVITA Technologies’）正式成立。AVITA Technologies 勇於重新構想既有框架及打破常規，致力於科技上的創新與突破，並創造更好情感價值品牌，確立了「科技時尚」的獨特產品定位，即「科技」和「時尚」，為我們帶來了多項國際獎項和知名認可。我們以「體現與眾不同，成就不可能任務」為格言，激發AVITA Technologies團隊與眾不同的意念、打破只關注價格競爭和產品規格以取得成功的常規做法。",
+    "aboutus_elaborated": "我們根據並利用三個公司的核心價值來闡述並作為我們的行動靈感；利用當今的新技術發展，我們致力於為各個利益相關者提供正面的影響，並取得豐碩的成果。",
+    "aboutus_nov_2022": "直至2022年11月",
+    "aboutus_jasmy": "，日本的Jasmy Incorporated正式成為AVITA Technologies的策略投資者，以把握Web3、區塊鏈技術和加密貨幣應用所帶來的機遇，及探索新一代數碼安全設備和物聯網以及金融科技的解決方案。我們的願景是開發能夠為我們的客戶帶來技術突破並塑造未來的產品，隨著時間的推進，我們不再將自己定義和限制為僅僅一個服務供應商和筆記本電腦製造商。我們相信將自己重新定位為行業變革者，利用人類和人工智能的優勢，開發數碼安全的物聯網設備和解決方案，以及在金融科技和加密貨幣領域的應用。這一切都建基於數據民主的理念之上，我們堅信個人數據的所有權和自主權。每個人都有權安全地使用其個人資料以及對個人數據的完全控制，從而為我們的日常生活增添價值。",
+    "aboutus_diversity": "「多元化」乃AVITA一直賴以成功的關鍵，現借助Web3和區塊鏈技術的興起，期望為下一代做出貢獻。最後但同樣重要的是， AVITA Technologies 將繼續專注於技術和產品的開發，使人們能夠在一個更互聯的虛擬世界中更好地工作和生活，從而實現公司的可持續發展並為顧客帶來全新意義和價值。"
+  },
+  "service": {
+    "service_notice": "故障報修 - 請Email以下資訊至報修郵件地址:",
+    "service_description": "報修人姓名, 聯絡電話, 郵件地址, 產品型號, 產品序號(S/N), 故障原因描述, 購買處",
+    "service_avita_email": "tw_support@avita-tech.com",
+    "service_satisfaction_claim": "Our professional team will provide you with the most intimate service to your satisfaction!",
+    "service_service_center": "技術支援",
+    "service_customer_service": "Line ID:AVITASUPPORT",
+    "service_repair_enquiry": "週一至週五 09:30~12:00, 13:00~17:00 (國定假日及星期例假日休息 )",
+    "service_repair_email": "hk_support@avita-tech.com"
+  },
+  "footer": {
+    "footer_products": "產品",
+    "footer_whats_new": "最新消息",
+    "footer_about_us": "關於我們",
+    "footer_contact": "聯絡AVITA",
+    "footer_support": "支援",
+    "footer_repair": "維修條款及細則",
+    "footer_term_of_use": "使用條款",
+    "footer_privacy_policy": "私隱政策",
+    "footer_country": "Taiwan",
+    "footer_rights_reserved": "© AVITA Technologies International Co.,Ltd. All rights reserved."
+  },
+  "navbar": {
+    "navbar_products": "產品",
+    "navbar_whats_new": "最新消息",
+    "navbar_service": "服務與支援",
+    "navbar_laptop": "筆記型電腦"
+  },
+  "satus_s102": {
+    "satus_s102_image_banner": "AVITA_satus_s102_bigcore_banner_pc_tc.jpg",
+    "satus_s102_image_ips": "satus_ic_HD_black_tc.png",
+    "satus_s102_image_ultrawide": "satus_ic_angle_black_tc.png",
+    "satus_s102_intro_title1": "保持初心 並延續「AVITA SATUS」系列的設計理念",
+    "satus_s102_intro_subtitle1": "保持初心並延續「AVITA SATUS」系列的設計理念，AVITA SATUS S102 與您同步成長，搭載更強大的硬件配置，即時化身成一款美學與性能兼備的筆記型電腦，讓您展現不同個性和風格的同時，盡享超卓的使用體驗及性能表現，大大提升工作效率。",
+    "satus_s102_accelerator_title1": "效率 · 大躍進",
+    "satus_s102_accelerator_subtitle1": "AVITA SATUS S102 搭載了第12代Intel® Core™處理器 i5-1235U，配備了10核心處理器，可同時處理12條線程， 提供卓越的處理速度和運行效率。它能夠滿足用戶對高效、高性能和高品質的需求，非常適合工作和學習使用， 讓您輕鬆處理複雜的多項任務。另一方面，這個低電壓處理器的設計，令SATUS S102 釋放出更強大的性能，同時保持良好的電池續航能力。 配合最新Windows 11 作業系統，AVITA SATUS S102 提供更快的啟動速度、更流暢的使用體驗、及更高效的多任務管理功能。 Windows 11 具備更快的啟動速度，只需幾秒鐘即可啟動系統進入工作模式。智慧型開始菜單可根據您的使用習慣自動調整應用程式和文件的顯示，提供更快速便利的搜索及應用程式啟動方式。此外，Windows 11的多任務管理功能更加高效，包括更好的視窗管理及虛擬桌面功能，讓您輕鬆處理多個任務和應用程式。",
+    "satus_s102_specs_up_to": "最高",
+    "satus_s102_specs_os": "作業系統",
+    "satus_s102_specs_windows": "Windows 11 家用版",
+    "satus_s102_specs_processor1": "Core i5",
+    "satus_s102_specs_processor2": "12th Gen INTEL® CORE™ PROCESSOR",
+    "satus_s102_specs_gb": "GB",
+    "satus_s102_specs_ram": "RAM",
+    "satus_s102_specs_ssd": "SSD",
+    "satus_s102_aesthetic_title1": "美學 · 性能齊兼顧",
+    "satus_s102_aesthetic_subtitle1": "AVITA SATUS S102 絕對是一款結合美感與性能的極致筆記型電腦。其外觀設計簡約時尚，亮眼色彩可供選擇，使您無論在工作或娛樂時，都能夠煥然一新，讓您在日常生活中盡情展現獨特個性。",
+    "satus_s102_aesthetic_subtitle2": "除了外觀，AVITA SATUS S102 配備高性能表現，開機及讀取速度更快，讓您在工作或娛樂中流暢度更高，使用體驗更佳。",
+    "satus_s102_multicolor_title1": "不同顏色 展示不一樣的您",
+    "satus_s102_multicolor_subtitle1": "繼承「AVITA SATUS」系列的簡潔美學，AVITA SATUS S102 繼續以簡約設計為主題，從基礎的黑色及灰色到淺色系的淺藍、淺粉紅、淺紫，每種顏色都能展現出不同的個性和風格，讓您的電腦成為您的獨特標誌。",
+    "satus_s102_precise_details_title1": "精準細節 · 依舊貼心",
+    "satus_s102_precise_details_subtitle1": "顧及到用戶的實際需要，AVITA SATUS S102 配備15.6吋全高清IPS液晶螢幕，擁有178度超廣闊可視角度，能夠清晰展示細節，讓用戶處理各項任務更加精確和快捷。而Intel® Iris® Xe Graphics 顯示卡具備強大的圖形處理能力，可快速處理複雜的圖像和影片，讓您不論在辦公、娛樂、創作不同場景下都能享受高品質的視覺體驗。",
+    "satus_s102_keyboard_title1": "全尺寸鍵盤 · 提升文書處理的精準度",
+    "satus_s102_keyboard_subtitle1": "同時，AVITA SATUS S102 搭載了全尺寸連數字鍵盤和大型觸控板，讓用戶能夠在更加舒適的環境下進行長時間的輸入操作。這些功能都有助於提高用戶的工作效率和舒適度，為用戶帶來更好的使用體驗。",
+    "satus_s102_disclaimer_distributor": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+    "satus_s102_disclaimer_different_model": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+    "satus_s102_disclaimer_accurate_information": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+    "satus_s102_disclaimer_weight_vary": "重量會因組態及製造差異而有所不同。",
+    "satus_s102_disclaimer_battery_life": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
+    "satus_s102_disclaimer_dispute": "如有任何爭議，AVITA TECHNOLOGIES INTERNATIONAL CO.,LTD. 保留最終決定權。"
+  },
+  "homepage": {
+    "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_tc.jpg",
+    "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_tc.jpg",
+    "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_mo_tc.jpg",
+    "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_pc_tc.jpg",
+    "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_tc_mo.jpg",
+    "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_tc.jpg",
+    "homepage_image_box": {
+      "computer": "/images/home/promo-01.jpg",
+      "event": "/images/home/promo-02.jpg",
+      "about_us": "/images/home/promo-03.jpg",
+      "support": "/images/home/promo-04.jpg"
     }
+  },
+  "satus_t101": {
+    "satus_t101_image_banner": "AVITA_satus_t101_product_banner_tc.jpg",
+    "satus_t101_intro_title1": "開拓全新視野．由 Android 驅動的平板電腦 AVITA SATUS T101 開始",
+    "satus_t101_intro_subtitle1": "SATUS，在拉丁文中有「開始」及「成長」的意思，代表萬物起源； AVITA 以 SATUS 為主題，推出專為年輕用戶而設的「首部個人電腦」全新系列，冀望用戶可以由 SATUS 開始新一頁、踏上成長路。",
+    "satus_t101_intro_subtitle2": "承接 SATUS 的理念，本系列迎來全新成員 — AVITA SATUS T101平板電腦，並貫徹了 SATUS的簡潔美學，盡顯率直態度；載入了全新的 Android 11 作業系統，適合喜歡簡單隨興的用戶使用。只要一機在手，便可以透過選用在 Google Play 上的流動應用程式，助您探索世界新領域、開拓全新視野與想像，絕對是您多功能平板電腦的不二之選。",
+    "satus_t101_anywhere_title1": "隨處隨心．",
+    "satus_t101_anywhere_title2": "滿足休閒娛樂及",
+    "satus_t101_anywhere_title3": "工作多方面需要",
+    "satus_t101_anywhere_subtitle1": "AVITA SATUS T101平板電腦結合筆記型電腦的貼心規格與平板電腦的靈活性，在時尚的金屬機身內置10.1 吋全高清 IPS 輕觸式液晶螢幕，解像度為1,200 x 1,920，帶來更寬廣清晰的畫面，助您因應各種生活需求，輕鬆切換成休閒、娛樂或工作模式。",
+    "satus_t101_anywhere_subtitle2": "配合僅重約 480 克、纖薄至約 9.5 毫米的平板電腦，就能執行您所要的操作，輕便易攜隨您而行，無論何時何地都能讓您在清晰的畫質下，享受順暢便捷的多功能體驗。",
+    "satus_t101_boundless_title1": "支援雙卡雙待．擴充無限可能",
+    "satus_t101_boundless_subtitle1": "配備雙卡插槽*的AVITA SATUS T101，支援雙卡雙待#功能。您可隨個人需求同時存放兩張Nano SIM卡，無需切換便可同時接收別人發到這兩個號碼的來電和短訊，從此輕鬆無煩惱。亦可輕易分開處理工作和私人用途的號碼，或在海外工作及旅遊時附加當地的流動數據計劃，從此享受更高的靈活度和自主性。",
+    "satus_t101_boundless_subtitle2": "內置高達6GB RAM及128GB儲存空間，容許您儲存大量重要文件或檔案。如無須同時使用兩張電話卡，您可以將其中一個插槽換上microSD卡以增加容量。配合USB-C 連接埠，方便您隨時隨地儲存及傳輸資料，不怕錯過任何珍貴時刻。",
+    "satus_t101_boundless_subtitle3": "加上八核心Octa Core處理器，AVITA SATUS T101帶來可靠穩定的速度與電池效能，並支援 4G LTE 及WiFi 5 無線網路。透過與 Google Play同步的功能，AVITA SATUS T101讓您輕易銜接不同裝置的 Google 帳戶，從記錄中找到原用裝置的活動和喜好設定，省卻您需要重新搜尋和下載瀏覽內容的時間，在便攜性、速度和效能之間取得完美平衡。",
+    "satus_t101_boundless_subtitle4": "作為最佳的隨行拍擋，AVITA SATUS T101支援以藍牙 5.0 連接對應的無線耳機，配合其前置 5MP 自拍鏡頭和 8MP 後置自動對焦相機，方便拍攝及進行視訊通話、線上學習等，讓您隨時隨地與親朋好友和同事保持聯繫，時刻緊貼世界步伐。",
+    "satus_t101_boundless_disclaimer": "*雙卡插槽設有兩個單獨隔室以放置兩張Nano SIM卡（Nano SIM1 和 Nano SIM2），或放置一張Nano SIM卡及一張microSD卡（Nano SIM1 和microSD） #雙卡雙待模式中所使用的兩張Nano SIM卡（Nano SIM1 和 Nano SIM2）皆支援4G LTE流動網路。",
+    "satus_t101_specs_up_to": "最高",
+    "satus_t101_specs_os": "作業系統",
+    "satus_t101_specs_windows": "Android 11",
+    "satus_t101_specs_processor1": "Unisoc T618",
+    "satus_t101_specs_processor2": "Octa CPU",
+    "satus_t101_specs_gb": "GB",
+    "satus_t101_specs_ram": "RAM",
+    "satus_t101_specs_emmc": "eMMC",
+    "satus_t101_easy_title1": "方便易用．搭載最新Android 11作業系統及Google Play應用程式",
+    "satus_t101_easy_subtitle1": "AVITA SATUS T101搭載最新的 Android 11作業系統，透過Google Play的同步功能，達致強大的「一機到位」多效用途。令您可以無縫銜接不同裝置的 Google 帳戶；當要閱讀Google Play上的電子書時，可以多方位顯示更多內容、放大或縮細版面文字。當您想要記低重點時，更可透過AVITA UBIQUE的觸控筆#，享受隨意書寫的樂趣。閒時在Google Play下載遊戲程式或其電影頻道，帶來更多娛樂。從此不再受空間限制，完美配合您的日常生活，同時令您的生活變得更充實。",
+    "satus_t101_easy_subtitle2": "Android 11和 Google Play的穩健系統，可讓您在使用AVITA SATUS T101時更安枕無憂。當Android有安全性更新時，您可以從Google Play收到通知，定時執行系統更新和安全性修補程式，確保您的 AVITA SATUS T101 時刻備有最新的防護功能。",
+    "satus_t101_easy_subtitle3": "Android 11 作業系統尚有更多功能待您發掘，歡迎到 Android 官方網頁獲取最新資訊。",
+    "satus_t101_easy_disclaimer": "#以上提及的AVITA UBIQUE觸控筆或需另外購買。",
+    "satus_t101_bluetooth_title1": "靈活藍牙配置．隨您喜好與您同步",
+    "satus_t101_bluetooth_subtitle1": "AVITA SATUS T101 兼容多個藍牙配置^，可隨您的喜好和日常習慣添置AVITA UBIQUE真無線藍牙耳機#，方便您在通話時專注其中，不易受外間的噪音所干擾，或在聆聽音樂或觀看影片時，帶來沉浸式的視聽享受；您亦可配置 AVITA UBIQUE的觸控筆#，感受猶如真實的書寫體驗，隨心地捕捉想法與創意。",
+    "satus_t101_bluetooth_subtitle2": "您亦可透過藍牙自行配對第三方配件*，找到專屬於您的最佳拍檔。無論您在家、辦公室或車內，都能以不同方式靈活使用 AVITA SATUS T101平板電腦，助你將日常生活與工作帶上更高層次。",
+    "satus_t101_bluetooth_disclaimer": "#以上提及的AVITA UBIQUE觸控筆及真無線藍牙耳機或需另外購買。^部分功能和裝置可能無法在所有國家/地區使用。需使用兼容的智能裝置 (需另外購買)，或須配合網絡及有關數據與訊息服務。*配對/連接第三方配件時，AVITA 不保證所有藍牙裝置皆與AVITA SATUS T101 相容。",
+    "satus_t101_disclaimer_warranted": "根據保固條款，AVITA SATUS 系列由 Nexstgo Company Limited提供自購買日起12個月的保養期。詳情",
+    "satus_t101_disclaimer_click_here": "按此參閱。",
+    "satus_t101_disclaimer_specifications": "產品規格可能會依國家地區而有所變動，銷售顏色可能因零售商而異。重量會因組態及製造差異而有所不同。",
+    "satus_t101_disclaimer_distributor": "我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+    "satus_t101_disclaimer_color_difference": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+    "satus_t101_disclaimer_4g": "4G LTE服務僅於支援4G網絡的國家中已啟用4G網絡的地區可用。需與合適的網絡連線。實際速度或因國家、供應商及用戶網絡環境而異。",
+    "satus_t101_disclaimer_additional": "透過 Wi-Fi 撥打電話可能須支付額外費用。詳情請洽詢你的行動服務供應商。",
+    "satus_t101_disclaimer_gps": "GPS連接須配合網絡及數據服務, 網絡供應商可能會就相關服務另作收費。而連接時間將視乎使用環境及天氣等不同因素而有所影響。",
+    "satus_t101_disclaimer_battery_performance": "電池表現視乎網絡結構、訊號強度、功能選擇以及話音與使用模式而定。電池使用時間是根據我們的實驗結果量度所得。電池表現視乎裝置設定、使用模式及操作環境等因素而定。",
+    "satus_t101_disclaimer_available_memory": "作業系统及預設應用程式將佔用部分儲存空間。實際可使用的儲存容量或會因作業系统或程式更新而有所不同。",
+    "satus_t101_disclaimer_pairing": "配對/連接第三方配件時，AVITA 不保證所有藍牙裝置皆與AVITA產品相容。",
+    "satus_t101_disclaimer_android": "Android, Google Play 是 Google LLC 的商標。",
+    "satus_t101_disclaimer_accurate_information": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+    "satus_t101_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+  },
+  "satus_s": {
+    "satus_s_image_banner": "AVITA_satus_s101_banner_tc_pc.jpg",
+    "satus_s_image_ips": "satus_ic_HD_tc.png",
+    "satus_s_image_ultrawide": "satus_ic_angle_tc.png",
+    "satus_s_intro_title1": "成長路上無比支持．AVITA SATUS",
+    "satus_s_intro_subtitle1": "開始新一頁",
+    "satus_s_intro_paragraph1": "SATUS，在拉丁文中是「開始」及「成長」的意思；代表萬物起源，同時有播種和萌芽的含義。AVITA 一直深信好的開始就是成功的一半，良好有效的設備可以助您一臂之力，令您在日常挑戰和成長路上更輕易邁向成功。",
+    "satus_s_intro_paragraph2": "AVITA以此為始， 設計出全新產品系列「AVITA SATUS」，專為習慣於新常態下學習的年輕用戶而設的筆記型電腦。「AVITA SATUS」齊備為標準用户而設的貼心規格，只要一機在手，便能讓您以最佳狀態迎接不同挑戰、完成各項任務，令學習和生活變得更充實。即使安在家中，都能擴闊您的眼界和想像空間，帶給您無限可能，絕對是第一部個人電腦的首選。",
+    "satus_s_design_title1": "知性簡約．設計美學",
+    "satus_s_design_subtitle1": "AVITA SATUS S 系列以簡約俐落的設計及中性顏色為主調， 恰到好處地呈現簡潔美學，盡顯率直態度，實而不華。 以用家為本，透過實用的功能配置，從內到外盡顯 產品設計的初心，一部SATUS S系列便可滿足您日常學習 以至生活所需，時刻探索領悟更多，每日成長不停步。",
+    "satus_s_screen_title1": "全高清螢幕．更廣闊視野與互動",
+    "satus_s_screen_subtitle1": "為了整合簡約風格和實用功能，AVITA SATUS S系列配置了全高清IPS液晶螢幕，以及178度超廣闊可視角度，無論學習需要以至娛樂用途，都可謂「一機到位」，為您呈現更清晰準確的細節；在網上課堂及視像會議時，不但能讓用家清楚看到與會者的樣貌和神情，也可增加互動性和投入度，大大拉近人與人之間的距離。 此外，其全高清大螢幕能有效地令課堂或會議內容變得一覽無遺，讓您學習及工作時更專注、文書處理時更為得心應手，亦可因應實際需要，輕鬆分割各個視窗介面，提升用戶的視覺舒適度，令多工作業時更有效率，更能掌握學習的進度。",
+    "satus_s_startup_title1": "快捷啟動．精簡連接",
+    "satus_s_startup_subtitle1": "輕薄簡約的AVITA SATUS S系列機身配置多個連接埠， 用戶無需額外添置或帶備轉接器，無縫體驗更為便利。 配合雙核心Intel® Celeron® N4020處理器帶來 可靠穩定的效能及靈敏反應，內置8GB LPDDR4 記憶體， 不論文書處理、工作簡報或視像課程均能暢順地運行。 其耐用及可靠的SSD固態硬碟讓Windows 11作業系統 快速起動，特別在執行存取資料時更為穩定，可確保儲存 資料的安全。配備Mini HDMI連接埠，簡報就更得心應手。 另備有MicroSD/TF卡插槽，用戶可隨時隨地進一步 擴充儲存容量的需求，從容打破既有界限。",
+    "satus_s_specs_up_to": "最高",
+    "satus_s_specs_os": "作業系統",
+    "satus_s_specs_windows": "Windows 11 Home",
+    "satus_s_specs_processor1": "N4020",
+    "satus_s_specs_processor2": "INTEL® Celeron® PROCESSOR",
+    "satus_s_specs_gb": "GB",
+    "satus_s_specs_ram": "RAM",
+    "satus_s_specs_ssd": "SSD",
+    "satus_s_keyboard_title1": "全尺寸鍵盤．提升文書處理的精準度",
+    "satus_s_keyboard_subtitle1": "AVITA SATUS S系列為顧及用戶在文書處理以至日常應用的流暢度， 除配備了全尺寸孤島式鍵盤，還貼心加入數字鍵盤*方便進行計算。 而按鍵更經過準確調校，帶來極致舒適的輸入體驗，使用時更為靈活。 讓您輕鬆應付日常學習或其他不同需要。",
+    "satus_s_keyboard_kg": "千克起",
+    "satus_s_keyboard_kg_avita": "AVITA SATUS S102",
+    "satus_s_keyboard_keypad_caption": "數字鍵盤",
+    "satus_s_keyboard_disclaimer": "*數字鍵盤只適用於 15.6 吋AVITA SATUS S102",
+    "satus_s_port_disclaimer": "*AVITA SATUS S101及S102的插口位置相同",
+    "satus_s_disclaimer_warrant": "根據保固條款，AVITA SATUS系列由 Nexstgo Company Limited提供自購買之日起12個月的保養期。詳情請",
+    "satus_s_disclaimer_click_here": "按此參閱。",
+    "satus_s_disclaimer_battery": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
+    "satus_s_disclaimer_specification": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+    "satus_s_disclaimer_weight": "重量會因組態及製造差異而有所不同。",
+    "satus_s_disclaimer_color_difference": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+    "satus_s_disclaimer_accurate": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+    "satus_s_disclaimer_trademark": "Windows 是 Microsoft Corporation 在美國及其他國家或地區的商標或註冊商標。",
+    "satus_s_disclaimer_color_availability": "銷售顏色可能因零售商而異。",
+    "satus_s_disclaimer_appearance": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
+    "satus_s_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+  },
+
+  "admiror": {
+    "banner": {
+      "pc": "/images/admiror/banner_admiror_15_c.jpg",
+      "mo": "/images/admiror/banner_mob_admiror_15_c.jpg"
+    },
+
+    "product": {
+      "express_yourself_title": "釋放自我 展現個性 #YouCanBe",
+      "you_can_be_paragraph": "是時候拒絕隨波逐流，AVITA 全新的 ADMIROR 系列",
+      "description": "打破常規，以時尚典雅的獨特設計及奪目配色，與你超越平凡、大放異彩！",
+      "brings_you_title": "AVITA ADMIROR 為你帶來",
+      "button1": "/images/admiror/btn_artistic_1c.png",
+      "button1-hover": "/images/admiror/btn_artistic_2c.png",
+      "button2": "/images/admiror/btn_pride_1c.png",
+      "button2-hover": "/images/admiror/btn_pride_2c.png",
+      "button3": "/images/admiror/btn_outstanding_1c.png",
+      "button3-hover": "/images/admiror/btn_outstanding_2c.png"
+    },
+
+    "artistic_design": {
+      "title": "盡顯自我的",
+      "sub_title": "時尚典雅設計",
+      "p_title": "雅緻設計  揉合哥德式建築美學",
+      "p_content": "AVITA ADMIROR 以典雅的哥德式建築設計概念，融入 時尚風格，每個細節都別具匠心。螢幕與鍵盤之間的拱頂裝飾參照哥德式建築的飛扶壁設計，讓與眾不同的 ADMIROR 成為觸目焦點。其修長筆挺的機身與 圓角鉸位渾然天成，完美演繹哥德式建築的尖拱美學。機身的裝飾細節仿如哥德教堂內的花窗玻璃，將典雅時尚風格推向極致。",
+      "p_title2": "大放異彩  盡顯風格",
+      "p_content2": "\"以ADMIROR破格配色 -- 極具玩味的 「火焰銅」 及 「炫咖啡」，率性的「熾熱紅」及 「悅粉紅」，配上個性穿搭，讓你贏盡 目光！ （14”配色：悅粉紅、炫咖啡、火焰銅；15.6”配色：悅粉紅、熾熱紅、火焰銅）\""
+    },
+
+    "extra_desc": {
+      "title": "纖細機身  輕巧便攜",
+      "content": "以輕量金屬製作的ADMIROR，纖細精巧，最薄處只有9毫米，14吋及15.6吋重量分別為僅1.32及1.79千克起，方便隨身攜帶，是你探索世界的絕佳良伴。",
+      "title2": "窄邊框設計  工作娛樂專心致志",
+      "content2": "要突破界限，首先要擴闊視野。ADMIROR的窄邊框僅7毫米闊，減低視覺障礙和干擾，螢幕亦變得更廣更闊，讓你全情投入工作或娛樂。"
+    },
+
+    "pride_delighted": {
+      "title_h3": "引以為傲的",
+      "title": "使用體驗",
+      "row1_title": "逼真畫面  細緻清晰",
+      "row1_content": "ADMIROR系列提供14吋及15.6吋兩款16:9 全高清IPS螢幕選擇，呈現178度超寬闊可視角度， 以確保各個方向的視覺品質，其清晰銳利的影像畫面，並在高達 72% NTSC 色域下，讓您盡覽豐富內容。",
+      "row2_title": "流暢操控  得心應手",
+      "row2_content": "ADMIROR 配備特大觸控板，支援多點觸控及精確式觸控板技術，靈活度及精準度大大提升，應付大小任務都能得心應手。",
+      "row3_title": "背光鍵盤  不受環境束縛",
+      "row3_content": "全尺寸鍵盤使用背光設計，即是在昏暗的環境中每個鍵帽仍然能清晰易見，工作娛樂從此不受時間及環境限制。",
+      "row3_title2": "極致音質  震撼人心",
+      "row3_content2": "ADMIROR將你的音樂品味完美無瑕地呈現，配以兩個全頻加四個被動式的高品質喇叭，帶來精彩絕倫的視聽享受。"
+    },
+
+    "outstanding": {
+      "title": "安全可靠的",
+      "title_h3": "卓越性能",
+      "title_h2": "出色效能  無與倫比",
+      "content": "ADMIROR 外型出眾，其功能配置亦同樣出色。搭載 第10代 Intel® Core <sup>TM</sup> i5-10210U 或 i7-10510U 處理器及最高可搭載16GB記憶體，效能大大提升。最高可搭載1TB SSD，可儲存大量檔案。即使創意再多，ADMIROR都可以一一收錄。"
+    },
+
+    "win_hello": {
+      "title": "指紋辨識    一指開關兼登入",
+      "content": "ADMIROR支援Windows Hello 的指紋辨識功能，一指開關，過程輕鬆簡便。指紋識別亦保障你的工作檔案及個人資料不易外洩，更安全更放心。"
+    },
+
+    "battery_info": {
+      "title": "持久電量  釋放潛能",
+      "desc": "長達10小時的電池續航力，工作娛樂從此不受電量限制，讓你無間斷釋放潛能。",
+      "life_prefix": "最高",
+      "battery_img": "/images/admiror/10hr_c.png",
+      "life_suffix": "電池續航力",
+      "life_note": "* 15.6吋型號電池續航力為最高9小時",
+      "connectivity_title": "全方位連接  無拘無束",
+      "connectivity_desc": "出外工作要靈活輕便，ADMIROR 內置兩個USB-C連接埠，配上隨機附送的USB-C至USB、HDMI及3.5 mm全方位外置轉換器，連接不同裝置亦毫無難度。另附加USB-C至3.5mm連接線，讓你沉醉於音樂世界。<br></br><br></br> 同款時尚色系無線滑鼠及手提藍芽喇叭即將登場",
+      "adapter_desc": "USB-C to <br></br> USB/HDMI/3.5mm audio jack adapter"
+    },
+
+    "color_opts": {
+      "title": "多款已登場配色",
+      "content": "14吋型號: 悅粉紅、炫咖啡、火焰銅 <br></br> 15.6吋型號: 悅粉紅、熾熱紅、火焰銅",
+      "offer_img": "/images/admiror/pic_offer_tw.png"
+    },
+
+    "disclaimer": {
+      "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
+      "bullet2": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+      "bullet3": "重量會因組態及製造差異而有所不同。",
+      "bullet4": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+      "bullet5": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。"
+    }
+  },
+
+  "liber-v": {
+    "banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_tw.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_tw_mo.jpg"
+    },
+
+    "inspired_design": {
+      "title": "外形．破格非凡",
+      "content": "以「Limitless Evolution」為系列理念，注入以鮮明多變為創作原則的後現代建築設計風格，LIBER V 參照西班牙La Muralla Roja前衛堡壘，獨樹一格地以俐落的幾何線條，把網絡鏡頭劃出螢幕界限。完美演繹後現代主義的幾何立方結構風格，令機身更纖巧，亦更容易開啟。配合亮麗的機身色系，為手提電腦的設計時尚帶來重新詮釋！",
+      "color_opts_img": "/images/liber-v/LiberV_14colors.png"
+    },
+
+    "limitless_vision_banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_v2_tw.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_v2_tw_mo.jpg"
+    },
+
+    "viewing_experience": {
+      "features_img": "/images/liber-v/Features_tw.png",
+      "title": "視野．從此無界",
+      "content": "機身細細，但畫面強大。LIBER V 擁有極致纖幼的 3.7mm 無邊際邊框，比以往 LIBER 系列大大縮減了約 63%，達致完美的 78.2% 螢幕機身比例。 <br></br>  配合 16:9 全高清 IPS 防眩液晶螢幕，能在室內和室外的不同光線下，穩定流暢地呈現螢幕上的細節，精準還原細緻的畫面，令您在這 178 度超廣闊視角內，全情投入 LIBER V 的大世界。 <br></br>  而上置式的網絡鏡頭，更可展現更佳的拍攝角度，為您帶來更高視野。無論是學習、工作、或玩樂，就由 LIBER V 帶給您前所未見的細緻觀賞體驗。"
+    },
+
+    "colorful_expression": {
+      "title": "色彩．唯您釋放",
+      "content_part1": "AVITA一直注重用家個人風格，將時尚色彩融入科技 生活。全新 LIBER V 引入超過 14 款配色任您選擇，全面釋放專屬於您的個人魅力，讓您瞬間成為全場焦點。",
+      "content_part2": "更多嶄新配色將陸續推出，為您帶來耳目一新的驚 喜。無論你是職場份子還是時尚達人，LIBER V 一樣讓您更出色、更出眾。"
+    },
+
+    "portable": {
+      "title": "隨身．更是隨心",
+      "content": "LIBER V系列再創科技突破，將 14 吋屏幕內藏於 13.3 吋機身內，以精密的工序打造出細緻的機身，重量僅由 1.28 千克起，較以往的 LIBER 型號輕 14%，將輕巧與堅固達致最佳的平衡，務求讓您感受來去自如的便捷體驗。<br></br> LIBER V 支援 Windows Hello 指紋辨識功能，過程輕鬆簡便，大大提高個人資料安全保障。出遊或出勤，LIBER V 都可常伴左右，輕鬆隨行無負擔。",
+      "thickness_unit": "毫米",
+      "thickness_desc": "纖薄機身",
+      "weight_unit": "千克起",
+      "monitor_desc": "14\" 螢幕"
+    },
+
+    "specs": {
+      "title": "效能．兼顧性能",
+      "content_part1": "LIBER V 不僅外型前衛獨特，性能也兼備 。配備第 10 代 Intel® Core™ i5-10210U 處理器，結合 8GB 記憶體和提供高達 1TB SSD 固態硬碟的超大容量，讓您能快速處理和存取大量檔案，效率提升至更高層次，即使面對繁重工作，依然遊刃有餘。",
+      "content_part2": "LIBER V 的全尺寸背光鍵盤，具有 1.5mm 按鍵行程及 <br></br> 約 19mm 鍵距，為您帶來舒適流暢的打字體驗。配合特大觸控板， <br></br>可完美支援四指觸控，給予您的手指更多發揮空間， <br></br>操作更自如。LIBER V 更貼心的配置多個連接端口 <br></br>和長達 10 小時的電池續航力，為您做好萬全準備， <br></br>兼容您的不同裝置，輕鬆實現同時充電、傳輸資料、顯示， <br></br>及連接各種周邊設備，滿足您的不同需要。<br></br> <small>*根據MobileMark 2014 測試長達10小時</small>",
+      "operating_system": "作業系統",
+      "up_to": "最高",
+      "mm": "毫米",
+      "key_travel": "按鍵行程",
+      "key_pitch": "鍵距"
+    },
+
+    "disclaimer": {
+      "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
+      "bullet2": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
+      "bullet3": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
+      "bullet4": "重量會因組態及製造差異而有所不同。",
+      "bullet5": "產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。",
+      "bullet6": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。",
+      "bullet7": "Windows 是 Microsoft Corporation 在美國及其他國家或地區的商標或註冊商標。",
+      "bullet8": "銷售顏色可能因零售商而異。",
+      "bullet9": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
+      "bullet10": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
+    }
+  },
+
+  "pura-a-plus": {
+    "intro": {
+      "title": "Experience Power in Simplicity with PURA A+ Laptop!",
+      "demo_text": "*Demo image of the AVITA PURA A+ 15.6”",
+      "content_part1": "Power up your life with PURA A+, the new member of our PURA series which provides users with both simplicity and power. When it comes to student life, having a laptop that supports your all-round education, learning, and development is important.",
+      "content_part2": "PURA A+ is your ideal laptop choice for students who want simplicity and power in one device. With its sleek, lightweight, and durable design, PURA A+ is the perfect choice for individuals who are always on-the-go. Whether you're working, reading books, or watching movies, PURA A+ can meet all your needs. From music production to sports knowledge, photography, and beyond, PURA A+ can support your interests and help you develop new skills. Whether you're a student or a recent graduate starting your career, PURA A+ is the ultimate companion for achieving your goals and powering up your future."
+    },
+
+    "color_and_creativity": {
+      "title": "Immerse Yourself in a World of Color and Creativity!",
+      "content": "For individuals looking for a laptop that stands out, PURA A+ is the ideal choice. The new PURA A+ laptop comes in five vibrant colors, each with its own unique personality and style designed to inspire creativity in its users. Expressing your unique style and unleashing your creativity, only with PURA A+!",
+      "demo_text": "*Demo image of the AVITA PURA A+ 15.6”"
+    },
+
+    "color_palette": {
+      "content": "Trophy Purple represents luxury and sophistication, evoking a sense of achievement and success. Award Pink expresses youthful and playful, specifically designed for those who want to add a touch of fun to their lives. Medal Black exudes elegance and className, while evoking a feeling of power and sophistication - perfect for making a bold statement. Badge Silver is associated with achievement and success, perfect for those who want to evoke a sense of accomplishment and recognition. Ribbon Blue creates a peaceful and inviting environment, perfect for those who want to feel safe, friendly, and relaxed."
+    },
+
+    "academic_goals": {
+      "title": "Maximize Your Abilities- Accomplish Your Goals with Skill and Precision!",
+      "content": "PURA A+ is equipped with powerful features that help students achieve their academic goals efficiently. The laptop's high-performance CPU ensures productivity, with options available including the 12th Gen Intel® Core™ processor with Intel® Iris® Xe Graphics."
+    },
+
+    "windows_11": {
+      "title": "Stay Organized and Driven to Achieve Your Dreams!",
+      "content_part1": "Whether you are students, professionals, or busy parents, PURA A+ helps you stay organized to achieve your dreams. With a user-friendly interface and Windows 11 Home, PURA A+ helps you stay productive and on top of your game.",
+      "content_part2": "The To Do widget keeps you focused and on track, ensuring you never miss an important deadline."
+    },
+
+    "storage_spec": {
+      "title": "Unleash Your Potential with BIG Storage and Flexibility!",
+      "content_part1": "You always have the ability to enhance your capabilities. PURA A+ provides you with big storage capacity, ensuring that you can store all your important files and documents without worrying about running out of space. With up to 512GB of SSD storage, you can keep all your photos, videos, and music in one place.",
+      "content_part2": "This feature is perfect for individuals who need to store large files or work on multiple projects simultaneously."
+    },
+
+    "ports": {
+      "title": "The OPTIMAL All-round Laptop for Students on-the-go!",
+      "content_part1": "Designed specifically for students who are always on the move, PURA A+ is the ultimate all-in-one laptop for delivering presentations and staying productive at school. With its multi-I/O ports, connecting to different devices is effortless. Its reliable performance and 178-degree ultra-wide viewing angle make it the perfect device for students who demand high-quality performance.",
+      "content_part2": "Featuring a 14” and 15.6” Full HD IPS panel, PURA A+ delivers a wider, more vivid, and immersive viewing experience. The full-sized Edge-to-edge backlit keyboard makes typing more comfortable and efficient. It also maximizes the available Space for the keys and minimizes the overall footprint of the keyboard, making it more compact and streamlined. With the backlit keys, which make typing easier in any conditions and increase your productivity. Whether you're exploring the internet or developing your skills in various subjects, PURA A+ makes it easier to stay focused, learn new things, and achieve your academic goals."
+    },
+
+    "high_grades": {
+      "title": "Upgrade Your Student Life and Achieve Remarkable High-Grades!",
+      "content": "PURA A+ is the perfect laptop for students who want a simple yet powerful device to support their all-round education and development. With a minimalist design, high-quality performance, and array of features, PURA A+ is the ultimate laptop for students who demand simplicity and power. Whether you're studying, working, or pursuing your passions, PURA A+ has got you covered. Achieve remarkable high grades with PURA A+ and take your education and development to the next level!"
+    },
+
+    "disclaimer": {
+      "bullet1": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
+      "bullet2": "Weights vary depending on configuration and manufacturing variability.",
+      "bullet3": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
+      "bullet4": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
+      "bullet5": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.",
+      "bullet6": "Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage."
+    }
+  },
+
+  "essential-lite": {
+    "intro": {
+      "title": "The ultra-lightweight ESSENTIAL Lite revolutionizes laptop <br></br> aesthetic with exquisite craftsmanship"
+    },
+
+    "art_form": {
+      "title": "Re-Discover the Beauty in Lite Inspired by Renaissance Art Form",
+      "content_part1": "ESSENTIAL Lite range assembled with exquisite craftsmanship which inspired by the Renaissance era 'sculptural design. The carved laptop is available in eight different stylish carved covers.*",
+      "content_part2": "*Planet Blue, Pixel Green, Solar Pink, Mega Purple, Geometric Motion, Cyber World, Digital Rainbow, Purple Network <br></br> (Different colors/patterns will be launched soon)"
+    },
+
+    "light_weight": {
+      "title": "LIGHT LOADED WITH 1KG FEATHERWEIGHT． <br></br> SLIM BODY WITH THIN BEZELS",
+      "content": "ESSENTIAL Lite is specially designed for standard users without compromising its function and quality. Within its 4 mm extremely thin bezels and 20 mm light-loaded body design there lies a 14-inch screen, and the whole compact constitues merely an approximate of 1kg#, which such lightloaded feature makes it stand out from other similar laptops in the market^. Giving you a convenient and flexible experience while carrying it around for learning and working at anytime and anywhere you want."
+    },
+
+    "anti_glare": {
+      "title": "COMFORTABLE VIEWING. <br></br> FULL HD ANTI-GLARE SCREEN",
+      "content": "The 14-inch 16:9 full HD IPS anti-glare display of ESSENTIAL Lite provides a 178-degree ultra-wide viewing angle which can effectively reduce eye fatigue while retaining the resolution of screen. It provides an optimal viewing comfort even if you are having online learning and working for a long duration of time. Its wide viewing angle allows you to review contents with every vivid detail from a maximised perspective anytime and anywhere."
+    },
+
+    "windows_11": {
+      "title": "UP-TO-DATE COMPACT． <br></br> PRELOADED WITH WINDOWS 11 OPERATING SYSTEM",
+      "content_part1": "ESSENTIAL Lite is pre-loaded with the latest Windows 11 Home Edition operating system which features a fresh and intuitively designed interface. Users are able to work on multiple apps or managing multiple windows simultaneously by simply clicking the \"Start\" button located at the center of the screen, offering incredible experiences for gaming, entertainment and communication.",
+      "content_part2": "The laptop is also equipped with Intel® Celeron® N4020 processor, 8GB LPDDR4 memory and up to 256GB SSD, boosting the performance with reliable configuration as well as bringing you a steadier experience while working or learning online every day."
+    },
+
+    "ports": {
+      "title": "SIMPLE AND CONVENIENT．AVAILABILITY OF MULTIPLE PORTS",
+      "content": "ESSENTIAL Lite prioritizes user convenience, and thus moved various ports that usually found on the left and right hand sides to the back of the device, which include the plug-ins for USB 3.0, HDMI to Micro SD. It allows you to connect peripheral devices no matter you are left-handed or right-handed, and you can manage your learning and working in all aspects at ease without having to take up lots of physical space."
+    },
+
+    "keyboard": {
+      "title": "ULTRA FLEXIBILITY． FULL-SIZE CURVED KEYBOARD",
+      "content": "ESSENTIAL Lite is also equipped with a specially designed full-size island style keyboard, offering you the best typing experience as distance between buttons are carefully calculated. Coupled with a large touchpad, you can simply slide your fingertips to have many different applications in control. Without any barrier and constraint, your learning and working performance can be enhanced."
+    },
+
+    "disclaimer": {
+      "bullet1": "^ Information as of December 2021.",
+      "bullet2": "# Weights may vary depending on manufacturing process.",
+      "bullet3": "* Different colors/patterns will be launched soon.",
+      "bullet4": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.",
+      "bullet5": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
+      "bullet6": "Weights vary depending on configuration and manufacturing variability.",
+      "bullet7": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
+      "bullet8": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
+      "bullet9": "Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries."
+    }
+  }
 }

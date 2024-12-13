@@ -8,7 +8,7 @@ export default function AdmirorWinHello() {
     <section className="text-white">
       <div
         className="bg-black md:bg-[url('/images/admiror/bg_admiror03.jpg')]
-        bg-no-repeat bg-top flex justify-center"
+        bg-no-repeat bg-top flex justify-center py-10"
       >
         <div className="flex flex-row w-full">
           <div className="w-full md:basis-1/2 flex justify-end items-end">

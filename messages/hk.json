@@ -163,67 +163,78 @@
     "satus_t101_disclaimer_accurate_information": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
     "satus_t101_disclaimer_dispute": "In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision."
   },
-    "satus_s": {
-        "satus_s_image_banner": "AVITA_satus_s101_banner_en_pc.jpg",
-        "satus_s_image_ips":"satus_ic_HD_en.png",
-        "satus_s_image_ultrawide":"satus_ic_angle_en.png",
-        "satus_s_intro_title1": "AVITA SATUS –Where the Successful Life Journey Begins",
-        "satus_s_intro_subtitle1": "Turning a new page of life",
-        "satus_s_intro_paragraph1": "SATUS, derived from the Latin vocabulary meaning “Start” and “Growth”. It also comprises and can be elaborated as “seeding” and “budding”; it represents the beginning of all things. In AVITA, we believe that success derives from a great start, hence an effective and well-designed appliance is crucial to cope with daily challenges and achieving goals.",
-        "satus_s_intro_paragraph2": "Bearing this in mind, AVITA introduces the new - \"AVITA SATUS\" series - a laptop dedicated for new generation of young users who are highly familiar with studying under the constraints of the New Normal. The product is designed and built in simple clear-cut design yet with comprehensive manner, enabling users to deal with their different missions and completing their various tasks in the best state. Making their studies and daily lives more fulfilling and at ease. Its limitless functions also broaden users’ horizons and imaginations without having set foot to the outside world. SATUS is indeed the best ‘1st laptop’ for many.",
-        "satus_s_design_title1": "Modern and Minimalist ．Design Aesthetics",
-        "satus_s_design_subtitle1": "AVITA SATUS S series leverages minimalist and neat design in neutral color tone, just the right way to present an aesthetic design of simplicity, an expression of ingenious, and be realistic without being flashy. User-oriented with a complete and functional system configuration, the series packs with a powerful punch to meet the studies and work needs, allowing users to further explore and grow without boundaries.",
-        "satus_s_screen_title1": "Full HD screen．Broader vision and interaction",
-        "satus_s_screen_subtitle1": "In order to integrate AVITA SATUS S Series simple design with practical functions, the laptop is equipped with a 15.6-inch full HD IPS LCD Screen, which delivers a 178-degree ultra-wide viewing angle with outstanding colour when being viewed from different angles. Its colour accuracy and consistency with smooth and detailed images showcased on screen can cater perfectly for any learning, social and gaming purposes. For instance, clearer appearance and expressions of participants would help create closer connection with each other during online classes or video conferences, thus increase the level of interaction and engagement throughout the conversations. It would also help enhancing focus and concentration as users can easily read through various file contents displayed on screen especially when working on clerical tasks. In addition, users can easily split the laptop screen into multiple windows, making work progress more visually comfortable and efficient.",
-        "satus_s_startup_title1": "Quick startup．Smart connections",
-        "satus_s_startup_subtitle1": "AVITA SATUS S series comes in simple and smart details of which it is structured with multiple ports, providing users a seamless and convenient experience without the need of adapters. Equipped with a dual core CPU Intel® Celeron® N4020 which brings reliable and responsive performance, as well as a built-in 8GB LPDDR4 memory, every single task whether it is word processing, presentations or video calls can be processed without hindrance. The built-in SSD drive also enables Windows 11 operating system to start up swiftly. Hence, providing stable access to documents and ensuring the data safety. Moreover, a Mini HDMI port and a MicroSD/TF card slot are equipped, allowing users to connect to other external devices for presentation use and expand the storage capacity of their choice anytime without limits.",
-        "satus_s_specs_up_to": "Up to",
-        "satus_s_specs_os": "Operating System",
-        "satus_s_specs_windows": "Windows 11 Home",
-        "satus_s_specs_processor1": "N4020",
-        "satus_s_specs_processor2": "INTEL® Celeron® PROCESSOR",
-        "satus_s_specs_gb": "GB",
-        "satus_s_specs_ram": "RAM",
-        "satus_s_specs_ssd": "SSD",
-        "satus_s_keyboard_title1": "Full-size keyboard．Improving accuracy of word processing",
-        "satus_s_keyboard_subtitle1": "Taking the speed and smoothness of processing clerical or daily tasks into account, AVITA SATUS S series comes with a full-size island-style keyboard as well as a numeric keyboard* to facilitate calculations. Each key is accurately adjusted to help improve typing comfort and flexibility in order to cater for different study or work needs.",
-        "satus_s_keyboard_kg": "kg",
-        "satus_s_keyboard_kg_avita": "AVITA SATUS S102",
-        "satus_s_keyboard_keypad_caption": "Numeric keyboard",
-        "satus_s_keyboard_disclaimer": "*The numeric keyboard only applicable to 15.6-inch AVITA SATUS S102",
-        "satus_s_port_disclaimer": "*The port locations are the same between AVITA SATUS S101 & S102",
-        "satus_s_disclaimer_warrant": "AVITA SATUS series is warranted by Nexstgo Company Limited for a period of twelve (12) months from the date of purchase under the terms and conditions of this warranty. For details, please",
-        "satus_s_disclaimer_click_here": "click here",
-        "satus_s_disclaimer_battery": "Actual battery life may vary depending on product configuration, usage, operational conditions and power management settings. Battery life will decrease over the lifetime of the battery.",
-        "satus_s_disclaimer_specification": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
-        "satus_s_disclaimer_weight": "Weights vary depending on configuration and manufacturing variability.",
-        "satus_s_disclaimer_color_difference": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
-        "satus_s_disclaimer_accurate": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
-        "satus_s_disclaimer_trademark": "Windows is either a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.",
-        "satus_s_disclaimer_color_availability": "The availability of colors may vary by retailers.",
-        "satus_s_disclaimer_appearance": "Product appearance design, color, matching, may vary according to different models and configurations.",
-        "satus_s_disclaimer_dispute": "In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision."
-    },
-    "homepage": {
-        "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_en.jpg",
-        "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_en.jpg",
-        "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
-        "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
-        "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
-        "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
-        "homepage_image_box": {
-            "computer": "/images/home/promo-01-en.jpg",
-            "event": "/images/home/promo-02-en.jpg",
-            "about_us": "/images/home/promo-03-en.jpg",
-            "support": "/images/home/promo-04-en.jpg"
-        }
-    },
+  "satus_s": {
+    "satus_s_image_banner": "AVITA_satus_s101_banner_en_pc.jpg",
+    "satus_s_image_ips": "satus_ic_HD_en.png",
+    "satus_s_image_ultrawide": "satus_ic_angle_en.png",
+    "satus_s_intro_title1": "AVITA SATUS –Where the Successful Life Journey Begins",
+    "satus_s_intro_subtitle1": "Turning a new page of life",
+    "satus_s_intro_paragraph1": "SATUS, derived from the Latin vocabulary meaning “Start” and “Growth”. It also comprises and can be elaborated as “seeding” and “budding”; it represents the beginning of all things. In AVITA, we believe that success derives from a great start, hence an effective and well-designed appliance is crucial to cope with daily challenges and achieving goals.",
+    "satus_s_intro_paragraph2": "Bearing this in mind, AVITA introduces the new - \"AVITA SATUS\" series - a laptop dedicated for new generation of young users who are highly familiar with studying under the constraints of the New Normal. The product is designed and built in simple clear-cut design yet with comprehensive manner, enabling users to deal with their different missions and completing their various tasks in the best state. Making their studies and daily lives more fulfilling and at ease. Its limitless functions also broaden users’ horizons and imaginations without having set foot to the outside world. SATUS is indeed the best ‘1st laptop’ for many.",
+    "satus_s_design_title1": "Modern and Minimalist ．Design Aesthetics",
+    "satus_s_design_subtitle1": "AVITA SATUS S series leverages minimalist and neat design in neutral color tone, just the right way to present an aesthetic design of simplicity, an expression of ingenious, and be realistic without being flashy. User-oriented with a complete and functional system configuration, the series packs with a powerful punch to meet the studies and work needs, allowing users to further explore and grow without boundaries.",
+    "satus_s_screen_title1": "Full HD screen．Broader vision and interaction",
+    "satus_s_screen_subtitle1": "In order to integrate AVITA SATUS S Series simple design with practical functions, the laptop is equipped with a 15.6-inch full HD IPS LCD Screen, which delivers a 178-degree ultra-wide viewing angle with outstanding colour when being viewed from different angles. Its colour accuracy and consistency with smooth and detailed images showcased on screen can cater perfectly for any learning, social and gaming purposes. For instance, clearer appearance and expressions of participants would help create closer connection with each other during online classes or video conferences, thus increase the level of interaction and engagement throughout the conversations. It would also help enhancing focus and concentration as users can easily read through various file contents displayed on screen especially when working on clerical tasks. In addition, users can easily split the laptop screen into multiple windows, making work progress more visually comfortable and efficient.",
+    "satus_s_startup_title1": "Quick startup．Smart connections",
+    "satus_s_startup_subtitle1": "AVITA SATUS S series comes in simple and smart details of which it is structured with multiple ports, providing users a seamless and convenient experience without the need of adapters. Equipped with a dual core CPU Intel® Celeron® N4020 which brings reliable and responsive performance, as well as a built-in 8GB LPDDR4 memory, every single task whether it is word processing, presentations or video calls can be processed without hindrance. The built-in SSD drive also enables Windows 11 operating system to start up swiftly. Hence, providing stable access to documents and ensuring the data safety. Moreover, a Mini HDMI port and a MicroSD/TF card slot are equipped, allowing users to connect to other external devices for presentation use and expand the storage capacity of their choice anytime without limits.",
+    "satus_s_specs_up_to": "Up to",
+    "satus_s_specs_os": "Operating System",
+    "satus_s_specs_windows": "Windows 11 Home",
+    "satus_s_specs_processor1": "N4020",
+    "satus_s_specs_processor2": "INTEL® Celeron® PROCESSOR",
+    "satus_s_specs_gb": "GB",
+    "satus_s_specs_ram": "RAM",
+    "satus_s_specs_ssd": "SSD",
+    "satus_s_keyboard_title1": "Full-size keyboard．Improving accuracy of word processing",
+    "satus_s_keyboard_subtitle1": "Taking the speed and smoothness of processing clerical or daily tasks into account, AVITA SATUS S series comes with a full-size island-style keyboard as well as a numeric keyboard* to facilitate calculations. Each key is accurately adjusted to help improve typing comfort and flexibility in order to cater for different study or work needs.",
+    "satus_s_keyboard_kg": "kg",
+    "satus_s_keyboard_kg_avita": "AVITA SATUS S102",
+    "satus_s_keyboard_keypad_caption": "Numeric keyboard",
+    "satus_s_keyboard_disclaimer": "*The numeric keyboard only applicable to 15.6-inch AVITA SATUS S102",
+    "satus_s_port_disclaimer": "*The port locations are the same between AVITA SATUS S101 & S102",
+    "satus_s_disclaimer_warrant": "AVITA SATUS series is warranted by Nexstgo Company Limited for a period of twelve (12) months from the date of purchase under the terms and conditions of this warranty. For details, please",
+    "satus_s_disclaimer_click_here": "click here",
+    "satus_s_disclaimer_battery": "Actual battery life may vary depending on product configuration, usage, operational conditions and power management settings. Battery life will decrease over the lifetime of the battery.",
+    "satus_s_disclaimer_specification": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
+    "satus_s_disclaimer_weight": "Weights vary depending on configuration and manufacturing variability.",
+    "satus_s_disclaimer_color_difference": "Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.",
+    "satus_s_disclaimer_accurate": "We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.",
+    "satus_s_disclaimer_trademark": "Windows is either a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.",
+    "satus_s_disclaimer_color_availability": "The availability of colors may vary by retailers.",
+    "satus_s_disclaimer_appearance": "Product appearance design, color, matching, may vary according to different models and configurations.",
+    "satus_s_disclaimer_dispute": "In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision."
+  },
+  "homepage": {
+    "homepage_image_pura_s": "/images/home/AVITA_pura-a-plus-mo_en.jpg",
+    "homepage_image_pura_m": "/images/home/AVITA_pura-a-plus-pc_en.jpg",
+    "homepage_image_satus_s102_s": "/images/home/AVITA_satus_s102_bigcore_banner_en_mo.jpg",
+    "homepage_image_satus_s102_m": "/images/home/AVITA_satus_s102_bigcore_banner_en.jpg",
+    "homepage_image_satus_15_s": "/images/home/AVITA_satus_15_win_11_banner_en_mo.jpg",
+    "homepage_image_satus_15_m": "/images/home/AVITA_satus_15_win_11_banner_en.jpg",
+    "homepage_image_box": {
+      "computer": "/images/home/promo-01-en.jpg",
+      "event": "/images/home/promo-02-en.jpg",
+      "about_us": "/images/home/promo-03-en.jpg",
+      "support": "/images/home/promo-04-en.jpg"
+    }
+  },
   "admiror": {
+    "banner": {
+      "pc": "/images/admiror/banner_admiror_15_e.jpg",
+      "mo": "/images/admiror/banner_mob_admiror_15_e.jpg"
+    },
+
     "product": {
       "express_yourself_title": "#YouCanBe Expressing Yourself",
       "you_can_be_paragraph": "Be who you are and show your individuality. The choice is yours. #YouCanbe",
       "description": " The all-new AVITA ADMIROR takes you on a journey of self-discovery. Shattering the norms and constraints of conventional laptops, the ADMIROR’s intricate designs and eye-catching colours are yours to embrace, because you deserve to be extraordinary!",
-      "brings_you_title": "AVITA ADMIROR brings you"
+      "brings_you_title": "AVITA ADMIROR brings you",
+      "button1": "/images/admiror/btn_artistic_1.png",
+      "button1-hover": "/images/admiror/btn_artistic_2.png",
+      "button2": "/images/admiror/btn_pride_1.png",
+      "button2-hover": "/images/admiror/btn_pride_2.png",
+      "button3": "/images/admiror/btn_outstanding_1.png",
+      "button3-hover": "/images/admiror/btn_outstanding_2.png"
     },
 
     "artistic_design": {
@@ -271,6 +282,7 @@
       "title": "Productivity maximized by Extended battery",
       "desc": "Battery life lasts up to 10 hours. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.",
       "life_prefix": "Up to",
+      "battery_img": "/images/admiror/10hr_e.png",
       "life_suffix": "Battery life",
       "life_note": "* Battery life up to 9 hours for 15.6-inch",
       "connectivity_title": "Connectivity that fits your needs",
@@ -280,10 +292,11 @@
 
     "color_opts": {
       "title": "VARIOUS COLOURS AVAILABLE NOW",
-      "content": "14-inch: Flaming Copper, Delight Pink, Blazing Brown <br></br> 15.6-inch: Flaming Copper, Delight Pink, Passionate Red"
+      "content": "14-inch: Flaming Copper, Delight Pink, Blazing Brown <br></br> 15.6-inch: Flaming Copper, Delight Pink, Passionate Red",
+      "offer_img": "/images/admiror/pic_offer_hk_15_en.png"
     },
 
-    "product_statement": {
+    "disclaimer": {
       "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.",
       "bullet2": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
       "bullet3": "Weights vary depending on configuration and manufacturing variability.",
@@ -294,12 +307,24 @@
   },
 
   "liber-v": {
+    "banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_hk_en.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_hk_en_mo.jpg"
+    },
+
     "inspired_design": {
       "title": "Post-modern inspired design",
-      "content": "Taking \"Limitless Evolution\" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion."
+      "content": "Taking \"Limitless Evolution\" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion.",
+      "color_opts_img": "/images/liber-v/LiberV_14colors_hk_en.png"
+    },
+
+    "limitless_vision_banner": {
+      "pc": "/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg",
+      "mo": "/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg"
     },
 
     "viewing_experience": {
+      "features_img": "/images/liber-v/Features_hk_en.png",
       "title": "Incredible Viewing Experience",
       "content": "Slimmer but greater. The LIBER V series has a 3.7mm unbound ultra-narrow bezel which has been reduced by about 63% compared with previous LIBER series notebooks, one step closer to perfection with its 78.2% screen-to-body ratio. With a full HD 16:9 IPS display with anti-glare, presenting detailed images clearly with a stable response time under various ambient indoor and outdoor lighting conditions, allowing you to enjoy the LIBER V's big world with the ultra-wide viewing angle of 178 degrees. Whether you are studying, working, or simply having fun, LIBER V brings you an extraordinary viewing experience that you have never seen."
     },
@@ -312,13 +337,22 @@
 
     "portable": {
       "title": "Readily Portable",
-      "content": "LIBER V is sophisticatedly engineered by compacting a 14-inch screen inside the 13.3-inch that weights from just 1.28kg, 14% less than previous models and well-balancing lightness and durability, bringing you an easy and convenient experience. LIBER V incorporates a Windows Hello fingerprint reader, which strengthens privacy protection. LIBER V can always accompany you while traveling or working effortlessly."
+      "content": "LIBER V is sophisticatedly engineered by compacting a 14-inch screen inside the 13.3-inch that weights from just 1.28kg, 14% less than previous models and well-balancing lightness and durability, bringing you an easy and convenient experience. LIBER V incorporates a Windows Hello fingerprint reader, which strengthens privacy protection. LIBER V can always accompany you while traveling or working effortlessly.",
+      "thickness_unit": "mm",
+      "thickness_desc": "Thin",
+      "weight_unit": "kg",
+      "monitor_desc": "14-inch Monitor"
     },
 
     "specs": {
       "title": "Extraordinary Performance and Productivity",
       "content_part1": "Not only LIBER V is unique in appearance but also in performance. Adapting the new 10th Gen Intel® Core™ i5-10210U/i7-10510U processors, 8GB RAM and large storage up to 1TB SSD, LIBER V can swiftly process and access files, allowing you to work with ease, even with complex workflows.",
-      "content_part2": "LIBER V’s full-size backlit keyboard with 1.5mm key travel and 19mm key pitch delivers the ultimate word processing experience that you could ever ask for. Along with AVITA’s extra-large touchpad, support for 4 fingers gestures perfectly, you can have more space to control. LIBER V’s battery life lasts for up to 10 hours whilst the notebook is equipped with different ports that are compatible with other devices. Making it possible to simultaneously charge, transfer data, display, and connect to various devices to meet your different needs. <br></br><small>*Up to 10 hours on MobileMark 2014</small>"
+      "content_part2": "LIBER V’s full-size backlit keyboard with 1.5mm key travel and 19mm key pitch delivers the ultimate word processing experience that you could ever ask for. Along with AVITA’s extra-large touchpad, support for 4 fingers gestures perfectly, you can have more space to control. LIBER V’s battery life lasts for up to 10 hours whilst the notebook is equipped with different ports that are compatible with other devices. Making it possible to simultaneously charge, transfer data, display, and connect to various devices to meet your different needs. <br></br><small>*Up to 10 hours on MobileMark 2014</small>",
+      "operating_system": "Operating System",
+      "up_to": "Up to",
+      "mm": "mm",
+      "key_travel": "key travel",
+      "key_pitch": "key pitch"
     },
 
     "disclaimer": {

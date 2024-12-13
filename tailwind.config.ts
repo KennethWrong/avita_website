@@ -14,6 +14,9 @@ export default {
 		decimal: 'decimal'
 	},
   	extend: {
+      fontFamily: {
+        times: ['"Times New Roman"', 'serif']
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

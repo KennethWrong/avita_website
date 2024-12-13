@@ -5,7 +5,7 @@ export default function AdmirorProduct() {
   const t = useTranslations("admiror.product");
 
   return (
-    <section className="text-white bg-black p-10">
+    <section className="text-white bg-black p-10 font-times">
       <div className="flex flex-col justify-center items-center text-center">
         <h1 className="text-3xl md:text-5xl m-5">
           {t("express_yourself_title")}
@@ -33,39 +33,30 @@ export default function AdmirorProduct() {
           <div className="flex flex-col md:flex-row md:max-w-6xl justify-center items-center">
             <div className="mx-5 md:max-w-[33%]">
               <Link href="#artistic_design" className="group">
-                <img
-                  className="group-hover:hidden"
-                  src="/images/admiror/btn_artistic_1.png"
-                />
+                <img className="group-hover:hidden" src={t("button1")} />
                 <img
                   className="hidden group-hover:block"
-                  src="/images/admiror/btn_artistic_2.png"
+                  src={t("button1-hover")}
                 />
               </Link>
             </div>
 
-            <div className="mx-5 md:max-w-[33%]">
+            <div className="my-5 md:my-0 mx-5 md:max-w-[33%]">
               <Link href="#usage_experience" className="group">
-                <img
-                  className="group-hover:hidden"
-                  src="/images/admiror/btn_pride_1.png"
-                />
+                <img className="group-hover:hidden" src={t("button2")} />
                 <img
                   className="hidden group-hover:block"
-                  src="/images/admiror/btn_pride_2.png"
+                  src={t("button2-hover")}
                 />
               </Link>
             </div>
 
             <div className="mx-5 md:max-w-[33%]">
               <Link href="#outstanding" className="group">
-                <img
-                  className="group-hover:hidden"
-                  src="/images/admiror/btn_outstanding_1.png"
-                />
+                <img className="group-hover:hidden" src={t("button3")} />
                 <img
                   className="hidden group-hover:block"
-                  src="/images/admiror/btn_outstanding_2.png"
+                  src={t("button3-hover")}
                 />
               </Link>
             </div>

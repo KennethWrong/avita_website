@@ -7,8 +7,8 @@ export default function LiberPage() {
   return (
     <main>
       <ProductBanner
-        desktopImage={"/images/liber-v/AVITA_liber_v_banner_hk_en.jpg"}
-        mobileImage={"/images/liber-v/AVITA_liber_v_banner_hk_en_mo.jpg"}
+        desktopImage={t("banner.pc")}
+        mobileImage={t("banner.mo")}
         altText={"Liber Banner"}
       />
 
@@ -30,8 +30,8 @@ export default function LiberPage() {
           </div>
           <div className="hidden md:basis-1/2 md:flex justify-center items-center">
             <img
-              src="/images/liber-v/LiberV_14colors_hk_en.png"
-              alt="LiberV_14colors_hk_en"
+              src={t("inspired_design.color_opts_img")}
+              alt="LiberV_14colors"
               className="w-full"
             />
           </div>
@@ -40,8 +40,8 @@ export default function LiberPage() {
 
       {/* Section 2 */}
       <ProductBanner
-        desktopImage={"/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg"}
-        mobileImage={"/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg"}
+        desktopImage={t("limitless_vision_banner.pc")}
+        mobileImage={t("limitless_vision_banner.mo")}
         altText={"Liber Banner"}
       />
 
@@ -51,8 +51,8 @@ export default function LiberPage() {
           <div className="hidden md:basis-1/2 md:flex flex-col justify-center items-center">
             <div className="">
               <img
-                src="/images/liber-v/Features_hk_en.png"
-                alt="Features_hk_en"
+                src={t("viewing_experience.features_img")}
+                alt="Features"
                 className="w-full "
               />
               <img
@@ -64,13 +64,15 @@ export default function LiberPage() {
           </div>
           <div className="p-10 md:px-0 md:basis-1/2 flex justify-start items-center">
             <div className="md:w-3/5 ml-0 md:ml-16">
-              <h2 className="text-3xl text-center md:text-left mb-14">
+              <h2 className="text-3xl text-center mb-14">
                 {t("viewing_experience.title")}
               </h2>
 
               <div className="leading-8 mb-10">
-                <p className="text-center md:text-left">
-                  {t("viewing_experience.content")}
+                <p className="text-center">
+                  {t.rich("viewing_experience.content", {
+                    br: () => <br />,
+                  })}
                 </p>
               </div>
             </div>
@@ -93,7 +95,7 @@ export default function LiberPage() {
                 {t("colorful_expression.title")}
               </h2>
 
-              <div className="leading-8 text-center md:text-left">
+              <div className="leading-8 text-center">
                 <p className="mb-5">{t("colorful_expression.content_part1")}</p>
 
                 <p>{t("colorful_expression.content_part2")}</p>
@@ -136,13 +138,13 @@ export default function LiberPage() {
                   className="w-full"
                 />
               </div>
-              <h2 className="text-3xl text-center md:text-left mb-14">
+              <h2 className="text-3xl text-center mb-14">
                 {t("portable.title")}
               </h2>
 
               <div className="leading-8 mb-10">
-                <p className="text-center md:text-left">
-                  {t("portable.content")}
+                <p className="text-center">
+                  {t.rich("portable.content", { br: () => <br /> })}
                 </p>
               </div>
             </div>
@@ -151,9 +153,10 @@ export default function LiberPage() {
               <div className="flex flex-row">
                 <div className="mr-36">
                   <p>
-                    <span className="text-4xl mr-1">15.9</span>mm
+                    <span className="text-4xl mr-1">15.9</span>
+                    {t("portable.thickness_unit")}
                   </p>
-                  <p>Thin</p>
+                  <p>{t("portable.thickness_desc")}</p>
                 </div>
                 <div>
                   <img
@@ -165,9 +168,10 @@ export default function LiberPage() {
               </div>
               <div>
                 <p>
-                  <span className="text-4xl mr-1">1.28</span>kg
+                  <span className="text-4xl mr-1">1.28</span>
+                  {t("portable.weight_unit")}
                 </p>
-                <p>14-inch Monitor</p>
+                <p>{t("portable.monitor_desc")}</p>
               </div>
             </div>
           </div>
@@ -181,7 +185,7 @@ export default function LiberPage() {
               bg-center bg-no-repeat bg-cover md:p-20"
         >
           <div className="p-10 md:px-0 md:basis-1/2 flex flex-col justify-center items-end">
-            <div className="md:w-3/5 md:mr-16 md:max-w-md">
+            <div className="md:w-3/5 md:mr-16">
               <div className="block md:hidden mb-10">
                 <img
                   src="/images/liber-v/AVITA_liber_v_performance.jpg"
@@ -205,19 +209,19 @@ export default function LiberPage() {
             <div className="flex items-center justify-center text-purple-900">
               <div className="">
                 <div className="mb-6">
-                  <p>Operating System</p>
+                  <p>{t("specs.operating_system")}</p>
                   <p className="text-4xl">Windows 10 Home</p>
                 </div>
-                <div className="flex">
+                <div className="flex flex-col md:flex-row">
                   <div className="mr-24">
-                    <p>Up to</p>
+                    <p>{t("specs.up_to")}</p>
                     <p className="text-4xl">Core i7</p>
                     <p>10th Gen INTEL® CORE™ PROCESSOR</p>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-4 mt-4 md:mt-0">
                     <p>
-                      Up to
+                      {t("specs.up_to")}
                       <br />
                       <span className="text-4xl">8</span>GB
                       <br />
@@ -225,7 +229,7 @@ export default function LiberPage() {
                     </p>
 
                     <p>
-                      Up to
+                      {t("specs.up_to")}
                       <br />
                       <span className="text-4xl">1</span>TB
                       <br />
@@ -233,19 +237,15 @@ export default function LiberPage() {
                     </p>
 
                     <p>
-                      Up to
+                      <span className="text-4xl">1.5</span> {t("specs.mm")}
                       <br />
-                      <span className="text-4xl">1.5</span> mm
-                      <br />
-                      key travel
+                      {t("specs.key_travel")}
                     </p>
 
                     <p>
-                      Up to
+                      <span className="text-4xl">19</span> {t("specs.mm")}
                       <br />
-                      <span className="text-4xl">19</span>mm
-                      <br />
-                      key pitch
+                      {t("specs.key_pitch")}
                     </p>
                   </div>
                 </div>
