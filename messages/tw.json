@@ -51,13 +51,13 @@
     },
     "service": {
         "service_notice":"故障報修 - 請Email以下資訊至報修郵件地址:",
-        "service_description":"報修人姓名, 聯絡電話, 郵件地址, 產品型號, 產品序號(S/N), 故障原因描述, 購買處",
+        "service_description":"報修人姓名, 聯絡電話, 取件地址, 產品型號, 產品序號(S/N), 故障原因描述, 購買證明",
         "service_avita_email":"tw_support@avita-tech.com",
         "service_satisfaction_claim":"Our professional team will provide you with the most intimate service to your satisfaction!",
         "service_service_center":"技術支援",
         "service_customer_service":"Line ID:AVITASUPPORT",
         "service_repair_enquiry":"週一至週五 09:30~12:00, 13:00~17:00 (國定假日及星期例假日休息 )",
-        "service_repair_email":"hk_support@avita-tech.com"
+        "service_repair_email":"tw_support@avita-tech.com"
     },
     "footer": {
         "footer_products":"產品",
