@@ -59,7 +59,8 @@
     "service_service_center": "Service Center",
     "service_customer_service": "Customer Service (HK & Macau)",
     "service_repair_enquiry": "Repair Enquiry & Appointment",
-    "service_repair_email": "hk_support@avita.com"
+    "service_repair_email": "台灣 Taiwan: tw_support@avita.com",
+    "service_repair_email_2": "香港 Hong Kong: hk_support@avita.com"
   },
 
   "footer": {

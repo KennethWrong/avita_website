@@ -37,6 +37,10 @@ export default function Home() {
             <FaEnvelope className="h-5 w-5" />
             <span className="ml-3">{t("service_repair_email")}</span>
           </div>
+          <div className="flex flex-row items-center">
+            <FaEnvelope className="h-5 w-5" />
+            <span className="ml-3">{t("service_repair_email_2")}</span>
+          </div>
         </div>
       </div>
     </div>
