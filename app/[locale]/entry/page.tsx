@@ -1,10 +1,20 @@
 import Link from "next/link";
 
-export default function Page() {
+export default async function Page() {
   const sectionStyle = "flex flex-col w-4/6 mt-16";
   const headerStyle = "font-bold text-xl text-gray-700 mb-1";
   const linkHover = "hover:underline";
   const linkHoverDisabled = "text-gray-400";
+
+  const redirectLink = (desiredLocale: string) => {
+    if (desiredLocale === "hk") {
+      return "https://www.avita.com/hk";
+    } else if (desiredLocale === "tw") {
+      return "https://www.avita.com/tw";
+    } else {
+      return "/";
+    }
+  };
 
   return (
     <div className="bg-[url('/images/entry/global_map_bg.png')] bg-cover min-h-[70vh] flex flex-col items-center w-full">
@@ -14,16 +24,16 @@ export default function Page() {
           <h1 className={`${headerStyle}`}>East Asia</h1>
           <div className="flex flex-col lg:flex-row gap-x-10">
             <p>
-              <Link href="/hk" className={`${linkHover}`}>
+              <Link href={redirectLink("hk")} className={`${linkHover}`}>
                 Hong Kong
               </Link>
               /{" "}
-              <Link href="/hk" className={`${linkHover}`}>
+              <Link href={redirectLink("hk")} className={`${linkHover}`}>
                 香港
               </Link>
             </p>
             <p>
-              <Link href="/tw" className={`${linkHover}`}>
+              <Link href={redirectLink("tw")} className={`${linkHover}`}>
                 Taiwan 台灣
               </Link>
             </p>
