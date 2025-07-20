@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "use-intl";
-import Link from "next/link";
+import { Link } from "@/app/i18n/routing";
 
 export default function HomePromo() {
   const t = useTranslations("homepage.homepage_image_box");

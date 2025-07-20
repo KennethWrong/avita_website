@@ -7,10 +7,11 @@ export default async function Page() {
   const linkHoverDisabled = "text-gray-400";
 
   const redirectLink = (desiredLocale: string) => {
+    const baseUrl = "https://avita.com";
     if (desiredLocale === "hk") {
-      return "https://www.avita.com/hk";
+      return `${baseUrl}/hk`;
     } else if (desiredLocale === "tw") {
-      return "https://www.avita.com/tw";
+      return `${baseUrl}/tw`;
     } else {
       return "/";
     }

@@ -1,7 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 import { NavbarDropdown } from "./navbar-dropdown";
-import Link from "next/link";
+import { Link } from "@/app/i18n/routing";
 import { useTranslations } from "next-intl";
 import { NavBarAccordian } from "./navbar-accordian";
 

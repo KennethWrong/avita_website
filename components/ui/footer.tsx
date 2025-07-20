@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import { Link } from "@/app/i18n/routing";
 import { FaFacebook, FaInstagram, FaGlobe } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 
