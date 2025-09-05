@@ -55,7 +55,7 @@
     "service_avita_email": "tw_support@avita.com",
     "service_satisfaction_claim": "Our professional team will provide you with the most intimate service to your satisfaction!",
     "service_service_center": "技術支援",
-    "service_customer_service": "Line ID: vaiosupport",
+    "service_customer_service": "",
     "service_repair_enquiry": "週一至週五 09:30~12:00, 13:00~17:00 (國定假日及星期例假日休息 )",
     "service_repair_email": "台灣 Taiwan: tw_support@avita.com",
     "service_repair_email_2": "香港 Hong Kong: hk_support@avita.com"
@@ -213,13 +213,11 @@
     "satus_s_disclaimer_appearance": "產品外觀設計，顏色，配搭可能會因應不同型號和配置而異。",
     "satus_s_disclaimer_dispute": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
   },
-
   "admiror": {
     "banner": {
       "pc": "/images/admiror/banner_admiror_15_c.jpg",
       "mo": "/images/admiror/banner_mob_admiror_15_c.jpg"
     },
-
     "product": {
       "express_yourself_title": "釋放自我 展現個性 #YouCanBe",
       "you_can_be_paragraph": "是時候拒絕隨波逐流，AVITA 全新的 ADMIROR 系列",
@@ -232,7 +230,6 @@
       "button3": "/images/admiror/btn_outstanding_1c.png",
       "button3-hover": "/images/admiror/btn_outstanding_2c.png"
     },
-
     "artistic_design": {
       "title": "盡顯自我的",
       "sub_title": "時尚典雅設計",
@@ -241,14 +238,12 @@
       "p_title2": "大放異彩  盡顯風格",
       "p_content2": "\"以ADMIROR破格配色 -- 極具玩味的 「火焰銅」 及 「炫咖啡」，率性的「熾熱紅」及 「悅粉紅」，配上個性穿搭，讓你贏盡 目光！ （14”配色：悅粉紅、炫咖啡、火焰銅；15.6”配色：悅粉紅、熾熱紅、火焰銅）\""
     },
-
     "extra_desc": {
       "title": "纖細機身  輕巧便攜",
       "content": "以輕量金屬製作的ADMIROR，纖細精巧，最薄處只有9毫米，14吋及15.6吋重量分別為僅1.32及1.79千克起，方便隨身攜帶，是你探索世界的絕佳良伴。",
       "title2": "窄邊框設計  工作娛樂專心致志",
       "content2": "要突破界限，首先要擴闊視野。ADMIROR的窄邊框僅7毫米闊，減低視覺障礙和干擾，螢幕亦變得更廣更闊，讓你全情投入工作或娛樂。"
     },
-
     "pride_delighted": {
       "title_h3": "引以為傲的",
       "title": "使用體驗",
@@ -261,19 +256,16 @@
       "row3_title2": "極致音質  震撼人心",
       "row3_content2": "ADMIROR將你的音樂品味完美無瑕地呈現，配以兩個全頻加四個被動式的高品質喇叭，帶來精彩絕倫的視聽享受。"
     },
-
     "outstanding": {
       "title": "安全可靠的",
       "title_h3": "卓越性能",
       "title_h2": "出色效能  無與倫比",
       "content": "ADMIROR 外型出眾，其功能配置亦同樣出色。搭載 第10代 Intel® Core <sup>TM</sup> i5-10210U 或 i7-10510U 處理器及最高可搭載16GB記憶體，效能大大提升。最高可搭載1TB SSD，可儲存大量檔案。即使創意再多，ADMIROR都可以一一收錄。"
     },
-
     "win_hello": {
       "title": "指紋辨識    一指開關兼登入",
       "content": "ADMIROR支援Windows Hello 的指紋辨識功能，一指開關，過程輕鬆簡便。指紋識別亦保障你的工作檔案及個人資料不易外洩，更安全更放心。"
     },
-
     "battery_info": {
       "title": "持久電量  釋放潛能",
       "desc": "長達10小時的電池續航力，工作娛樂從此不受電量限制，讓你無間斷釋放潛能。",
@@ -285,13 +277,11 @@
       "connectivity_desc": "出外工作要靈活輕便，ADMIROR 內置兩個USB-C連接埠，配上隨機附送的USB-C至USB、HDMI及3.5 mm全方位外置轉換器，連接不同裝置亦毫無難度。另附加USB-C至3.5mm連接線，讓你沉醉於音樂世界。<br></br><br></br> 同款時尚色系無線滑鼠及手提藍芽喇叭即將登場",
       "adapter_desc": "USB-C to <br></br> USB/HDMI/3.5mm audio jack adapter"
     },
-
     "color_opts": {
       "title": "多款已登場配色",
       "content": "14吋型號: 悅粉紅、炫咖啡、火焰銅 <br></br> 15.6吋型號: 悅粉紅、熾熱紅、火焰銅",
       "offer_img": "/images/admiror/pic_offer_tw.png"
     },
-
     "disclaimer": {
       "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
       "bullet2": "產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。",
@@ -300,36 +290,30 @@
       "bullet5": "我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。"
     }
   },
-
   "liber-v": {
     "banner": {
       "pc": "/images/liber-v/AVITA_liber_v_banner_tw.jpg",
       "mo": "/images/liber-v/AVITA_liber_v_banner_tw_mo.jpg"
     },
-
     "inspired_design": {
       "title": "外形．破格非凡",
       "content": "以「Limitless Evolution」為系列理念，注入以鮮明多變為創作原則的後現代建築設計風格，LIBER V 參照西班牙La Muralla Roja前衛堡壘，獨樹一格地以俐落的幾何線條，把網絡鏡頭劃出螢幕界限。完美演繹後現代主義的幾何立方結構風格，令機身更纖巧，亦更容易開啟。配合亮麗的機身色系，為手提電腦的設計時尚帶來重新詮釋！",
       "color_opts_img": "/images/liber-v/LiberV_14colors.png"
     },
-
     "limitless_vision_banner": {
       "pc": "/images/liber-v/AVITA_liber_v_banner_v2_tw.jpg",
       "mo": "/images/liber-v/AVITA_liber_v_banner_v2_tw_mo.jpg"
     },
-
     "viewing_experience": {
       "features_img": "/images/liber-v/Features_tw.png",
       "title": "視野．從此無界",
       "content": "機身細細，但畫面強大。LIBER V 擁有極致纖幼的 3.7mm 無邊際邊框，比以往 LIBER 系列大大縮減了約 63%，達致完美的 78.2% 螢幕機身比例。 <br></br>  配合 16:9 全高清 IPS 防眩液晶螢幕，能在室內和室外的不同光線下，穩定流暢地呈現螢幕上的細節，精準還原細緻的畫面，令您在這 178 度超廣闊視角內，全情投入 LIBER V 的大世界。 <br></br>  而上置式的網絡鏡頭，更可展現更佳的拍攝角度，為您帶來更高視野。無論是學習、工作、或玩樂，就由 LIBER V 帶給您前所未見的細緻觀賞體驗。"
     },
-
     "colorful_expression": {
       "title": "色彩．唯您釋放",
       "content_part1": "AVITA一直注重用家個人風格，將時尚色彩融入科技 生活。全新 LIBER V 引入超過 14 款配色任您選擇，全面釋放專屬於您的個人魅力，讓您瞬間成為全場焦點。",
       "content_part2": "更多嶄新配色將陸續推出，為您帶來耳目一新的驚 喜。無論你是職場份子還是時尚達人，LIBER V 一樣讓您更出色、更出眾。"
     },
-
     "portable": {
       "title": "隨身．更是隨心",
       "content": "LIBER V系列再創科技突破，將 14 吋屏幕內藏於 13.3 吋機身內，以精密的工序打造出細緻的機身，重量僅由 1.28 千克起，較以往的 LIBER 型號輕 14%，將輕巧與堅固達致最佳的平衡，務求讓您感受來去自如的便捷體驗。<br></br> LIBER V 支援 Windows Hello 指紋辨識功能，過程輕鬆簡便，大大提高個人資料安全保障。出遊或出勤，LIBER V 都可常伴左右，輕鬆隨行無負擔。",
@@ -338,7 +322,6 @@
       "weight_unit": "千克起",
       "monitor_desc": "14\" 螢幕"
     },
-
     "specs": {
       "title": "效能．兼顧性能",
       "content_part1": "LIBER V 不僅外型前衛獨特，性能也兼備 。配備第 10 代 Intel® Core™ i5-10210U 處理器，結合 8GB 記憶體和提供高達 1TB SSD 固態硬碟的超大容量，讓您能快速處理和存取大量檔案，效率提升至更高層次，即使面對繁重工作，依然遊刃有餘。",
@@ -349,7 +332,6 @@
       "key_travel": "按鍵行程",
       "key_pitch": "鍵距"
     },
-
     "disclaimer": {
       "bullet1": "Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。",
       "bullet2": "實際電池續航力依據產品組態、使用情形、操作條件及電源管理設定而有不同。電池續航力會隨著電池的使用壽命而減少。",
@@ -363,7 +345,6 @@
       "bullet10": "如有任何爭議，Nexstgo Company Limited保留最終決定權。"
     }
   },
-
   "pura-a-plus": {
     "intro": {
       "title": "Experience Power in Simplicity with PURA A+ Laptop!",
@@ -371,45 +352,37 @@
       "content_part1": "Power up your life with PURA A+, the new member of our PURA series which provides users with both simplicity and power. When it comes to student life, having a laptop that supports your all-round education, learning, and development is important.",
       "content_part2": "PURA A+ is your ideal laptop choice for students who want simplicity and power in one device. With its sleek, lightweight, and durable design, PURA A+ is the perfect choice for individuals who are always on-the-go. Whether you're working, reading books, or watching movies, PURA A+ can meet all your needs. From music production to sports knowledge, photography, and beyond, PURA A+ can support your interests and help you develop new skills. Whether you're a student or a recent graduate starting your career, PURA A+ is the ultimate companion for achieving your goals and powering up your future."
     },
-
     "color_and_creativity": {
       "title": "Immerse Yourself in a World of Color and Creativity!",
       "content": "For individuals looking for a laptop that stands out, PURA A+ is the ideal choice. The new PURA A+ laptop comes in five vibrant colors, each with its own unique personality and style designed to inspire creativity in its users. Expressing your unique style and unleashing your creativity, only with PURA A+!",
       "demo_text": "*Demo image of the AVITA PURA A+ 15.6”"
     },
-
     "color_palette": {
       "content": "Trophy Purple represents luxury and sophistication, evoking a sense of achievement and success. Award Pink expresses youthful and playful, specifically designed for those who want to add a touch of fun to their lives. Medal Black exudes elegance and className, while evoking a feeling of power and sophistication - perfect for making a bold statement. Badge Silver is associated with achievement and success, perfect for those who want to evoke a sense of accomplishment and recognition. Ribbon Blue creates a peaceful and inviting environment, perfect for those who want to feel safe, friendly, and relaxed."
     },
-
     "academic_goals": {
       "title": "Maximize Your Abilities- Accomplish Your Goals with Skill and Precision!",
       "content": "PURA A+ is equipped with powerful features that help students achieve their academic goals efficiently. The laptop's high-performance CPU ensures productivity, with options available including the 12th Gen Intel® Core™ processor with Intel® Iris® Xe Graphics."
     },
-
     "windows_11": {
       "title": "Stay Organized and Driven to Achieve Your Dreams!",
       "content_part1": "Whether you are students, professionals, or busy parents, PURA A+ helps you stay organized to achieve your dreams. With a user-friendly interface and Windows 11 Home, PURA A+ helps you stay productive and on top of your game.",
       "content_part2": "The To Do widget keeps you focused and on track, ensuring you never miss an important deadline."
     },
-
     "storage_spec": {
       "title": "Unleash Your Potential with BIG Storage and Flexibility!",
       "content_part1": "You always have the ability to enhance your capabilities. PURA A+ provides you with big storage capacity, ensuring that you can store all your important files and documents without worrying about running out of space. With up to 512GB of SSD storage, you can keep all your photos, videos, and music in one place.",
       "content_part2": "This feature is perfect for individuals who need to store large files or work on multiple projects simultaneously."
     },
-
     "ports": {
       "title": "The OPTIMAL All-round Laptop for Students on-the-go!",
       "content_part1": "Designed specifically for students who are always on the move, PURA A+ is the ultimate all-in-one laptop for delivering presentations and staying productive at school. With its multi-I/O ports, connecting to different devices is effortless. Its reliable performance and 178-degree ultra-wide viewing angle make it the perfect device for students who demand high-quality performance.",
       "content_part2": "Featuring a 14” and 15.6” Full HD IPS panel, PURA A+ delivers a wider, more vivid, and immersive viewing experience. The full-sized Edge-to-edge backlit keyboard makes typing more comfortable and efficient. It also maximizes the available Space for the keys and minimizes the overall footprint of the keyboard, making it more compact and streamlined. With the backlit keys, which make typing easier in any conditions and increase your productivity. Whether you're exploring the internet or developing your skills in various subjects, PURA A+ makes it easier to stay focused, learn new things, and achieve your academic goals."
     },
-
     "high_grades": {
       "title": "Upgrade Your Student Life and Achieve Remarkable High-Grades!",
       "content": "PURA A+ is the perfect laptop for students who want a simple yet powerful device to support their all-round education and development. With a minimalist design, high-quality performance, and array of features, PURA A+ is the ultimate laptop for students who demand simplicity and power. Whether you're studying, working, or pursuing your passions, PURA A+ has got you covered. Achieve remarkable high grades with PURA A+ and take your education and development to the next level!"
     },
-
     "disclaimer": {
       "bullet1": "Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.",
       "bullet2": "Weights vary depending on configuration and manufacturing variability.",
@@ -419,44 +392,36 @@
       "bullet6": "Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage."
     }
   },
-
   "essential-lite": {
     "intro": {
       "title": "The ultra-lightweight ESSENTIAL Lite revolutionizes laptop <br></br> aesthetic with exquisite craftsmanship"
     },
-
     "art_form": {
       "title": "Re-Discover the Beauty in Lite Inspired by Renaissance Art Form",
       "content_part1": "ESSENTIAL Lite range assembled with exquisite craftsmanship which inspired by the Renaissance era 'sculptural design. The carved laptop is available in eight different stylish carved covers.*",
       "content_part2": "*Planet Blue, Pixel Green, Solar Pink, Mega Purple, Geometric Motion, Cyber World, Digital Rainbow, Purple Network <br></br> (Different colors/patterns will be launched soon)"
     },
-
     "light_weight": {
       "title": "LIGHT LOADED WITH 1KG FEATHERWEIGHT． <br></br> SLIM BODY WITH THIN BEZELS",
       "content": "ESSENTIAL Lite is specially designed for standard users without compromising its function and quality. Within its 4 mm extremely thin bezels and 20 mm light-loaded body design there lies a 14-inch screen, and the whole compact constitues merely an approximate of 1kg#, which such lightloaded feature makes it stand out from other similar laptops in the market^. Giving you a convenient and flexible experience while carrying it around for learning and working at anytime and anywhere you want."
     },
-
     "anti_glare": {
       "title": "COMFORTABLE VIEWING. <br></br> FULL HD ANTI-GLARE SCREEN",
       "content": "The 14-inch 16:9 full HD IPS anti-glare display of ESSENTIAL Lite provides a 178-degree ultra-wide viewing angle which can effectively reduce eye fatigue while retaining the resolution of screen. It provides an optimal viewing comfort even if you are having online learning and working for a long duration of time. Its wide viewing angle allows you to review contents with every vivid detail from a maximised perspective anytime and anywhere."
     },
-
     "windows_11": {
       "title": "UP-TO-DATE COMPACT． <br></br> PRELOADED WITH WINDOWS 11 OPERATING SYSTEM",
       "content_part1": "ESSENTIAL Lite is pre-loaded with the latest Windows 11 Home Edition operating system which features a fresh and intuitively designed interface. Users are able to work on multiple apps or managing multiple windows simultaneously by simply clicking the \"Start\" button located at the center of the screen, offering incredible experiences for gaming, entertainment and communication.",
       "content_part2": "The laptop is also equipped with Intel® Celeron® N4020 processor, 8GB LPDDR4 memory and up to 256GB SSD, boosting the performance with reliable configuration as well as bringing you a steadier experience while working or learning online every day."
     },
-
     "ports": {
       "title": "SIMPLE AND CONVENIENT．AVAILABILITY OF MULTIPLE PORTS",
       "content": "ESSENTIAL Lite prioritizes user convenience, and thus moved various ports that usually found on the left and right hand sides to the back of the device, which include the plug-ins for USB 3.0, HDMI to Micro SD. It allows you to connect peripheral devices no matter you are left-handed or right-handed, and you can manage your learning and working in all aspects at ease without having to take up lots of physical space."
     },
-
     "keyboard": {
       "title": "ULTRA FLEXIBILITY． FULL-SIZE CURVED KEYBOARD",
       "content": "ESSENTIAL Lite is also equipped with a specially designed full-size island style keyboard, offering you the best typing experience as distance between buttons are carefully calculated. Coupled with a large touchpad, you can simply slide your fingertips to have many different applications in control. Without any barrier and constraint, your learning and working performance can be enhanced."
     },
-
     "disclaimer": {
       "bullet1": "^ Information as of December 2021.",
       "bullet2": "# Weights may vary depending on manufacturing process.",
